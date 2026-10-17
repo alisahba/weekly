@@ -1,5 +1,5 @@
 /* Offline support: app shell cache-first, menu data network-first. */
-const SHELL = 'dinners-shell-v2';
+const SHELL = 'dinners-shell-v3';
 const DATA = 'dinners-data';
 const ASSETS = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 
