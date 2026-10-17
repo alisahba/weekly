@@ -3,8 +3,8 @@
  "label": "17–23 October",
  "start": "2026-10-17",
  "notes": [
-  "Cook in this order: fish goes first while it's freshest.",
-  "Chicken thighs keep till night 6 in the fridge. Check the use-by date, and freeze on arrival if it falls earlier.",
+  "Cook in this order: fish and prawns go first while they're freshest.",
+  "Chicken is fresh: check the use-by date, and freeze it on arrival if it falls before night 6.",
   "Protein figures are estimates per person.",
   "Use tamari, not soy sauce."
  ],
@@ -62,24 +62,24 @@
   },
   {
    "night": 2,
-   "title": "Lemon cod with crushed new potatoes & peas",
+   "title": "Lemon cod with crushed new potatoes & green beans",
    "time": "25 min",
-   "protein": "≈35g",
+   "protein": "≈28g",
    "method": "Air fryer",
    "colour": "#FF3D7F",
    "ink": "#000000",
    "ingredients": [
     {
-     "qty": "360g",
-     "item": "cod fillets (1 pack)"
+     "qty": "2",
+     "item": "cod fillets (280g pack)"
     },
     {
      "qty": "500g",
-     "item": "new potatoes"
+     "item": "baby potatoes"
     },
     {
-     "qty": "200g",
-     "item": "frozen peas"
+     "qty": "220g",
+     "item": "green beans, trimmed"
     },
     {
      "qty": "1",
@@ -103,11 +103,11 @@
     }
    ],
    "steps": [
-    "Boil the potatoes for 15–18 min, until tender. Add the peas for the last 3 min, then drain.",
+    "Boil the potatoes for 15–18 min, until tender. Add the green beans for the last 4 min, then drain.",
     "Rub the cod with ½ tbsp oil, the lemon zest, garlic, paprika and salt.",
     "Air fry the cod at 200°C for 8–10 min, until it flakes.",
-    "Roughly crush the potatoes and peas with the rest of the oil, half the lemon juice and the spring onion. Season.",
-    "Serve the cod on top, with the rest of the lemon squeezed over."
+    "Roughly crush the potatoes with the rest of the oil, half the lemon juice and the spring onion. Season.",
+    "Serve the cod on top of the potatoes, with the beans alongside and the rest of the lemon squeezed over."
    ],
    "tip": "Line the air fryer basket with baking paper so the cod lifts out in one piece."
   },
@@ -121,7 +121,7 @@
    "ink": "#000000",
    "ingredients": [
     {
-     "qty": "340g",
+     "qty": "330g",
      "item": "raw king prawns (2 packs)"
     },
     {
@@ -296,14 +296,14 @@
    "night": 6,
    "title": "Paprika chicken thighs, sweet potato wedges & green beans",
    "time": "30 min",
-   "protein": "≈60g",
+   "protein": "≈55g",
    "method": "Air fryer",
    "colour": "#00B3C7",
    "ink": "#000000",
    "ingredients": [
     {
-     "qty": "500g",
-     "item": "boneless chicken thighs"
+     "qty": "600g",
+     "item": "chicken thigh fillets"
     },
     {
      "qty": "2 medium",
@@ -412,40 +412,45 @@
   }
  ],
  "shopping": {
-  "total": "",
-  "items": 0,
+  "total": "£86.14",
+  "items": 44,
   "groups": {
    "Protein": [
-    "Tesco Boneless Chicken Thighs 500g",
     "Tesco 2 Boneless Salmon Fillets 260g",
-    "Tesco Beef Stir Fry Strips 357g",
+    "Tesco 2 Boneless Cod Fillets 280g",
+    "Tesco Raw King Prawns 165g × 2",
     "Tesco Turkey Breast Mince 2% 500g",
-    "Tesco Raw King Prawns 170g × 2",
-    "Tesco Cod Fillets 360g",
+    "Tesco Beef Stir Fry Strips 357g",
+    "Tesco British Chicken Thigh Fillets 600g",
     "Tesco Large Free Range Eggs × 6",
     "Tranos Greek Feta 200g"
    ],
-   "Veg & fruit": [
+   "Veg": [
     "Sweet potatoes 1kg",
-    "Green beans 220g",
+    "Green beans 220g × 2",
     "Broccoli 375g",
-    "Nightingale peppers 600g + 2 red peppers",
+    "Nightingale peppers 600g",
     "Brown onions × 3",
     "Large garlic × 2",
     "Root ginger",
     "Spring onions",
     "Baby spinach 250g",
     "Lemons × 2",
-    "Baby potatoes 1kg",
-    "Garden peas 900g (frozen)"
+    "Baby potatoes 1kg"
+   ],
+   "Fruit": [
+    "Conference pears 610g",
+    "Ripe bananas × 5"
    ],
    "Cupboard": [
     "Chopped tomatoes 4 × 400g",
     "Kidney beans 400g",
     "Chickpeas 400g",
-    "Basmati rice 1kg"
+    "Basmati rice 1kg",
+    "0% Greek yoghurt 500g",
+    "Unsweetened almond drink 1L"
    ],
-   "Pantry (new — tracked)": [
+   "Pantry": [
     "Kikkoman tamari 250ml",
     "Smoked paprika",
     "Ground cumin",
@@ -456,16 +461,12 @@
    ],
    "Snacks": [
     "Salt & vinegar rice cakes × 2",
-    "Reduced fat houmous × 2",
-    "0% Greek yoghurt 1kg",
-    "Blueberries 150g",
-    "Easy peelers 600g",
-    "Spare peppers for dipping"
+    "Unsalted mixed nuts 200g",
+    "Salted popcorn 85g"
    ],
    "Drinks": [
-    "Dash raspberry 4 × 330ml",
-    "Dash lime 4 × 330ml",
-    "Remedy kombucha ginger lemon 4 × 330ml"
+    "Dash peach 4 × 330ml",
+    "One Living raspberry & pomegranate kombucha 4 × 250ml"
    ]
   }
  }
