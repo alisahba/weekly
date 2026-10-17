@@ -1,0 +1,437 @@
+{
+ "id": "2026-10-24",
+ "label": "24–30 October",
+ "start": "2026-10-24",
+ "notes": [
+  "Cook in this order: fish and prawns go first while they're freshest.",
+  "Everything with fish or meat is from the fresh range, not frozen.",
+  "Freeze the leftover 250g of beef mince.",
+  "Protein figures are estimates per person.",
+  "Use tamari, not soy sauce."
+ ],
+ "dinners": [
+  {
+   "night": 1,
+   "title": "Lemon-garlic sea bass with crushed potatoes & tenderstem",
+   "time": "25 min",
+   "protein": "≈36g",
+   "method": "Air fryer",
+   "colour": "#2B50FF",
+   "ink": "#FFFFFF",
+   "ingredients": [
+    {
+     "qty": "4",
+     "item": "sea bass fillets (360g pack)"
+    },
+    {
+     "qty": "500g",
+     "item": "baby potatoes"
+    },
+    {
+     "qty": "200g",
+     "item": "tenderstem broccoli"
+    },
+    {
+     "qty": "1",
+     "item": "lemon, zest & juice"
+    },
+    {
+     "qty": "2 cloves",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "1½ tbsp",
+     "item": "olive oil"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "smoked paprika"
+    }
+   ],
+   "steps": [
+    "Boil the potatoes for 15 min, until tender. Add the tenderstem for the last 3 min, then drain.",
+    "Mix ½ tbsp oil with the lemon zest, garlic, paprika and a pinch of salt. Rub it over the sea bass.",
+    "Air fry the fillets skin-side up at 200°C for 7 min, until the skin crisps and the flesh flakes.",
+    "Lightly crush the potatoes with the rest of the oil and half the lemon juice. Season.",
+    "Serve the fish on the potatoes with the tenderstem, and squeeze over the rest of the lemon."
+   ],
+   "tip": "Pat the skin really dry before it goes in. That's what makes it crisp."
+  },
+  {
+   "night": 2,
+   "title": "Prawn & egg fried rice",
+   "time": "25 min",
+   "protein": "≈36g",
+   "method": "Wok",
+   "colour": "#FF3D7F",
+   "ink": "#000000",
+   "ingredients": [
+    {
+     "qty": "330g",
+     "item": "raw king prawns (2 packs)"
+    },
+    {
+     "qty": "150g",
+     "item": "basmati rice"
+    },
+    {
+     "qty": "2",
+     "item": "eggs, beaten"
+    },
+    {
+     "qty": "1",
+     "item": "pepper, diced"
+    },
+    {
+     "qty": "130g",
+     "item": "tenderstem, chopped"
+    },
+    {
+     "qty": "3",
+     "item": "spring onions, sliced"
+    },
+    {
+     "qty": "2cm",
+     "item": "ginger, grated"
+    },
+    {
+     "qty": "1 clove",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "3 tbsp",
+     "item": "tamari"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    }
+   ],
+   "steps": [
+    "Cook the rice for 11 min, drain, then spread it on a plate to steam dry.",
+    "Heat the oil in a wok until very hot. Scramble the eggs for 1 min, then tip them out.",
+    "Stir-fry the pepper and tenderstem for 3 min. Add the ginger, garlic and prawns and cook for 3 min, until the prawns are pink.",
+    "Add the rice and tamari and toss over a high heat for 2 min.",
+    "Fold the egg back in, scatter with spring onions and serve."
+   ],
+   "tip": "Dry rice fries; wet rice steams. Spreading it out for a few minutes makes the difference."
+  },
+  {
+   "night": 3,
+   "title": "Chicken fajita rice bowls with black beans",
+   "time": "25 min",
+   "protein": "≈45g",
+   "method": "Pan",
+   "colour": "#00A86B",
+   "ink": "#000000",
+   "ingredients": [
+    {
+     "qty": "350g",
+     "item": "chicken breast fillets, sliced"
+    },
+    {
+     "qty": "2",
+     "item": "peppers, sliced"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, sliced"
+    },
+    {
+     "qty": "400g tin",
+     "item": "black beans, drained"
+    },
+    {
+     "qty": "150g",
+     "item": "basmati rice"
+    },
+    {
+     "qty": "2 tsp",
+     "item": "smoked paprika"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "ground cumin"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "dried oregano"
+    },
+    {
+     "qty": "2",
+     "item": "limes"
+    },
+    {
+     "qty": "2 tbsp",
+     "item": "Greek yoghurt"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    }
+   ],
+   "steps": [
+    "Put the rice on (11 min).",
+    "Toss the chicken with the paprika, cumin, oregano, a pinch of salt and the juice of 1 lime.",
+    "Fry the chicken in the oil on a high heat for 6–7 min, until cooked through. Add the peppers and onion for the last 4 min.",
+    "Warm the black beans in a small pan with a splash of water and a pinch of salt.",
+    "Build the bowls: rice, beans, chicken and veg, a spoon of yoghurt, and lime wedges."
+   ],
+   "tip": "Slice the chicken thin so it cooks fast and picks up colour."
+  },
+  {
+   "night": 4,
+   "title": "Beef & sweet potato hash with a fried egg",
+   "time": "30 min",
+   "protein": "≈55g",
+   "method": "Pan",
+   "colour": "#FFB000",
+   "ink": "#000000",
+   "ingredients": [
+    {
+     "qty": "500g",
+     "item": "lean beef steak mince 5% (from the 750g pack)"
+    },
+    {
+     "qty": "400g",
+     "item": "sweet potatoes, 1.5cm cubes"
+    },
+    {
+     "qty": "3",
+     "item": "spring onions, sliced"
+    },
+    {
+     "qty": "2",
+     "item": "eggs"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "smoked paprika"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "ground cumin"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "chilli flakes"
+    }
+   ],
+   "steps": [
+    "Microwave the sweet potato cubes in a covered bowl with a splash of water for 5 min, until just soft.",
+    "Brown the mince in a large pan on a high heat for 6 min, breaking it up. Tip it out.",
+    "Add the oil and sweet potato and fry for 6–8 min, pressing down, until crisp at the edges.",
+    "Return the beef with the spices and spring onions and cook for 2 min. Season.",
+    "Fry the eggs in a corner of the pan or a separate pan, and serve on top with the chilli flakes."
+   ],
+   "tip": "Freeze the 250g of mince you don't use. It's enough for a quick lunch."
+  },
+  {
+   "night": 5,
+   "title": "Turkey meatballs in tomato & courgette sauce",
+   "time": "30 min",
+   "protein": "≈55g",
+   "method": "Air fryer + pan",
+   "colour": "#7A3CFF",
+   "ink": "#FFFFFF",
+   "ingredients": [
+    {
+     "qty": "500g",
+     "item": "turkey breast mince"
+    },
+    {
+     "qty": "1",
+     "item": "egg"
+    },
+    {
+     "qty": "2 cloves",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "dried oregano"
+    },
+    {
+     "qty": "2 × 400g tins",
+     "item": "chopped tomatoes"
+    },
+    {
+     "qty": "1",
+     "item": "courgette, diced"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, diced"
+    },
+    {
+     "qty": "150g",
+     "item": "basmati rice"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    }
+   ],
+   "steps": [
+    "Mix the turkey, egg, half the garlic, half the oregano and a good pinch of salt. Roll into 16 balls.",
+    "Air fry at 200°C for 12 min, shaking halfway.",
+    "Meanwhile, put the rice on. Soften the onion and courgette in the oil for 5 min. Add the rest of the garlic and oregano.",
+    "Add the tomatoes and simmer for 10 min until thick. Season.",
+    "Drop the meatballs into the sauce, simmer for 2 min, and serve over the rice."
+   ],
+   "tip": "Wet your hands before rolling. The mixture is sticky."
+  },
+  {
+   "night": 6,
+   "title": "Pork steaks with roast apple, potatoes & green beans",
+   "time": "30 min",
+   "protein": "≈48g",
+   "method": "Air fryer",
+   "colour": "#00B3C7",
+   "ink": "#000000",
+   "ingredients": [
+    {
+     "qty": "480g",
+     "item": "pork loin steaks"
+    },
+    {
+     "qty": "1",
+     "item": "Pink Lady apple, cut in wedges"
+    },
+    {
+     "qty": "500g",
+     "item": "baby potatoes, halved"
+    },
+    {
+     "qty": "220g",
+     "item": "green beans"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "smoked paprika"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "honey"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    }
+   ],
+   "steps": [
+    "Toss the potatoes with ½ tbsp oil and salt. Air fry at 200°C for 12 min.",
+    "Rub the pork with the rest of the oil, the paprika, salt and pepper.",
+    "Shake the potatoes, add the pork and apple wedges, and air fry for 10–12 min more, turning the pork halfway. It's done at 63°C, or when the juices run clear.",
+    "Boil the green beans for 4 min, then drain.",
+    "Drizzle the honey over the apples and serve everything together."
+   ],
+   "tip": "Rest the pork for 3 min before slicing so it stays juicy."
+  },
+  {
+   "night": 7,
+   "title": "Halloumi & chickpea traybake",
+   "time": "25 min",
+   "protein": "≈28g",
+   "method": "Air fryer",
+   "colour": "#FF5A1F",
+   "ink": "#000000",
+   "ingredients": [
+    {
+     "qty": "200g",
+     "item": "halloumi, cubed"
+    },
+    {
+     "qty": "400g tin",
+     "item": "chickpeas, drained & dried"
+    },
+    {
+     "qty": "1",
+     "item": "pepper, chunks"
+    },
+    {
+     "qty": "1",
+     "item": "courgette, chunks"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, wedges"
+    },
+    {
+     "qty": "300g",
+     "item": "cherry tomatoes"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "ground cumin"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "dried oregano"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "olive oil"
+    }
+   ],
+   "steps": [
+    "Toss the chickpeas, pepper, courgette and onion with the oil, cumin, oregano and salt.",
+    "Air fry at 200°C for 12 min, shaking halfway.",
+    "Add the halloumi and tomatoes and cook for 8 min more, until the halloumi is golden and the tomatoes burst.",
+    "Season with pepper and serve."
+   ],
+   "tip": "Halloumi is salty, so go light on salt for the veg."
+  }
+ ],
+ "shopping": {
+  "total": "£71.81",
+  "items": 33,
+  "groups": {
+   "Protein": [
+    "Tesco 4 Boneless Sea Bass Fillets 360g",
+    "Tesco Raw King Prawns 165g × 2",
+    "Tesco British Chicken Breast Fillets 350g",
+    "Tesco Lean Beef Steak Mince 5% 750g",
+    "Tesco British Turkey Breast Mince 2% 500g",
+    "Tesco Pork Loin Steaks 480g",
+    "Cypressa Halloumi 200g",
+    "Tesco Large Free Range Eggs × 6"
+   ],
+   "Veg": [
+    "Baby potatoes 1kg",
+    "Tenderstem broccoli 330g",
+    "Courgettes × 2",
+    "Cherry tomatoes 300g",
+    "Nightingale peppers 600g",
+    "Red onions × 3",
+    "Green beans 220g",
+    "Spring onions",
+    "Limes × 2",
+    "Lemon × 1"
+   ],
+   "Fruit": [
+    "Pink Lady apples × 5",
+    "Red seedless grapes 500g"
+   ],
+   "Cupboard": [
+    "Black beans 400g",
+    "Chickpeas 400g",
+    "Chopped tomatoes 400g",
+    "Unsweetened almond drink 1L"
+   ],
+   "Snacks": [
+    "Salt & vinegar rice cakes × 2",
+    "Almonds 200g",
+    "Tesco Finest 85% dark chocolate"
+   ],
+   "Drinks": [
+    "Dash raspberry 4 × 330ml",
+    "One Living ginger & turmeric kombucha 4 × 250ml"
+   ]
+  }
+ }
+}

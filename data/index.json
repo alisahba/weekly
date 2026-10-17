@@ -1,6 +1,28 @@
 {
  "weeks": [
   {
+   "id": "2026-10-24",
+   "label": "24–30 October",
+   "dinners": [
+    "Lemon-garlic sea bass with crushed potatoes & tenderstem",
+    "Prawn & egg fried rice",
+    "Chicken fajita rice bowls with black beans",
+    "Beef & sweet potato hash with a fried egg",
+    "Turkey meatballs in tomato & courgette sauce",
+    "Pork steaks with roast apple, potatoes & green beans",
+    "Halloumi & chickpea traybake"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF",
+    "#00B3C7",
+    "#FF5A1F"
+   ]
+  },
+  {
    "id": "2026-10-17",
    "label": "17–23 October",
    "dinners": [
