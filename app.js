@@ -159,6 +159,58 @@ async function keepAwake(on) {
   } catch {}
 }
 
+/* timers: parsed from step text, kept running across steps while the app is open */
+const timers = [];
+let tick = null, audio = null;
+function parseTime(text) {
+  const m = text.match(/(\d+)(?:\s*[–-]\s*(\d+))?\s*(min|mins|minutes|sec|secs|seconds)\b/i);
+  if (!m) return null;
+  const lo = Number(m[1]), unit = /^s/i.test(m[3]) ? 1 : 60;
+  return { secs: lo * unit, label: `${m[1]}${m[2] ? `–${m[2]}` : ''} ${unit === 1 ? 'sec' : 'min'}` };
+}
+const fmt = s => { s = Math.max(0, Math.ceil(s)); const m = Math.floor(s / 60); return `${m}:${String(s % 60).padStart(2, '0')}`; };
+const left = t => t.paused ? t.remaining : (t.end - Date.now()) / 1000;
+function beep() {
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    [0, .35, .7].forEach(o => {
+      const osc = audio.createOscillator(), g = audio.createGain();
+      osc.frequency.value = 880; osc.connect(g); g.connect(audio.destination);
+      const t0 = audio.currentTime + o;
+      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.4, t0 + .02); g.gain.exponentialRampToValueAtTime(0.0001, t0 + .28);
+      osc.start(t0); osc.stop(t0 + .3);
+    });
+  } catch {}
+}
+function startTimer(name, secs) {
+  try { audio = audio || new (window.AudioContext || window.webkitAudioContext)(); audio.resume(); } catch {}
+  timers.push({ id: Date.now() + Math.random(), name, secs, end: Date.now() + secs * 1000, paused: false, remaining: secs, rang: false });
+  drawTimers();
+}
+function drawTimers() {
+  const tray = app.querySelector('.timers');
+  if (!tray) return;
+  tray.innerHTML = timers.map(t => {
+    const l = left(t), done = l <= 0;
+    return `<div class="timer${done ? ' ring' : ''}${t.paused ? ' paused' : ''}" data-id="${t.id}">
+      <span class="tn">${esc(t.name)}</span><span class="tt">${done ? 'Done' : fmt(l)}</span>
+      ${done ? '' : `<button data-a="pause" aria-label="${t.paused ? 'Resume' : 'Pause'} timer">${t.paused ? '▶' : 'Ⅱ'}</button><button data-a="add" aria-label="Add a minute">+1</button>`}
+      <button data-a="del" aria-label="Clear timer">${icon.close}</button></div>`;
+  }).join('');
+  tray.hidden = !timers.length;
+}
+function tickTimers() {
+  let changed = false;
+  timers.forEach(t => { if (!t.paused && !t.rang && left(t) <= 0) { t.rang = true; changed = true; beep(); } });
+  const tray = app.querySelector('.timers');
+  if (!tray) return;
+  if (changed) return drawTimers();
+  tray.querySelectorAll('.timer').forEach(el => {
+    const t = timers.find(x => String(x.id) === el.dataset.id);
+    if (t && left(t) > 0) el.querySelector('.tt').textContent = fmt(left(t));
+  });
+}
+
 async function viewCook(wid, night) {
   const { id, n, d, base } = await loadDinner(wid, night);
   if (!d) return empty('That dinner doesn’t exist.');
@@ -170,11 +222,12 @@ async function viewCook(wid, night) {
       <a class="x" href="${base}/n/${n}" aria-label="Close cook mode">${icon.close}</a>
     </div>
     <div class="cook-bar">${d.steps.map(() => '<i></i>').join('')}</div>
-    <div class="cook-step" aria-live="polite"><div class="k"></div><p></p></div>
+    <div class="cook-step" aria-live="polite"><div class="k"></div><p></p><button class="set-timer" hidden></button></div>
+    <div class="timers" hidden></div>
     <div class="cook-nav"><button class="prev">Back</button><button class="next"></button></div>
   </div>`, { tab: 'week', title: d.title, colour: d.colour, cooking: true });
 
-  const k = app.querySelector('.k'), p = app.querySelector('.cook-step p');
+  const k = app.querySelector('.k'), p = app.querySelector('.cook-step p'), setB = app.querySelector('.set-timer');
   const bars = [...app.querySelectorAll('.cook-bar i')];
   const prevB = app.querySelector('.prev'), nextB = app.querySelector('.next');
   const show = () => {
@@ -183,6 +236,12 @@ async function viewCook(wid, night) {
     bars.forEach((b, j) => b.classList.toggle('on', j <= i));
     prevB.disabled = i === 0;
     nextB.textContent = i === total - 1 ? 'Done, mark as cooked' : 'Next step';
+    const t = parseTime(d.steps[i]);
+    setB.hidden = !t;
+    if (t) {
+      setB.innerHTML = `<svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg>Start ${t.label} timer`;
+      setB.onclick = () => startTimer(`Step ${i + 1}`, t.secs);
+    }
   };
   const go = dir => {
     if (dir > 0 && i === total - 1) {
@@ -195,10 +254,23 @@ async function viewCook(wid, night) {
   };
   prevB.onclick = () => go(-1);
   nextB.onclick = () => go(1);
+  app.querySelector('.timers').onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const el = b.closest('.timer'), t = timers.find(x => String(x.id) === el.dataset.id); if (!t) return;
+    if (b.dataset.a === 'del') timers.splice(timers.indexOf(t), 1);
+    if (b.dataset.a === 'add') { if (t.paused) t.remaining += 60; else t.end += 60000; }
+    if (b.dataset.a === 'pause') {
+      if (t.paused) { t.end = Date.now() + t.remaining * 1000; t.paused = false; }
+      else { t.remaining = left(t); t.paused = true; }
+    }
+    drawTimers();
+  };
   onSwipe(() => go(-1), () => go(1));
   keyHandler = e => { if (e.key === 'ArrowRight' || e.key === ' ') go(1); if (e.key === 'ArrowLeft') go(-1); if (e.key === 'Escape') location.hash = `${base}/n/${n}`.slice(1); };
   document.addEventListener('keydown', keyHandler);
   show();
+  drawTimers();
+  if (!tick) tick = setInterval(tickTimers, 250);
   keepAwake(true);
 }
 

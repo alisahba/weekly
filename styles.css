@@ -159,7 +159,7 @@ body.cooking .tabbar, body.cooking .topbar { display: none; }
 /* ---------- cook mode ---------- */
 .cook {
   --c: #888; --ink: #000;
-  position: fixed; inset: 0; z-index: 40; display: grid; grid-template-rows: auto auto 1fr auto;
+  position: fixed; inset: 0; z-index: 40; display: grid; grid-template-rows: auto auto 1fr auto auto;
   background: var(--bg);
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
 }
@@ -179,6 +179,27 @@ body.cooking .tabbar, body.cooking .topbar { display: none; }
 .cook-nav button { height: 60px; border-radius: 99px; font-weight: 700; font-size: 17px; background: var(--soft); }
 .cook-nav .next { background: var(--cc); color: var(--ink); }
 .cook-nav button[disabled] { opacity: .3; }
+
+.set-timer {
+  align-self: start; margin-top: 22px; display: inline-flex; align-items: center; gap: 8px;
+  height: 48px; padding: 0 20px; border-radius: 99px; font-weight: 700; font-size: 16px;
+  box-shadow: inset 0 0 0 1.5px var(--fg);
+}
+.set-timer svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.timers { display: grid; gap: 8px; padding: 0 var(--g); }
+.timer {
+  display: grid; grid-template-columns: 1fr auto auto auto auto; align-items: center; gap: 8px;
+  padding: 8px 8px 8px 16px; border-radius: 20px; background: var(--soft);
+}
+.timer .tn { font-size: 14px; font-weight: 600; color: var(--muted); }
+.timer .tt { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; margin-right: 4px; }
+.timer button { width: 40px; height: 40px; border-radius: 99px; background: var(--bg); font-weight: 700; font-size: 14px; display: grid; place-items: center; }
+.timer button svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 2.4; fill: none; stroke-linecap: round; }
+.timer.paused .tt { color: var(--muted); }
+.timer.ring { background: var(--cc); color: var(--ink); animation: ring 1s ease-in-out infinite; }
+.timer.ring .tn { color: inherit; opacity: .8; }
+@keyframes ring { 50% { transform: scale(1.02); } }
+@media (min-width: 1000px) { .timers { max-width: 600px; margin: 0 auto; width: 100%; } }
 
 /* ---------- shopping ---------- */
 .shop-stats { display: flex; gap: 32px; margin: 20px 0 8px; }
