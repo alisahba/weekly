@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dinners</title>
+<meta name="description" content="This week's dinners: gluten-free, 30 minutes, high protein.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Dinners">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">Dinners</a>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#/" data-tab="week">This week</a>
+    <a href="#/shop" data-tab="shop">Shopping</a>
+    <a href="#/archive" data-tab="archive">Past weeks</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"></main>
+<nav class="tabbar" aria-label="Sections">
+  <a href="#/" data-tab="week"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 10h16M4 15h16M4 20h10"/></svg><span>This week</span></a>
+  <a href="#/shop" data-tab="shop"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Zm4 0V6a3 3 0 0 1 6 0v2"/></svg><span>Shopping</span></a>
+  <a href="#/archive" data-tab="archive"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v4H4zM5 10v9h14v-9M10 14h4"/></svg><span>Past weeks</span></a>
+</nav>
+<script src="app.js" defer></script>
+</body>
+</html>
