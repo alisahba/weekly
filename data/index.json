@@ -1,47 +1,21 @@
 {
  "weeks": [
   {
-   "id": "2026-10-24",
-   "label": "24–30 October",
+   "id": "2026-10-18",
+   "label": "19–23 October",
    "dinners": [
-    "Lemon-garlic sea bass with crushed potatoes & tenderstem",
-    "Prawn & egg fried rice",
-    "Chicken fajita rice bowls with black beans",
-    "Beef & sweet potato hash with a fried egg",
-    "Turkey meatballs in tomato & courgette sauce",
-    "Pork steaks with roast apple, potatoes & green beans",
-    "Halloumi & chickpea traybake"
+    "Honey-tamari salmon, rice, tenderstem & edamame",
+    "Chilli-lime prawn burrito bowls",
+    "Chicken shawarma quinoa bowls with garlic-mint yoghurt",
+    "Italian beef & lentil stuffed aubergine",
+    "Lemongrass chicken bún with herbs & nuoc cham"
    ],
    "colours": [
     "#2B50FF",
     "#FF3D7F",
     "#00A86B",
     "#FFB000",
-    "#7A3CFF",
-    "#00B3C7",
-    "#FF5A1F"
-   ]
-  },
-  {
-   "id": "2026-10-17",
-   "label": "17–23 October",
-   "dinners": [
-    "Honey-tamari salmon with rice & broccoli",
-    "Lemon cod with crushed new potatoes & green beans",
-    "Garlic prawn & chickpea tomato skillet",
-    "Smoky turkey chilli with rice",
-    "Beef & pepper stir-fry with ginger",
-    "Paprika chicken thighs, sweet potato wedges & green beans",
-    "Feta shakshuka with crispy new potatoes"
-   ],
-   "colours": [
-    "#2B50FF",
-    "#FF3D7F",
-    "#00A86B",
-    "#FFB000",
-    "#7A3CFF",
-    "#00B3C7",
-    "#FF5A1F"
+    "#7A3CFF"
    ]
   }
  ]

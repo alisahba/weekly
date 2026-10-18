@@ -31,13 +31,16 @@ const setUsed = (id, n, s) => local.set(`used:${id}:${n}`, [...s]);
 const nextNight = w => { const c = cooked(w.id); return w.dinners.find(d => !c.has(d.night)) || null; };
 
 const style = d => `--c:${d.colour};--ink:${d.ink}`;
+const label = d => d.night === 'b' ? 'AM' : d.night;
+const nutri = d => [d.kcal && `${esc(d.kcal)}`, d.protein && `${esc(d.protein)} protein`, d.fibre && `${esc(d.fibre)} fibre`].filter(Boolean).join(', ');
+const afBadge = d => d.airFryer ? '<span class="af">Air Fryer</span>' : '';
 const vt = n => `view-transition-name:night-${n}`;
 
 /* ---------- this week / a past week ---------- */
 async function viewWeek(id) {
   const idx = await getIndex();
   const current = idx.weeks[0]?.id;
-  if (!current) return empty('No menu yet. The first one arrives on Saturday.');
+  if (!current) return empty('No menu yet. The first one arrives on Sunday.');
   const wid = id || current;
   const isCurrent = wid === current;
   const w = await getWeek(wid);
@@ -52,9 +55,9 @@ async function viewWeek(id) {
     lead = `<section class="tonight" style="${style(up)};${vt(up.night)}">
       <div class="num" aria-hidden="true">${up.night}</div>
       <div>
-        <div class="label">${done.size ? 'Up next' : 'Tonight'}, night ${up.night}</div>
+        <div class="label">${up.day ? esc(up.day) : (done.size ? 'Up next' : 'Tonight')}${afBadge(up)}</div>
         <h2>${esc(up.title)}</h2>
-        <div class="meta">${esc(up.time)}, ${esc(up.protein)} protein each, ${esc(up.method.toLowerCase())}</div>
+        <div class="meta">${esc(up.time)}${up.kcal ? `, ${nutri(up)}` : `, ${esc(up.protein)} protein each`}</div>
         <div class="ctas">
           <a class="pill solid" href="${base}/n/${up.night}/cook">${icon.play}Start cooking</a>
           <a class="pill ghost" href="${base}/n/${up.night}">See recipe</a>
@@ -62,7 +65,7 @@ async function viewWeek(id) {
       </div>
     </section>`;
   } else if (isCurrent) {
-    lead = `<section class="done-card"><h2>All 7 cooked</h2><p>Next week's menu lands on Saturday afternoon.</p></section>`;
+    lead = `<section class="done-card"><h2>All ${w.dinners.length} cooked</h2><p>Next week's menu lands on Sunday afternoon.</p></section>`;
   }
 
   const rest = w.dinners.filter(d => !up || d.night !== up.night);
@@ -70,7 +73,7 @@ async function viewWeek(id) {
     const c = done.has(d.night);
     return `<li><a class="night${c ? ' cooked' : ''}" style="${style(d)}" href="${base}/n/${d.night}">
       <span class="chip" style="${vt(d.night)}">${d.night}</span>
-      <span><span class="t" style="display:block">${esc(d.title)}</span><span class="m">${c ? 'Cooked' : `${esc(d.time)}, ${esc(d.protein)} protein`}</span></span>
+      <span>${d.day ? `<span class="d">${esc(d.day)}</span>` : ''}<span class="t" style="display:block">${esc(d.title)}</span><span class="m">${c ? 'Cooked' : (d.kcal ? nutri(d) : `${esc(d.time)}, ${esc(d.protein)} protein`)}</span></span>
       <span class="go">${icon.next}</span></a></li>`;
   }).join('');
 
@@ -79,7 +82,8 @@ async function viewWeek(id) {
     <div class="week-head"><h1 class="title">${esc(w.label)}</h1><p class="when">${esc(when)}</p></div>
     ${progress}
     <div class="week-grid">
-      ${lead ? `<div>${lead}</div>` : ''}
+      ${lead || w.breakfast ? `<div>${lead}${w.breakfast ? `<a class="bfast" style="${style(w.breakfast)}" href="${base}/n/b">
+        <span class="chip">AM</span><span><span class="d">Breakfast, every day</span><span class="t">${esc(w.breakfast.title)}</span><span class="m">${esc(w.breakfast.time)}, ${nutri(w.breakfast)}</span></span><span class="go">${icon.next}</span></a>` : ''}</div>` : ''}
       <div>
         <h2 class="later-h">${isCurrent && up ? 'Rest of the week' : 'The week'}</h2>
         <ol class="nights">${rows}</ol>
@@ -94,8 +98,9 @@ async function loadDinner(wid, night) {
   const idx = await getIndex();
   const id = wid || idx.weeks[0].id;
   const w = await getWeek(id);
-  const n = Number(night);
-  const d = w.dinners.find(x => x.night === n);
+  const isB = night === 'b';
+  const n = isB ? 'b' : Number(night);
+  const d = isB ? (w.breakfast && { ...w.breakfast, night: 'b' }) : w.dinners.find(x => x.night === n);
   const base = wid && wid !== idx.weeks[0].id ? `#/w/${id}` : '#';
   return { id, w, n, d, base };
 }
@@ -104,7 +109,8 @@ async function viewRecipe(wid, night) {
   const { id, w, n, d, base } = await loadDinner(wid, night);
   if (!d) return empty('That dinner doesn’t exist.');
   const u = used(id, n);
-  const prev = w.dinners.find(x => x.night === n - 1), next = w.dinners.find(x => x.night === n + 1);
+  const isB = n === 'b';
+  const prev = !isB && w.dinners.find(x => x.night === n - 1), next = !isB && w.dinners.find(x => x.night === n + 1);
   const ing = d.ingredients.map((i, k) => `<li><button class="${u.has(k) ? 'used' : ''}" data-k="${k}" aria-pressed="${u.has(k)}"><span class="q">${esc(i.qty)}</span><span>${esc(i.item)}</span></button></li>`).join('');
   const steps = d.steps.map(s => `<li><span>${esc(s)}</span></li>`).join('');
   const isDone = cooked(id).has(n);
@@ -112,22 +118,25 @@ async function viewRecipe(wid, night) {
   render(`<article>
     <header class="r-hero" style="${style(d)};${vt(n)}">
       <a class="back" href="${base}/">${icon.back}${esc(w.label)}</a>
-      <div class="num" aria-hidden="true">${n}</div>
+      <div class="num" aria-hidden="true">${label(d)}</div>
+      ${d.day || isB || d.airFryer ? `<div class="kicker">${isB ? 'Breakfast, every day' : esc(d.day || '')}${d.cuisine ? `<span>${esc(d.cuisine)}</span>` : ''}${afBadge(d)}</div>` : ''}
       <h1>${esc(d.title)}</h1>
-      <ul class="facts"><li><b>${esc(d.time)}</b><span>total</span></li><li><b>${esc(d.protein)}</b><span>protein each</span></li><li><b>${esc(d.method)}</b><span>cook with</span></li></ul>
+      ${d.kcal ? `<ul class="facts f4"><li><b>${esc(d.kcal)}</b><span>per serving</span></li><li><b>${esc(d.protein)}</b><span>protein</span></li><li><b>${esc(d.fibre)}</b><span>fibre</span></li><li><b>${esc(d.time)}</b><span>${esc(d.method)}</span></li></ul>`
+        : `<ul class="facts"><li><b>${esc(d.time)}</b><span>total</span></li><li><b>${esc(d.protein)}</b><span>protein each</span></li><li><b>${esc(d.method)}</b><span>cook with</span></li></ul>`}
       <div><a class="pill solid" href="${base}/n/${n}/cook">${icon.play}Start cooking</a></div>
     </header>
     <div class="r-body" style="${style(d)}">
-      <div class="left"><h2>Ingredients<small>for 2, tap to tick off</small></h2><ul class="ing">${ing}</ul></div>
+      <div class="left"><h2>Ingredients<small>${isB ? 'for 2, one morning' : 'for 2'}, tap to tick off</small></h2><ul class="ing">${ing}</ul></div>
       <div><h2>Method</h2><ol class="steps">${steps}</ol>
         ${d.tip ? `<p class="tip"><b>Tip</b>${esc(d.tip)}</p>` : ''}
+        ${d.kcal ? `<p class="nut"><b>Per serving</b>${nutri(d)}. Estimates from ingredient weights.</p>` : ''}
       </div>
     </div>
-    <div class="r-actions">
+    ${isB ? '' : `<div class="r-actions">
       <a class="sq" href="${base}/n/${n - 1}" aria-label="Previous night" aria-disabled="${!prev}">${icon.back}</a>
       <button class="mark${isDone ? ' is-done' : ''}" id="mark">${isDone ? 'Cooked ✓' : 'Mark as cooked'}</button>
       <a class="sq" href="${base}/n/${n + 1}" aria-label="Next night" aria-disabled="${!next}">${icon.next}</a>
-    </div>
+    </div>`}
   </article>`, { tab: 'week', title: d.title, colour: d.colour });
 
   app.querySelectorAll('.ing button').forEach(b => b.onclick = () => {
@@ -137,7 +146,8 @@ async function viewRecipe(wid, night) {
     b.classList.toggle('used', s.has(k));
     b.setAttribute('aria-pressed', s.has(k));
   });
-  document.getElementById('mark').onclick = e => {
+  const mk = document.getElementById('mark');
+  if (mk) mk.onclick = e => {
     const s = cooked(id);
     s.has(n) ? s.delete(n) : s.add(n);
     setCooked(id, s);
@@ -218,7 +228,7 @@ async function viewCook(wid, night) {
   const total = d.steps.length;
   render(`<div class="cook" style="${style(d)}" role="dialog" aria-label="Cooking ${esc(d.title)}">
     <div class="cook-top">
-      <span class="chip">${n}</span><span class="t">${esc(d.title)}</span>
+      <span class="chip">${label(d)}</span><span class="t">${esc(d.title)}</span>
       <a class="x" href="${base}/n/${n}" aria-label="Close cook mode">${icon.close}</a>
     </div>
     <div class="cook-bar">${d.steps.map(() => '<i></i>').join('')}</div>
@@ -235,7 +245,7 @@ async function viewCook(wid, night) {
     p.textContent = d.steps[i];
     bars.forEach((b, j) => b.classList.toggle('on', j <= i));
     prevB.disabled = i === 0;
-    nextB.textContent = i === total - 1 ? 'Done, mark as cooked' : 'Next step';
+    nextB.textContent = i === total - 1 ? (n === 'b' ? 'Done' : 'Done, mark as cooked') : 'Next step';
     const t = parseTime(d.steps[i]);
     setB.hidden = !t;
     if (t) {
@@ -245,7 +255,7 @@ async function viewCook(wid, night) {
   };
   const go = dir => {
     if (dir > 0 && i === total - 1) {
-      const s = cooked(id); s.add(n); setCooked(id, s);
+      if (n !== 'b') { const s = cooked(id); s.add(n); setCooked(id, s); }
       location.hash = `${base}/`.slice(1);
       return;
     }
@@ -280,12 +290,25 @@ async function viewShop() {
   const w = await getWeek(idx.weeks[0].id);
   const s = w.shopping || {};
   const groups = Object.entries(s.groups || {}).map(([g, items]) =>
-    `<section class="group"><h2>${esc(g)}<small>${items.length}</small></h2><ul>${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul></section>`).join('');
+    `<section class="group"><h2>${esc(g)}<small>${items.length}</small></h2><ul>${items.map(i => typeof i === 'string' ? `<li>${esc(i)}</li>`
+      : `<li class="si"><span>${esc(i.name)}${i.gf ? `<em class="gf">${i.gf === true ? 'Certified GF' : esc(i.gf)}</em>` : ''}${i.note ? `<small>${esc(i.note)}</small>` : ''}</span>${i.qty ? `<b>${esc(i.qty)}</b>` : ''}</li>`).join('')}</ul></section>`).join('');
+  const skip = s.skipped?.length ? `<p class="skipped">Skipped this week: ${s.skipped.map(esc).join(', ')}</p>` : '';
   render(`<section class="page">
     <h1 class="title">Shopping</h1><p class="lede">In the Tesco basket for ${esc(w.label)}</p>
     ${s.total ? `<div class="shop-stats"><div><b>${esc(s.total)}</b><span>guide price</span></div><div><b>${esc(s.items)}</b><span>items</span></div></div>` : ''}
-    ${groups ? `<div class="groups">${groups}</div>` : '<p class="empty">The basket list appears here after Saturday’s shop.</p>'}
+    ${groups ? `<div class="groups">${groups}</div>${skip}` : '<p class="empty">The basket list appears here after Sunday’s shop.</p>'}
   </section>`, { tab: 'shop', title: 'Shopping' });
+}
+
+/* ---------- prep: batch cooking + reuse ---------- */
+async function viewPrep() {
+  const idx = await getIndex();
+  const w = await getWeek(idx.weeks[0].id);
+  const prep = w.prep || [];
+  const body = prep.length ? prep.map(p => `<section class="prep"><h2>${esc(p.when)}</h2><ul>${p.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>`).join('')
+    : '<p class="empty">Prep tips appear here with each week’s plan.</p>';
+  render(`<section class="page"><h1 class="title">Prep</h1><p class="lede">Batch cooking and reuse for ${esc(w.label)}</p>
+    <div class="preps">${body}</div></section>`, { tab: 'prep', title: 'Prep' });
 }
 
 /* ---------- archive ---------- */
@@ -354,6 +377,7 @@ async function route() {
     if (!p.length) return await viewWeek();
     if (p[0] === 'n') return p[2] === 'cook' ? await viewCook(null, p[1]) : await viewRecipe(null, p[1]);
     if (p[0] === 'shop') return await viewShop();
+    if (p[0] === 'prep') return await viewPrep();
     if (p[0] === 'archive') return await viewArchive();
     if (p[0] === 'w' && p[2] === 'n') return p[4] === 'cook' ? await viewCook(p[1], p[3]) : await viewRecipe(p[1], p[3]);
     if (p[0] === 'w') return await viewWeek(p[1]);
