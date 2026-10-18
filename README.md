@@ -27,7 +27,7 @@ Night colours, in order (colour / ink): #2B50FF/#FFFFFF, #FF3D7F/#000000, #00A86
 
 Order the nights by freshness: fish and prawns first, then mince, then other meat, with eggs and veg last.
 
-`index.json`: `{"weeks": [{"id", "label", "dinners": [titles], "colours": [7 hex]}]}`, newest first.
+`index.json`: `{"weeks": [{"id", "label", "start": "YYYY-MM-DD" (the Monday), "dinners": [titles], "colours": [hex per dinner]}]}`, newest first. `start` is REQUIRED: a week only becomes "This week" on the Sunday before its Monday. Until then it shows as "Next week", so the Thursday run doesn't replace the week being cooked.
 
 Static site, no build step. Bump `SHELL` in `sw.js` when changing `app.js` or `styles.css`, so installed copies update.
 

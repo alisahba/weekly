@@ -227,6 +227,15 @@ body.cooking .tabbar, body.cooking .topbar { display: none; }
 .skipped { margin: 24px 0 0; color: var(--muted); font-size: 14px; }
 @media (min-width: 1000px) { .preps { grid-template-columns: repeat(2, 1fr); } .facts.f4 { gap: 36px; } }
 
+.nextwk { display: grid; grid-template-columns: 56px 1fr auto; gap: 14px; align-items: center; margin-top: 24px; padding: 14px; border-radius: 22px; background: var(--soft); }
+.nextwk .chips { width: 56px; height: 56px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+.nextwk .chips i { border-radius: 4px; }
+.nextwk .d { display: block; font-size: 13px; font-weight: 700; color: var(--muted); }
+.nextwk .t { display: block; font-size: 17px; font-weight: 700; }
+.nextwk .m { font-size: 14px; color: var(--muted); }
+.nextwk .go { color: var(--faint); }
+.nextwk .go svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; }
+
 /* ---------- shopping ---------- */
 .shop-stats { display: flex; gap: 32px; margin: 20px 0 8px; }
 .shop-stats b { display: block; font-size: 34px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }

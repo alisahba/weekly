@@ -19,6 +19,19 @@ async function getJSON(url) {
 const getIndex = () => getJSON('data/index.json');
 const getWeek = id => getJSON(`data/weeks/${id}.json`);
 
+/* Which week is "this week": a week takes over on the Sunday before its Monday start,
+   so a basket planned on Thursday stays "Next week" until then. */
+const ymd = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+function weekState(idx) {
+  const weeks = idx.weeks || [];
+  const today = ymd(new Date());
+  const takeover = w => { if (!w.start) return '0000-00-00'; const d = new Date(w.start + 'T12:00:00'); d.setDate(d.getDate() - 1); return ymd(d); };
+  const ci = weeks.findIndex(w => takeover(w) <= today);
+  const curIdx = ci === -1 ? weeks.length - 1 : ci;
+  return { current: weeks[curIdx], upcoming: curIdx > 0 ? weeks[curIdx - 1] : null, newest: weeks[0], isUpcoming: id => weeks.findIndex(w => w.id === id) < curIdx };
+}
+const prettyDate = s => new Date(s + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short' });
+
 /* per-device state: cooked nights and used ingredients */
 const local = {
   get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
@@ -39,7 +52,8 @@ const vt = n => `view-transition-name:night-${n}`;
 /* ---------- this week / a past week ---------- */
 async function viewWeek(id) {
   const idx = await getIndex();
-  const current = idx.weeks[0]?.id;
+  const ws = weekState(idx);
+  const current = ws.current?.id;
   if (!current) return empty('No menu yet. The first one arrives on Sunday.');
   const wid = id || current;
   const isCurrent = wid === current;
@@ -77,7 +91,8 @@ async function viewWeek(id) {
       <span class="go">${icon.next}</span></a></li>`;
   }).join('');
 
-  const when = isCurrent ? `${done.size} of ${w.dinners.length} cooked${w.shopping?.total ? `, ${w.shopping.total} shop` : ''}` : 'Past week';
+  const when = isCurrent ? `${done.size} of ${w.dinners.length} cooked${w.shopping?.total ? `, ${w.shopping.total} shop` : ''}` : (ws.isUpcoming(wid) ? `Next week, starts ${prettyDate(w.start)}` : 'Past week');
+  const nextCard = isCurrent && ws.upcoming ? `<a class="nextwk" href="#/w/${ws.upcoming.id}"><span class="chips">${ws.upcoming.colours.map(c => `<i style="--c:${c};background:var(--cc)"></i>`).join('')}</span><span><span class="d">Next week is planned</span><span class="t">${esc(ws.upcoming.label)}</span><span class="m">Basket ready, delivery on Sunday</span></span><span class="go">${icon.next}</span></a>` : '';
   render(`<section class="page">
     <div class="week-head"><h1 class="title">${esc(w.label)}</h1><p class="when">${esc(when)}</p></div>
     ${progress}
@@ -87,6 +102,7 @@ async function viewWeek(id) {
       <div>
         <h2 class="later-h">${isCurrent && up ? 'Rest of the week' : 'The week'}</h2>
         <ol class="nights">${rows}</ol>
+        ${nextCard}
         ${w.notes?.length ? `<ul class="notes">${w.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}
       </div>
     </div>
@@ -96,12 +112,13 @@ async function viewWeek(id) {
 /* ---------- recipe ---------- */
 async function loadDinner(wid, night) {
   const idx = await getIndex();
-  const id = wid || idx.weeks[0].id;
+  const cur = weekState(idx).current.id;
+  const id = wid || cur;
   const w = await getWeek(id);
   const isB = night === 'b';
   const n = isB ? 'b' : Number(night);
   const d = isB ? (w.breakfast && { ...w.breakfast, night: 'b' }) : w.dinners.find(x => x.night === n);
-  const base = wid && wid !== idx.weeks[0].id ? `#/w/${id}` : '#';
+  const base = wid && wid !== cur ? `#/w/${id}` : '#';
   return { id, w, n, d, base };
 }
 
@@ -287,23 +304,25 @@ async function viewCook(wid, night) {
 /* ---------- shopping ---------- */
 async function viewShop() {
   const idx = await getIndex();
-  const w = await getWeek(idx.weeks[0].id);
+  const ws = weekState(idx);
+  const w = await getWeek(ws.newest.id);
+  const nextOne = ws.upcoming && ws.newest.id === ws.upcoming.id;
   const s = w.shopping || {};
   const groups = Object.entries(s.groups || {}).map(([g, items]) =>
     `<section class="group"><h2>${esc(g)}<small>${items.length}</small></h2><ul>${items.map(i => typeof i === 'string' ? `<li>${esc(i)}</li>`
       : `<li class="si"><span>${esc(i.name)}${i.gf ? `<em class="gf">${i.gf === true ? 'Certified GF' : esc(i.gf)}</em>` : ''}${i.note ? `<small>${esc(i.note)}</small>` : ''}</span>${i.qty ? `<b>${esc(i.qty)}</b>` : ''}</li>`).join('')}</ul></section>`).join('');
   const skip = s.skipped?.length ? `<p class="skipped">Skipped this week: ${s.skipped.map(esc).join(', ')}</p>` : '';
   render(`<section class="page">
-    <h1 class="title">Shopping</h1><p class="lede">In the Tesco basket for ${esc(w.label)}</p>
+    <h1 class="title">Shopping</h1><p class="lede">${nextOne ? 'Next week’s basket' : 'In the Tesco basket'} for ${esc(w.label)}</p>
     ${s.total ? `<div class="shop-stats"><div><b>${esc(s.total)}</b><span>guide price</span></div><div><b>${esc(s.items)}</b><span>items</span></div></div>` : ''}
-    ${groups ? `<div class="groups">${groups}</div>${skip}` : '<p class="empty">The basket list appears here after Sunday’s shop.</p>'}
+    ${groups ? `<div class="groups">${groups}</div>${skip}` : '<p class="empty">The basket list appears here after Thursday’s shop.</p>'}
   </section>`, { tab: 'shop', title: 'Shopping' });
 }
 
 /* ---------- prep: batch cooking + reuse ---------- */
 async function viewPrep() {
   const idx = await getIndex();
-  const w = await getWeek(idx.weeks[0].id);
+  const w = await getWeek(weekState(idx).current.id);
   const prep = w.prep || [];
   const body = prep.length ? prep.map(p => `<section class="prep"><h2>${esc(p.when)}</h2><ul>${p.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>`).join('')
     : '<p class="empty">Prep tips appear here with each week’s plan.</p>';
@@ -314,9 +333,10 @@ async function viewPrep() {
 /* ---------- archive ---------- */
 async function viewArchive() {
   const idx = await getIndex();
-  const items = idx.weeks.map((w, i) => `<li><a class="wk" href="${i === 0 ? '#/' : `#/w/${w.id}`}">
+  const ws = weekState(idx);
+  const items = idx.weeks.map(w => `<li><a class="wk" href="${w.id === ws.current.id ? '#/' : `#/w/${w.id}`}">
     <div class="chips">${w.colours.map(c => `<i style="--c:${c};background:var(--cc)"></i>`).join('')}</div>
-    <h2>${esc(w.label)}${i === 0 ? '<em>This week</em>' : ''}</h2><p>${w.dinners.map(esc).join(', ')}</p></a></li>`).join('');
+    <h2>${esc(w.label)}${w.id === ws.current.id ? '<em>This week</em>' : (ws.isUpcoming(w.id) ? '<em>Next week</em>' : '')}</h2><p>${w.dinners.map(esc).join(', ')}</p></a></li>`).join('');
   render(`<section class="page"><h1 class="title">Past weeks</h1><p class="lede">${idx.weeks.length} week${idx.weeks.length === 1 ? '' : 's'} of dinners so far</p>
     <ul class="weeks">${items}</ul></section>`, { tab: 'archive', title: 'Past weeks' });
 }
