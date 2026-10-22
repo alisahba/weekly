@@ -34,8 +34,8 @@ Static site, no build step. Bump `SHELL` in `sw.js` when changing `app.js` or `s
 ## 5+1 format (from 19 Oct 2026)
 Week files can also have:
 - `breakfast`: one recipe object (same fields as a dinner, no `night`), shown as "AM", the same every day. Route `#/n/b`.
-- Per recipe: `day` ("Monday"), `cuisine`, `airFryer` (true shows the Air Fryer badge), and `kcal` / `protein` / `fibre` (strings like "≈560 kcal", "≈40g", "≈5g").
-- `prep`: `[{ "when": "Sunday", "tips": ["…"] }]`, shown on the Prep tab.
+- Per recipe: NO `day` field (dinners are numbered, not tied to weekdays; the app shows the first not-cooked one as "Up next"). `cuisine`, `airFryer` (true shows the Air Fryer badge), and `kcal` / `protein` / `fibre` (strings like "≈560 kcal", "≈40g", "≈5g").
+- `prep`: `[{ "when": "The day before 4", "before": 4, "tips": ["…"] }]`, shown on the Prep tab. Optional `with: n` (shows on the home screen while n is up next) or `before: n` (shows while the dinner just before n is up next, e.g. thaw mince). Refer to dinners by number in all text, never by weekday.
 - `shopping.groups` items can be objects: `{ "name", "qty", "gf": true | "Check GF", "note" }`. `shopping.skipped` is a list of strings.
 Colours for 5 dinners: #2B50FF/#FFFFFF, #FF3D7F/#000000, #00A86B/#000000, #FFB000/#000000, #7A3CFF/#FFFFFF. Breakfast: #FF5A1F/#000000.
 

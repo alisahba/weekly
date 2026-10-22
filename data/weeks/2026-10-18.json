@@ -1,811 +1,814 @@
 {
- "id": "2026-10-18",
- "label": "19–23 October",
- "start": "2026-10-19",
- "format": "5+1",
- "notes": [
-  "Cook in this order: fish and prawns first while they're freshest.",
-  "Breakfast is the same every day. Prep the jars the night before.",
-  "Thursday, Friday and breakfast now show the exact amounts for each step in cook mode.",
-  "Nutrition is estimated per serving from ingredient weights."
- ],
- "breakfast": {
-  "title": "Berry, chia & almond protein yoghurt bowl",
-  "time": "5 min",
-  "method": "No cook",
-  "kcal": "≈350 kcal",
-  "protein": "≈25g",
-  "fibre": "≈10g",
-  "colour": "#FF5A1F",
-  "ink": "#000000",
-  "cuisine": "Breakfast",
-  "ingredients": [
-   {
-    "qty": "340g",
-    "item": "0% Greek yoghurt"
-   },
-   {
-    "qty": "60g",
-    "item": "gluten-free oats (certified GF)"
-   },
-   {
-    "qty": "20g",
-    "item": "chia seeds"
-   },
-   {
-    "qty": "160g",
-    "item": "frozen mixed berries"
-   },
-   {
-    "qty": "20g",
-    "item": "almonds, roughly chopped"
-   }
+  "id": "2026-10-18",
+  "label": "19–23 October",
+  "start": "2026-10-19",
+  "format": "5+1",
+  "notes": [
+    "Cook in this order: fish and prawns first while they're freshest.",
+    "Breakfast is the same every day. Prep the jars the night before.",
+    "4, 5 and breakfast show the exact amounts for each step in cook mode.",
+    "Nutrition is estimated per serving from ingredient weights."
   ],
-  "steps": [
-   {
-    "text": "Night before (best): put 170g yoghurt in each of 2 jars or bowls. Stir 30g oats and 10g chia into each, then top each with 80g frozen berries. Lid on and into the fridge: the berries thaw into a sauce overnight.",
-    "uses": [
-     "340g yoghurt",
-     "60g oats",
-     "20g chia",
-     "160g berries"
-    ]
-   },
-   {
-    "text": "Same-morning option: microwave the 160g berries in a bowl for 60–90 sec until thawed. Stir the oats and chia into the yoghurt and leave for 3 min to soften, then top with the berries.",
-    "uses": []
-   },
-   {
-    "text": "Top each bowl with 10g chopped almonds. No salt or sugar needed.",
-    "uses": [
-     "20g almonds"
-    ]
-   }
+  "breakfast": {
+    "title": "Berry, chia & almond protein yoghurt bowl",
+    "time": "5 min",
+    "method": "No cook",
+    "kcal": "≈350 kcal",
+    "protein": "≈25g",
+    "fibre": "≈10g",
+    "colour": "#FF5A1F",
+    "ink": "#000000",
+    "cuisine": "Breakfast",
+    "ingredients": [
+      {
+        "qty": "340g",
+        "item": "0% Greek yoghurt"
+      },
+      {
+        "qty": "60g",
+        "item": "gluten-free oats (certified GF)"
+      },
+      {
+        "qty": "20g",
+        "item": "chia seeds"
+      },
+      {
+        "qty": "160g",
+        "item": "frozen mixed berries"
+      },
+      {
+        "qty": "20g",
+        "item": "almonds, roughly chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Night before (best): put 170g yoghurt in each of 2 jars or bowls. Stir 30g oats and 10g chia into each, then top each with 80g frozen berries. Lid on and into the fridge: the berries thaw into a sauce overnight.",
+        "uses": [
+          "340g yoghurt",
+          "60g oats",
+          "20g chia",
+          "160g berries"
+        ]
+      },
+      {
+        "text": "Same-morning option: microwave the 160g berries in a bowl for 60–90 sec until thawed. Stir the oats and chia into the yoghurt and leave for 3 min to soften, then top with the berries.",
+        "uses": []
+      },
+      {
+        "text": "Top each bowl with 10g chopped almonds. No salt or sugar needed.",
+        "uses": [
+          "20g almonds"
+        ]
+      }
+    ],
+    "tip": "Make 3 jars on Sunday night, then 2 more when they run out. The oats soften and the chia thickens it, so it's grab-and-go."
+  },
+  "dinners": [
+    {
+      "night": 1,
+      "colour": "#2B50FF",
+      "ink": "#FFFFFF",
+      "title": "Honey-tamari salmon, rice, tenderstem & edamame",
+      "cuisine": "Easy Asian",
+      "airFryer": true,
+      "time": "25 min",
+      "method": "Air fryer",
+      "kcal": "≈560 kcal",
+      "protein": "≈40g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "2",
+          "item": "salmon fillets (260g pack)"
+        },
+        {
+          "qty": "200g",
+          "item": "Tilda basmati, dry. Half is for 2"
+        },
+        {
+          "qty": "200g",
+          "item": "tenderstem broccoli"
+        },
+        {
+          "qty": "80g",
+          "item": "frozen edamame (soya beans)"
+        },
+        {
+          "qty": "2 tbsp",
+          "item": "tamari (certified GF)"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "honey"
+        },
+        {
+          "qty": "1 clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "2",
+          "item": "spring onions, sliced"
+        },
+        {
+          "qty": "½",
+          "item": "lime"
+        }
+      ],
+      "steps": [
+        "Rinse 200g rice and simmer in plenty of water for 11 min, then drain. Keep half for tonight. Spread the other half on a plate to cool, then refrigerate within 1 hour for 2.",
+        "Mix the tamari, honey and garlic.",
+        "Air Fryer: salmon skin-side down at 200°C for 9–10 min. Brush with half the glaze at 5 min.",
+        "Boil the tenderstem for 4 min, adding the edamame for the last 2 min. Drain.",
+        "Serve the salmon on the rice with the greens. Spoon over the rest of the glaze and finish with spring onion and a squeeze of lime."
+      ],
+      "tip": "Weigh the rice dry. 50g dry per person is what keeps this under 600 kcal."
+    },
+    {
+      "night": 2,
+      "colour": "#FF3D7F",
+      "ink": "#000000",
+      "title": "Chilli-lime prawn burrito bowls",
+      "cuisine": "Mexican",
+      "airFryer": true,
+      "time": "20 min",
+      "method": "Air fryer",
+      "kcal": "≈520 kcal",
+      "protein": "≈38g",
+      "fibre": "≈10g",
+      "ingredients": [
+        {
+          "qty": "330g",
+          "item": "raw king prawns (2 packs)"
+        },
+        {
+          "qty": "≈250g",
+          "item": "cooked rice from 1"
+        },
+        {
+          "qty": "½ tin (120g)",
+          "item": "black beans, drained"
+        },
+        {
+          "qty": "1",
+          "item": "ripe avocado"
+        },
+        {
+          "qty": "150g",
+          "item": "cherry tomatoes"
+        },
+        {
+          "qty": "½",
+          "item": "red onion"
+        },
+        {
+          "qty": "1",
+          "item": "little gem lettuce"
+        },
+        {
+          "qty": "2",
+          "item": "limes"
+        },
+        {
+          "qty": "15g",
+          "item": "coriander"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        }
+      ],
+      "steps": [
+        "Toss the prawns with the oil, paprika, cumin, chilli, the zest of 1 lime and a pinch of salt.",
+        "Air Fryer: 200°C for 6–7 min, shaking halfway, until pink all through.",
+        "Salsa: chop the tomatoes, onion and half the coriander. Mix with the juice of ½ lime and a pinch of salt.",
+        "Reheat the rice with a splash of water for 2 min, until piping hot. Warm the beans with a pinch of cumin.",
+        "Build the bowls: rice, beans, shredded lettuce, prawns, salsa, sliced avocado, a spoon of yoghurt and lime wedges."
+      ],
+      "tip": "Freeze the other half tin of beans in a small box, ready for another bowl."
+    },
+    {
+      "night": 3,
+      "colour": "#00A86B",
+      "ink": "#000000",
+      "title": "Chicken shawarma quinoa bowls with garlic-mint yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "30 min",
+      "method": "Air fryer",
+      "kcal": "≈500 kcal",
+      "protein": "≈40g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (half the pack)"
+        },
+        {
+          "qty": "80g",
+          "item": "quinoa, dry"
+        },
+        {
+          "qty": "2",
+          "item": "peppers, in strips"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, in wedges"
+        },
+        {
+          "qty": "½",
+          "item": "cucumber"
+        },
+        {
+          "qty": "150g",
+          "item": "cherry tomatoes"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "1 clove",
+          "item": "garlic"
+        },
+        {
+          "qty": "small handful",
+          "item": "mint"
+        },
+        {
+          "qty": "½",
+          "item": "lemon"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "1 tbsp",
+          "item": "olive oil"
+        }
+      ],
+      "steps": [
+        "Rinse the quinoa and simmer it in 200ml water, covered, for 12–15 min. Rest it off the heat.",
+        "Toss the chicken with half the oil, the spices, a squeeze of lemon and salt. Toss the peppers and onion with the rest of the oil.",
+        "Air Fryer: veg at 200°C for 8 min, then add the chicken and cook for 14–16 min more, turning halfway, until cooked through.",
+        "Sauce: yoghurt, grated garlic, chopped mint and a pinch of salt. Salad: dice the cucumber and tomatoes and dress with lemon and salt.",
+        "Slice the chicken and build the bowls: quinoa, veg, chicken, salad and a spoon of sauce."
+      ],
+      "tip": "Keep the rest of the mint wrapped in damp kitchen roll for 5."
+    },
+    {
+      "night": 4,
+      "colour": "#FFB000",
+      "ink": "#000000",
+      "title": "Italian beef & lentil stuffed aubergine",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈400 kcal",
+      "protein": "≈40g",
+      "fibre": "≈10g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "lean beef mince 5% (defrosted overnight in the fridge)"
+        },
+        {
+          "qty": "1 large (≈350g)",
+          "item": "aubergine"
+        },
+        {
+          "qty": "30g",
+          "item": "small brown lentils, rinsed"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "1 tbsp (15g)",
+          "item": "tomato paste"
+        },
+        {
+          "qty": "1 (≈150g)",
+          "item": "red onion, 5mm dice"
+        },
+        {
+          "qty": "1",
+          "item": "pepper, 1cm dice"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "200ml",
+          "item": "water"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ aubergine, ½ ragù)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Air Fryer: halve the aubergine lengthways and score the flesh in a 2cm criss-cross, 1cm deep. Brush the cut sides with 1 tsp oil and sprinkle with ¼ tsp salt. Air fry cut-side up at 190°C for 15 min, until the flesh is soft when poked.",
+          "uses": [
+            "1 aubergine",
+            "1 tsp olive oil",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Meanwhile, heat 1 tsp oil in a large frying pan on high for 1 min. Add the mince and break it up with a spoon. Cook for 5 min, stirring, until browned with no pink left.",
+          "uses": [
+            "300g beef mince",
+            "1 tsp olive oil"
+          ]
+        },
+        {
+          "text": "Turn to medium. Add the onion and pepper and cook for 4 min, stirring now and then, until the onion turns soft and see-through.",
+          "uses": [
+            "1 red onion",
+            "1 pepper"
+          ]
+        },
+        {
+          "text": "Stir in the garlic, oregano, chilli flakes and tomato paste. Cook for 1 min, stirring so the paste doesn't catch.",
+          "uses": [
+            "2 garlic cloves",
+            "1 tsp oregano",
+            "¼ tsp chilli flakes",
+            "1 tbsp tomato paste"
+          ]
+        },
+        {
+          "text": "Add the tomatoes, lentils, 200ml water, ½ tsp salt and ¼ tsp pepper. Bring to a bubble, put a lid on and simmer on low for 20 min, stirring every 5 min. It's ready when the lentils are soft and a spoon dragged through the sauce leaves a trail. If it gets dry, add 50ml water.",
+          "uses": [
+            "400g chopped tomatoes",
+            "30g lentils",
+            "200ml water",
+            "½ tsp salt",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Scoop the flesh out of the aubergine halves, leaving a 1cm wall. Chop the flesh and stir it into the ragù for 1 min.",
+          "uses": []
+        },
+        {
+          "text": "Taste the ragù. If it tastes flat, add ¼ tsp salt. If it's too sharp, stir in ½ tsp honey.",
+          "uses": []
+        },
+        {
+          "text": "Air Fryer: fill the aubergine halves with the ragù and cook at 190°C for 5 min, until the top sizzles. Serve any extra ragù on the side.",
+          "uses": []
+        }
+      ],
+      "tip": "The tomatoes and paste need the salt here. Unlike the Asian dishes there's no tamari or fish sauce to season it."
+    },
+    {
+      "night": 5,
+      "colour": "#7A3CFF",
+      "ink": "#FFFFFF",
+      "title": "Lemongrass chicken bún with herbs & nuoc cham",
+      "cuisine": "Easy Asian",
+      "airFryer": true,
+      "time": "30 min",
+      "method": "Air fryer",
+      "kcal": "≈580 kcal",
+      "protein": "≈40g",
+      "fibre": "≈6g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (defrosted overnight), 3cm pieces"
+        },
+        {
+          "qty": "1 tbsp",
+          "item": "lemongrass paste"
+        },
+        {
+          "qty": "1 tbsp",
+          "item": "tamari"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "honey (1 marinade, 1 sauce)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        },
+        {
+          "qty": "100g",
+          "item": "rice vermicelli"
+        },
+        {
+          "qty": "1.5 litres",
+          "item": "boiling water, for the noodles"
+        },
+        {
+          "qty": "1",
+          "item": "little gem lettuce"
+        },
+        {
+          "qty": "½",
+          "item": "cucumber"
+        },
+        {
+          "qty": "1",
+          "item": "carrot"
+        },
+        {
+          "qty": "15g",
+          "item": "coriander"
+        },
+        {
+          "qty": "15g",
+          "item": "mint"
+        },
+        {
+          "qty": "20g",
+          "item": "almonds, chopped"
+        },
+        {
+          "qty": "1½ tbsp",
+          "item": "fish sauce (check label is GF)"
+        },
+        {
+          "qty": "45ml (≈1½ limes)",
+          "item": "lime juice"
+        },
+        {
+          "qty": "1 clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "45ml (3 tbsp)",
+          "item": "cold water, for the sauce"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix the chicken with the lemongrass paste, tamari, 1 tsp honey, 1 tsp oil and ¼ tsp black pepper. Don't add salt: the tamari and lemongrass paste season it. Leave for 10 min.",
+          "uses": [
+            "300g chicken",
+            "1 tbsp lemongrass paste",
+            "1 tbsp tamari",
+            "1 tsp honey",
+            "1 tsp olive oil",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: spread the chicken out in one layer and cook at 200°C for 14–16 min, shaking halfway. It's done when the edges are charred and the inside reaches 75°C, or the juices run clear.",
+          "uses": []
+        },
+        {
+          "text": "Boil 1.5 litres water. Take it off the heat, add the vermicelli and soak for 5 min (or as the pack says). Drain, rinse under cold water for 30 sec and shake dry. No salt needed: the dressing seasons the noodles.",
+          "uses": [
+            "100g rice vermicelli",
+            "1.5 litres water"
+          ]
+        },
+        {
+          "text": "Nuoc cham: in a jar, stir the fish sauce, lime juice, 1 tsp honey, garlic, chilli flakes and 45ml cold water until the honey dissolves.",
+          "uses": [
+            "1½ tbsp fish sauce",
+            "45ml lime juice",
+            "1 tsp honey",
+            "1 garlic clove",
+            "¼ tsp chilli flakes",
+            "45ml water"
+          ]
+        },
+        {
+          "text": "Cut the carrot and cucumber into 5cm matchsticks. Slice the lettuce into 1cm ribbons, pick the herb leaves and chop the almonds.",
+          "uses": [
+            "1 carrot",
+            "½ cucumber",
+            "1 little gem",
+            "15g coriander",
+            "15g mint",
+            "20g almonds"
+          ]
+        },
+        {
+          "text": "Taste the nuoc cham. It should be salty, sour and slightly sweet. If too salty, add 1 tbsp water. If flat, add ½ tsp fish sauce. If too sharp, add ½ tsp honey.",
+          "uses": []
+        },
+        {
+          "text": "Build each bowl: noodles, veg, herbs, chicken and almonds. Spoon 2 tbsp nuoc cham over each and serve the rest on the side.",
+          "uses": []
+        }
+      ],
+      "tip": "Take the chicken out of the freezer the day before and defrost it in the fridge."
+    }
   ],
-  "tip": "Make 3 jars on Sunday night (Mon–Wed) and 2 on Wednesday night (Thu–Fri). The oats soften and the chia thickens it, so it's grab-and-go."
- },
- "dinners": [
-  {
-   "night": 1,
-   "colour": "#2B50FF",
-   "ink": "#FFFFFF",
-   "day": "Monday",
-   "title": "Honey-tamari salmon, rice, tenderstem & edamame",
-   "cuisine": "Easy Asian",
-   "airFryer": true,
-   "time": "25 min",
-   "method": "Air fryer",
-   "kcal": "≈560 kcal",
-   "protein": "≈40g",
-   "fibre": "≈5g",
-   "ingredients": [
+  "prep": [
     {
-     "qty": "2",
-     "item": "salmon fillets (260g pack)"
+      "when": "Sunday, when the shop arrives",
+      "tips": [
+        "Split the chicken thighs into 2 × 300g. Fridge one for 3 (check the use-by; freeze it too if it ends before you'll cook 3). Freeze the other for 5.",
+        "Freeze all the beef mince: one 300g bag for 4 and 3 × 150g bags for future weeks. Label them.",
+        "Make 3 breakfast jars."
+      ]
     },
     {
-     "qty": "200g",
-     "item": "Tilda basmati, dry. Half is for Tuesday"
+      "when": "With 1",
+      "with": 1,
+      "tips": [
+        "Cook 200g rice once. Half is for 2: fridge it within an hour of cooking and reheat it once only, until piping hot.",
+        "Wrap the coriander and mint in damp kitchen roll in a box. They're used in 2, 3 and 5."
+      ]
     },
     {
-     "qty": "200g",
-     "item": "tenderstem broccoli"
+      "when": "The day before 4",
+      "before": 4,
+      "tips": [
+        "Move the 300g mince for 4 from the freezer to the fridge."
+      ]
     },
     {
-     "qty": "80g",
-     "item": "frozen edamame (soya beans)"
+      "when": "The day before 5",
+      "before": 5,
+      "tips": [
+        "Move the chicken for 5 from the freezer to the fridge."
+      ]
     },
     {
-     "qty": "2 tbsp",
-     "item": "tamari (certified GF)"
+      "when": "When the breakfast jars run out",
+      "tips": [
+        "Make 2 more breakfast jars."
+      ]
     },
     {
-     "qty": "2 tsp",
-     "item": "honey"
-    },
-    {
-     "qty": "1 clove",
-     "item": "garlic, grated"
-    },
-    {
-     "qty": "2",
-     "item": "spring onions, sliced"
-    },
-    {
-     "qty": "½",
-     "item": "lime"
+      "when": "Reuse and waste",
+      "tips": [
+        "Edamame: 80g goes in 1. The rest of the bag is a snack: microwave it and add ¼ tsp salt.",
+        "Little gems: one in 2, one in 5. Cucumber: half in 3, half in 5. Limes: 1, 2 and 5.",
+        "Freeze the leftover half tin of black beans. The spare pepper and cherry tomatoes make a snack with Babybel.",
+        "Lentils, quinoa, chopped tomatoes, tomato paste and fish sauce all come from your cupboard."
+      ]
     }
-   ],
-   "steps": [
-    "Rinse 200g rice and simmer in plenty of water for 11 min, then drain. Keep half for tonight. Spread the other half on a plate to cool, then refrigerate within 1 hour for Tuesday.",
-    "Mix the tamari, honey and garlic.",
-    "Air Fryer: salmon skin-side down at 200°C for 9–10 min. Brush with half the glaze at 5 min.",
-    "Boil the tenderstem for 4 min, adding the edamame for the last 2 min. Drain.",
-    "Serve the salmon on the rice with the greens. Spoon over the rest of the glaze and finish with spring onion and a squeeze of lime."
-   ],
-   "tip": "Weigh the rice dry. 50g dry per person is what keeps this under 600 kcal."
-  },
-  {
-   "night": 2,
-   "colour": "#FF3D7F",
-   "ink": "#000000",
-   "day": "Tuesday",
-   "title": "Chilli-lime prawn burrito bowls",
-   "cuisine": "Mexican",
-   "airFryer": true,
-   "time": "20 min",
-   "method": "Air fryer",
-   "kcal": "≈520 kcal",
-   "protein": "≈38g",
-   "fibre": "≈10g",
-   "ingredients": [
-    {
-     "qty": "330g",
-     "item": "raw king prawns (2 packs)"
-    },
-    {
-     "qty": "≈250g",
-     "item": "cooked rice from Monday"
-    },
-    {
-     "qty": "½ tin (120g)",
-     "item": "black beans, drained"
-    },
-    {
-     "qty": "1",
-     "item": "ripe avocado"
-    },
-    {
-     "qty": "150g",
-     "item": "cherry tomatoes"
-    },
-    {
-     "qty": "½",
-     "item": "red onion"
-    },
-    {
-     "qty": "1",
-     "item": "little gem lettuce"
-    },
-    {
-     "qty": "2",
-     "item": "limes"
-    },
-    {
-     "qty": "15g",
-     "item": "coriander"
-    },
-    {
-     "qty": "1 tsp",
-     "item": "smoked paprika"
-    },
-    {
-     "qty": "½ tsp",
-     "item": "ground cumin"
-    },
-    {
-     "qty": "¼ tsp",
-     "item": "chilli flakes"
-    },
-    {
-     "qty": "2 tsp",
-     "item": "olive oil"
-    },
-    {
-     "qty": "60g",
-     "item": "0% Greek yoghurt"
-    }
-   ],
-   "steps": [
-    "Toss the prawns with the oil, paprika, cumin, chilli, the zest of 1 lime and a pinch of salt.",
-    "Air Fryer: 200°C for 6–7 min, shaking halfway, until pink all through.",
-    "Salsa: chop the tomatoes, onion and half the coriander. Mix with the juice of ½ lime and a pinch of salt.",
-    "Reheat the rice with a splash of water for 2 min, until piping hot. Warm the beans with a pinch of cumin.",
-    "Build the bowls: rice, beans, shredded lettuce, prawns, salsa, sliced avocado, a spoon of yoghurt and lime wedges."
-   ],
-   "tip": "Freeze the other half tin of beans in a small box, ready for another bowl."
-  },
-  {
-   "night": 3,
-   "colour": "#00A86B",
-   "ink": "#000000",
-   "day": "Wednesday",
-   "title": "Chicken shawarma quinoa bowls with garlic-mint yoghurt",
-   "cuisine": "Middle Eastern",
-   "airFryer": true,
-   "time": "30 min",
-   "method": "Air fryer",
-   "kcal": "≈500 kcal",
-   "protein": "≈40g",
-   "fibre": "≈8g",
-   "ingredients": [
-    {
-     "qty": "300g",
-     "item": "chicken thigh fillets (half the pack)"
-    },
-    {
-     "qty": "80g",
-     "item": "quinoa, dry"
-    },
-    {
-     "qty": "2",
-     "item": "peppers, in strips"
-    },
-    {
-     "qty": "1",
-     "item": "red onion, in wedges"
-    },
-    {
-     "qty": "½",
-     "item": "cucumber"
-    },
-    {
-     "qty": "150g",
-     "item": "cherry tomatoes"
-    },
-    {
-     "qty": "60g",
-     "item": "0% Greek yoghurt"
-    },
-    {
-     "qty": "1 clove",
-     "item": "garlic"
-    },
-    {
-     "qty": "small handful",
-     "item": "mint"
-    },
-    {
-     "qty": "½",
-     "item": "lemon"
-    },
-    {
-     "qty": "1 tsp",
-     "item": "ground cumin"
-    },
-    {
-     "qty": "1 tsp",
-     "item": "smoked paprika"
-    },
-    {
-     "qty": "½ tsp",
-     "item": "dried oregano"
-    },
-    {
-     "qty": "1 tbsp",
-     "item": "olive oil"
-    }
-   ],
-   "steps": [
-    "Rinse the quinoa and simmer it in 200ml water, covered, for 12–15 min. Rest it off the heat.",
-    "Toss the chicken with half the oil, the spices, a squeeze of lemon and salt. Toss the peppers and onion with the rest of the oil.",
-    "Air Fryer: veg at 200°C for 8 min, then add the chicken and cook for 14–16 min more, turning halfway, until cooked through.",
-    "Sauce: yoghurt, grated garlic, chopped mint and a pinch of salt. Salad: dice the cucumber and tomatoes and dress with lemon and salt.",
-    "Slice the chicken and build the bowls: quinoa, veg, chicken, salad and a spoon of sauce."
-   ],
-   "tip": "Keep the rest of the mint wrapped in damp kitchen roll for Friday."
-  },
-  {
-   "night": 4,
-   "colour": "#FFB000",
-   "ink": "#000000",
-   "day": "Thursday",
-   "title": "Italian beef & lentil stuffed aubergine",
-   "cuisine": "European",
-   "airFryer": true,
-   "time": "35 min",
-   "method": "Air fryer + pan",
-   "kcal": "≈400 kcal",
-   "protein": "≈40g",
-   "fibre": "≈10g",
-   "ingredients": [
-    {
-     "qty": "300g",
-     "item": "lean beef mince 5% (defrosted overnight in the fridge)"
-    },
-    {
-     "qty": "1 large (≈350g)",
-     "item": "aubergine"
-    },
-    {
-     "qty": "30g",
-     "item": "small brown lentils, rinsed"
-    },
-    {
-     "qty": "400g tin",
-     "item": "chopped tomatoes"
-    },
-    {
-     "qty": "1 tbsp (15g)",
-     "item": "tomato paste"
-    },
-    {
-     "qty": "1 (≈150g)",
-     "item": "red onion, 5mm dice"
-    },
-    {
-     "qty": "1",
-     "item": "pepper, 1cm dice"
-    },
-    {
-     "qty": "2 cloves",
-     "item": "garlic, grated"
-    },
-    {
-     "qty": "1 tsp",
-     "item": "dried oregano"
-    },
-    {
-     "qty": "¼ tsp",
-     "item": "chilli flakes"
-    },
-    {
-     "qty": "2 tsp",
-     "item": "olive oil"
-    },
-    {
-     "qty": "200ml",
-     "item": "water"
-    },
-    {
-     "qty": "¾ tsp",
-     "item": "salt (¼ aubergine, ½ ragù)"
-    },
-    {
-     "qty": "¼ tsp",
-     "item": "black pepper"
-    }
-   ],
-   "steps": [
-    {
-     "text": "Air Fryer: halve the aubergine lengthways and score the flesh in a 2cm criss-cross, 1cm deep. Brush the cut sides with 1 tsp oil and sprinkle with ¼ tsp salt. Air fry cut-side up at 190°C for 15 min, until the flesh is soft when poked.",
-     "uses": [
-      "1 aubergine",
-      "1 tsp olive oil",
-      "¼ tsp salt"
-     ]
-    },
-    {
-     "text": "Meanwhile, heat 1 tsp oil in a large frying pan on high for 1 min. Add the mince and break it up with a spoon. Cook for 5 min, stirring, until browned with no pink left.",
-     "uses": [
-      "300g beef mince",
-      "1 tsp olive oil"
-     ]
-    },
-    {
-     "text": "Turn to medium. Add the onion and pepper and cook for 4 min, stirring now and then, until the onion turns soft and see-through.",
-     "uses": [
-      "1 red onion",
-      "1 pepper"
-     ]
-    },
-    {
-     "text": "Stir in the garlic, oregano, chilli flakes and tomato paste. Cook for 1 min, stirring so the paste doesn't catch.",
-     "uses": [
-      "2 garlic cloves",
-      "1 tsp oregano",
-      "¼ tsp chilli flakes",
-      "1 tbsp tomato paste"
-     ]
-    },
-    {
-     "text": "Add the tomatoes, lentils, 200ml water, ½ tsp salt and ¼ tsp pepper. Bring to a bubble, put a lid on and simmer on low for 20 min, stirring every 5 min. It's ready when the lentils are soft and a spoon dragged through the sauce leaves a trail. If it gets dry, add 50ml water.",
-     "uses": [
-      "400g chopped tomatoes",
-      "30g lentils",
-      "200ml water",
-      "½ tsp salt",
-      "¼ tsp black pepper"
-     ]
-    },
-    {
-     "text": "Scoop the flesh out of the aubergine halves, leaving a 1cm wall. Chop the flesh and stir it into the ragù for 1 min.",
-     "uses": []
-    },
-    {
-     "text": "Taste the ragù. If it tastes flat, add ¼ tsp salt. If it's too sharp, stir in ½ tsp honey.",
-     "uses": []
-    },
-    {
-     "text": "Air Fryer: fill the aubergine halves with the ragù and cook at 190°C for 5 min, until the top sizzles. Serve any extra ragù on the side.",
-     "uses": []
-    }
-   ],
-   "tip": "The tomatoes and paste need the salt here. Unlike the Asian dishes there's no tamari or fish sauce to season it."
-  },
-  {
-   "night": 5,
-   "colour": "#7A3CFF",
-   "ink": "#FFFFFF",
-   "day": "Friday",
-   "title": "Lemongrass chicken bún with herbs & nuoc cham",
-   "cuisine": "Easy Asian",
-   "airFryer": true,
-   "time": "30 min",
-   "method": "Air fryer",
-   "kcal": "≈580 kcal",
-   "protein": "≈40g",
-   "fibre": "≈6g",
-   "ingredients": [
-    {
-     "qty": "300g",
-     "item": "chicken thigh fillets (defrosted overnight), 3cm pieces"
-    },
-    {
-     "qty": "1 tbsp",
-     "item": "lemongrass paste"
-    },
-    {
-     "qty": "1 tbsp",
-     "item": "tamari"
-    },
-    {
-     "qty": "2 tsp",
-     "item": "honey (1 marinade, 1 sauce)"
-    },
-    {
-     "qty": "1 tsp",
-     "item": "olive oil"
-    },
-    {
-     "qty": "¼ tsp",
-     "item": "black pepper"
-    },
-    {
-     "qty": "100g",
-     "item": "rice vermicelli"
-    },
-    {
-     "qty": "1.5 litres",
-     "item": "boiling water, for the noodles"
-    },
-    {
-     "qty": "1",
-     "item": "little gem lettuce"
-    },
-    {
-     "qty": "½",
-     "item": "cucumber"
-    },
-    {
-     "qty": "1",
-     "item": "carrot"
-    },
-    {
-     "qty": "15g",
-     "item": "coriander"
-    },
-    {
-     "qty": "15g",
-     "item": "mint"
-    },
-    {
-     "qty": "20g",
-     "item": "almonds, chopped"
-    },
-    {
-     "qty": "1½ tbsp",
-     "item": "fish sauce (check label is GF)"
-    },
-    {
-     "qty": "45ml (≈1½ limes)",
-     "item": "lime juice"
-    },
-    {
-     "qty": "1 clove",
-     "item": "garlic, grated"
-    },
-    {
-     "qty": "¼ tsp",
-     "item": "chilli flakes"
-    },
-    {
-     "qty": "45ml (3 tbsp)",
-     "item": "cold water, for the sauce"
-    }
-   ],
-   "steps": [
-    {
-     "text": "Mix the chicken with the lemongrass paste, tamari, 1 tsp honey, 1 tsp oil and ¼ tsp black pepper. Don't add salt: the tamari and lemongrass paste season it. Leave for 10 min.",
-     "uses": [
-      "300g chicken",
-      "1 tbsp lemongrass paste",
-      "1 tbsp tamari",
-      "1 tsp honey",
-      "1 tsp olive oil",
-      "¼ tsp black pepper"
-     ]
-    },
-    {
-     "text": "Air Fryer: spread the chicken out in one layer and cook at 200°C for 14–16 min, shaking halfway. It's done when the edges are charred and the inside reaches 75°C, or the juices run clear.",
-     "uses": []
-    },
-    {
-     "text": "Boil 1.5 litres water. Take it off the heat, add the vermicelli and soak for 5 min (or as the pack says). Drain, rinse under cold water for 30 sec and shake dry. No salt needed: the dressing seasons the noodles.",
-     "uses": [
-      "100g rice vermicelli",
-      "1.5 litres water"
-     ]
-    },
-    {
-     "text": "Nuoc cham: in a jar, stir the fish sauce, lime juice, 1 tsp honey, garlic, chilli flakes and 45ml cold water until the honey dissolves.",
-     "uses": [
-      "1½ tbsp fish sauce",
-      "45ml lime juice",
-      "1 tsp honey",
-      "1 garlic clove",
-      "¼ tsp chilli flakes",
-      "45ml water"
-     ]
-    },
-    {
-     "text": "Cut the carrot and cucumber into 5cm matchsticks. Slice the lettuce into 1cm ribbons, pick the herb leaves and chop the almonds.",
-     "uses": [
-      "1 carrot",
-      "½ cucumber",
-      "1 little gem",
-      "15g coriander",
-      "15g mint",
-      "20g almonds"
-     ]
-    },
-    {
-     "text": "Taste the nuoc cham. It should be salty, sour and slightly sweet. If too salty, add 1 tbsp water. If flat, add ½ tsp fish sauce. If too sharp, add ½ tsp honey.",
-     "uses": []
-    },
-    {
-     "text": "Build each bowl: noodles, veg, herbs, chicken and almonds. Spoon 2 tbsp nuoc cham over each and serve the rest on the side.",
-     "uses": []
-    }
-   ],
-   "tip": "Take the chicken out of the freezer on Thursday night and defrost it in the fridge."
-  }
- ],
- "prep": [
-  {
-   "when": "Sunday, when the shop arrives",
-   "tips": [
-    "Split the chicken thighs into 2 × 300g. Fridge one for Wednesday (check the use-by, and freeze it too if it's before Wednesday). Freeze the other for Friday.",
-    "Freeze all the beef mince: one 300g bag for Thursday and 3 × 150g bags for future weeks. Label them.",
-    "Make 3 breakfast jars for Monday to Wednesday."
-   ]
-  },
-  {
-   "when": "Monday",
-   "tips": [
-    "Cook 200g rice once. Tuesday's half goes in the fridge within an hour of cooking, and gets reheated once only, until piping hot.",
-    "Wrap the coriander and mint in damp kitchen roll in a box. They're used Tue, Wed and Fri."
-   ]
-  },
-  {
-   "when": "Wednesday",
-   "tips": [
-    "Make 2 more breakfast jars for Thursday and Friday.",
-    "Move Thursday's mince from the freezer to the fridge."
-   ]
-  },
-  {
-   "when": "Thursday",
-   "tips": [
-    "Move Friday's chicken from the freezer to the fridge."
-   ]
-  },
-  {
-   "when": "Reuse and waste",
-   "tips": [
-    "Edamame: 80g goes in Monday's dinner. The rest of the bag is a snack: microwave it and add a pinch of salt.",
-    "Little gems: one Tuesday, one Friday. Cucumber: half Wednesday, half Friday. Limes: Monday, Tuesday and Friday.",
-    "Freeze the leftover half tin of black beans. The spare pepper and cherry tomatoes make a snack with Babybel.",
-    "Lentils, quinoa, chopped tomatoes, tomato paste and fish sauce all come from your cupboard."
-   ]
-  }
- ],
- "shopping": {
-  "total": "£82.90",
-  "items": 53,
-  "skipped": [
-   "almond milk",
-   "fizzy drinks"
   ],
-  "groups": {
-   "Proteins": [
-    {
-     "name": "Tesco 2 Boneless Salmon Fillets",
-     "qty": "260g"
-    },
-    {
-     "name": "Tesco Raw King Prawns",
-     "qty": "2 × 165g"
-    },
-    {
-     "name": "Tesco British Chicken Thigh Fillets",
-     "qty": "600g"
-    },
-    {
-     "name": "Tesco Lean Beef Steak Mince 5%",
-     "qty": "750g",
-     "note": "300g this week, 450g frozen"
+  "shopping": {
+    "total": "£82.90",
+    "items": 53,
+    "skipped": [
+      "almond milk",
+      "fizzy drinks"
+    ],
+    "groups": {
+      "Proteins": [
+        {
+          "name": "Tesco 2 Boneless Salmon Fillets",
+          "qty": "260g"
+        },
+        {
+          "name": "Tesco Raw King Prawns",
+          "qty": "2 × 165g"
+        },
+        {
+          "name": "Tesco British Chicken Thigh Fillets",
+          "qty": "600g"
+        },
+        {
+          "name": "Tesco Lean Beef Steak Mince 5%",
+          "qty": "750g",
+          "note": "300g this week, 450g frozen"
+        }
+      ],
+      "Vegetables & herbs": [
+        {
+          "name": "Tenderstem broccoli",
+          "qty": "200g"
+        },
+        {
+          "name": "Spring onions",
+          "qty": "1 bunch"
+        },
+        {
+          "name": "Little gem lettuce",
+          "qty": "twin pack"
+        },
+        {
+          "name": "Avocado, ripe & ready",
+          "qty": "1"
+        },
+        {
+          "name": "Limes",
+          "qty": "4"
+        },
+        {
+          "name": "Lemon",
+          "qty": "1"
+        },
+        {
+          "name": "Aubergine",
+          "qty": "1"
+        },
+        {
+          "name": "Red onions",
+          "qty": "3"
+        },
+        {
+          "name": "Peppers",
+          "qty": "600g pack"
+        },
+        {
+          "name": "Cucumber",
+          "qty": "1"
+        },
+        {
+          "name": "Cherry tomatoes",
+          "qty": "300g"
+        },
+        {
+          "name": "Carrots",
+          "qty": "2"
+        },
+        {
+          "name": "Coriander",
+          "qty": "30g"
+        },
+        {
+          "name": "Mint",
+          "qty": "30g"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1 large bulb"
+        },
+        {
+          "name": "Frozen mixed berries",
+          "qty": "1kg"
+        },
+        {
+          "name": "Frozen edamame (soya beans)",
+          "qty": "600g"
+        }
+      ],
+      "Rice & noodles": [
+        {
+          "name": "Tiger Tiger rice vermicelli",
+          "qty": "400g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Tesco Free From pure oats",
+          "qty": "450g",
+          "gf": true
+        },
+        {
+          "name": "Tilda basmati",
+          "qty": "200g",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "Quinoa",
+          "qty": "80g",
+          "note": "from your cupboard"
+        }
+      ],
+      "Pantry & sauces": [
+        {
+          "name": "Kikkoman tamari",
+          "qty": "250ml",
+          "gf": true
+        },
+        {
+          "name": "Tesco black beans",
+          "qty": "400g"
+        },
+        {
+          "name": "Tesco lemongrass paste",
+          "qty": "95g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Smoked paprika, cumin, oregano, crushed chillies",
+          "qty": "4 jars",
+          "note": "4 for 3. Remove any you already have"
+        },
+        {
+          "name": "Chia seeds",
+          "qty": "150g"
+        },
+        {
+          "name": "Saxa fine sea salt",
+          "qty": "350g"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": "1½ tbsp",
+          "gf": "Check GF",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "Lentils, chopped tomatoes, tomato paste, honey, olive oil",
+          "note": "from your cupboard"
+        }
+      ],
+      "Dairy or alternatives": [
+        {
+          "name": "Tesco 0% Greek style yoghurt",
+          "qty": "2 × 1kg"
+        },
+        {
+          "name": "Mini Babybel Light",
+          "qty": "10 pack"
+        }
+      ],
+      "Snacks & desserts": [
+        {
+          "name": "Salt & vinegar rice cakes",
+          "qty": "2 × 130g"
+        },
+        {
+          "name": "Tesco almonds",
+          "qty": "200g",
+          "note": "breakfast + snack"
+        },
+        {
+          "name": "Ripe bananas",
+          "qty": "5"
+        },
+        {
+          "name": "Easy peelers",
+          "qty": "600g"
+        },
+        {
+          "name": "Arla chocolate protein pudding",
+          "qty": "5 × 200g",
+          "note": "5 for £5 Clubcard"
+        }
+      ],
+      "Household": [
+        {
+          "name": "Fairy washing-up liquid",
+          "qty": "660ml"
+        },
+        {
+          "name": "Carex hand wash",
+          "qty": "250ml"
+        },
+        {
+          "name": "Tesco kitchen towel",
+          "qty": "2 rolls"
+        }
+      ]
     }
-   ],
-   "Vegetables & herbs": [
-    {
-     "name": "Tenderstem broccoli",
-     "qty": "200g"
-    },
-    {
-     "name": "Spring onions",
-     "qty": "1 bunch"
-    },
-    {
-     "name": "Little gem lettuce",
-     "qty": "twin pack"
-    },
-    {
-     "name": "Avocado, ripe & ready",
-     "qty": "1"
-    },
-    {
-     "name": "Limes",
-     "qty": "4"
-    },
-    {
-     "name": "Lemon",
-     "qty": "1"
-    },
-    {
-     "name": "Aubergine",
-     "qty": "1"
-    },
-    {
-     "name": "Red onions",
-     "qty": "3"
-    },
-    {
-     "name": "Peppers",
-     "qty": "600g pack"
-    },
-    {
-     "name": "Cucumber",
-     "qty": "1"
-    },
-    {
-     "name": "Cherry tomatoes",
-     "qty": "300g"
-    },
-    {
-     "name": "Carrots",
-     "qty": "2"
-    },
-    {
-     "name": "Coriander",
-     "qty": "30g"
-    },
-    {
-     "name": "Mint",
-     "qty": "30g"
-    },
-    {
-     "name": "Garlic",
-     "qty": "1 large bulb"
-    },
-    {
-     "name": "Frozen mixed berries",
-     "qty": "1kg"
-    },
-    {
-     "name": "Frozen edamame (soya beans)",
-     "qty": "600g"
-    }
-   ],
-   "Rice & noodles": [
-    {
-     "name": "Tiger Tiger rice vermicelli",
-     "qty": "400g",
-     "gf": "Check GF"
-    },
-    {
-     "name": "Tesco Free From pure oats",
-     "qty": "450g",
-     "gf": true
-    },
-    {
-     "name": "Tilda basmati",
-     "qty": "200g",
-     "note": "from your cupboard"
-    },
-    {
-     "name": "Quinoa",
-     "qty": "80g",
-     "note": "from your cupboard"
-    }
-   ],
-   "Pantry & sauces": [
-    {
-     "name": "Kikkoman tamari",
-     "qty": "250ml",
-     "gf": true
-    },
-    {
-     "name": "Tesco black beans",
-     "qty": "400g"
-    },
-    {
-     "name": "Tesco lemongrass paste",
-     "qty": "95g",
-     "gf": "Check GF"
-    },
-    {
-     "name": "Smoked paprika, cumin, oregano, crushed chillies",
-     "qty": "4 jars",
-     "note": "4 for 3. Remove any you already have"
-    },
-    {
-     "name": "Chia seeds",
-     "qty": "150g"
-    },
-    {
-     "name": "Saxa fine sea salt",
-     "qty": "350g"
-    },
-    {
-     "name": "Fish sauce",
-     "qty": "1½ tbsp",
-     "gf": "Check GF",
-     "note": "from your cupboard"
-    },
-    {
-     "name": "Lentils, chopped tomatoes, tomato paste, honey, olive oil",
-     "note": "from your cupboard"
-    }
-   ],
-   "Dairy or alternatives": [
-    {
-     "name": "Tesco 0% Greek style yoghurt",
-     "qty": "2 × 1kg"
-    },
-    {
-     "name": "Mini Babybel Light",
-     "qty": "10 pack"
-    }
-   ],
-   "Snacks & desserts": [
-    {
-     "name": "Salt & vinegar rice cakes",
-     "qty": "2 × 130g"
-    },
-    {
-     "name": "Tesco almonds",
-     "qty": "200g",
-     "note": "breakfast + snack"
-    },
-    {
-     "name": "Ripe bananas",
-     "qty": "5"
-    },
-    {
-     "name": "Easy peelers",
-     "qty": "600g"
-    },
-    {
-     "name": "Arla chocolate protein pudding",
-     "qty": "5 × 200g",
-     "note": "5 for £5 Clubcard"
-    }
-   ],
-   "Household": [
-    {
-     "name": "Fairy washing-up liquid",
-     "qty": "660ml"
-    },
-    {
-     "name": "Carex hand wash",
-     "qty": "250ml"
-    },
-    {
-     "name": "Tesco kitchen towel",
-     "qty": "2 rolls"
-    }
-   ]
   }
- }
 }

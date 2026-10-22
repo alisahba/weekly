@@ -27,8 +27,6 @@ const getWeek = id => getJSON(`data/weeks/${id}.json`);
 
 /* ---------- dates ---------- */
 const ymd = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const todayName = () => DAYS[new Date().getDay()];
 const prettyDate = s => new Date(s + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short' });
 
 /* Which week is "this week": a week takes over on the Sunday before its Monday start,
@@ -159,19 +157,17 @@ function wireRates(root = app) {
   });
 }
 
-/* Today's dinner by weekday (falls back to the first not-cooked one on weekends) */
+/* Up next = the first dinner not marked cooked, in number order. Not tied to weekdays, so skipped days don't matter. */
 function pickTonight(w) {
-  const t = todayName();
-  const todays = w.dinners.find(d => d.day === t);
-  if (todays && !isCooked(w.id, todays.night)) return { d: todays, tag: `Tonight, ${t}` };
-  const order = w.dinners;
-  const from = todays ? order.indexOf(todays) + 1 : 0;
-  const nxt = order.slice(from).find(d => !isCooked(w.id, d.night)) || order.find(d => !isCooked(w.id, d.night));
-  if (!nxt) return null;
-  const tomorrow = DAYS[(new Date().getDay() + 1) % 7];
-  return { d: nxt, tag: nxt.day === tomorrow ? `Tomorrow, ${nxt.day}` : (nxt.day || 'Up next') };
+  const left = w.dinners.filter(d => !isCooked(w.id, d.night));
+  return left.length ? { d: left[0], tag: 'Up next', after: left[1] || null } : null;
 }
-const prepToday = w => (w.prep || []).filter(p => (p.when || '').toLowerCase().startsWith(todayName().toLowerCase()));
+/* Prep that matters now: entries tied to the up-next dinner ("with": n),
+   or to the one after it ("before": n, e.g. thaw the mince the day before). */
+function prepNow(w, pick) {
+  if (!pick) return [];
+  return (w.prep || []).filter(p => p.with === pick.d.night || (pick.after && p.before === pick.after.night));
+}
 
 /* ---------- this week / a past or next week ---------- */
 async function viewWeek(id) {
@@ -189,8 +185,8 @@ async function viewWeek(id) {
 
   const progress = `<div class="progress" aria-label="${done} of ${w.dinners.length} cooked">${w.dinners.map(d => `<i class="${isCooked(w.id, d.night) ? 'on' : ''}" style="${style(d)}"></i>`).join('')}</div>`;
 
-  const prep = isCurrent ? prepToday(w) : [];
-  const prepCard = prep.length ? `<section class="todo"><h2>${icon.sun}Today’s prep</h2><ul>${prep.flatMap(p => p.tips).map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>` : '';
+  const prep = isCurrent ? prepNow(w, pick) : [];
+  const prepCard = prep.length ? `<section class="todo"><h2>${icon.sun}Prep now</h2><ul>${prep.flatMap(p => p.tips).map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>` : '';
 
   let lead = '';
   if (isCurrent && up) {
@@ -215,7 +211,7 @@ async function viewWeek(id) {
     const c = isCooked(w.id, d.night);
     return `<li><a class="night${c ? ' cooked' : ''}" style="${style(d)}" href="${base}/n/${d.night}">
       <span class="chip" style="${vt(d.night)}">${d.night}</span>
-      <span>${d.day ? `<span class="d">${esc(d.day)}</span>` : ''}<span class="t" style="display:block">${esc(d.title)}</span><span class="m">${c ? 'Cooked' : (d.kcal ? nutri(d) : `${esc(d.time)}, ${esc(d.protein)} protein`)}</span></span>
+      <span><span class="t" style="display:block">${esc(d.title)}</span><span class="m">${c ? 'Cooked' : (d.kcal ? nutri(d) : `${esc(d.time)}, ${esc(d.protein)} protein`)}</span></span>
       ${c ? rateBtns(w.id, d.night) : `<span class="go">${icon.next}</span>`}</a></li>`;
   }).join('');
 
@@ -266,7 +262,7 @@ async function viewRecipe(wid, night) {
     <header class="r-hero" style="${style(d)};${vt(n)}">
       <a class="back" href="${base}/">${icon.back}${esc(w.label)}</a>
       <div class="num" aria-hidden="true">${label(d)}</div>
-      ${d.day || isB || d.airFryer ? `<div class="kicker">${isB ? 'Breakfast, every day' : esc(d.day || '')}${d.cuisine ? `<span>${esc(d.cuisine)}</span>` : ''}${afBadge(d)}</div>` : ''}
+      ${isB || d.cuisine || d.airFryer ? `<div class="kicker">${isB ? 'Breakfast, every day' : ''}${d.cuisine ? `<span>${esc(d.cuisine)}</span>` : ''}${afBadge(d)}</div>` : ''}
       <h1>${esc(d.title)}</h1>
       ${d.kcal ? `<ul class="facts f4"><li><b>${esc(d.kcal)}</b><span>per serving</span></li><li><b>${esc(d.protein)}</b><span>protein</span></li><li><b>${esc(d.fibre)}</b><span>fibre</span></li><li><b>${esc(d.time)}</b><span>${esc(d.method)}</span></li></ul>`
         : `<ul class="facts"><li><b>${esc(d.time)}</b><span>total</span></li><li><b>${esc(d.protein)}</b><span>protein each</span></li><li><b>${esc(d.method)}</b><span>cook with</span></li></ul>`}
@@ -481,8 +477,8 @@ async function viewPrep() {
   const idx = await getIndex();
   const w = await getWeek(weekState(idx).current.id);
   const prep = w.prep || [];
-  const t = todayName().toLowerCase();
-  const body = prep.length ? prep.map(p => `<section class="prep${(p.when || '').toLowerCase().startsWith(t) ? ' now' : ''}"><h2>${esc(p.when)}${(p.when || '').toLowerCase().startsWith(t) ? '<em>Today</em>' : ''}</h2><ul>${p.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>`).join('')
+  const now = new Set(prepNow(w, pickTonight(w)));
+  const body = prep.length ? prep.map(p => `<section class="prep${now.has(p) ? ' now' : ''}"><h2>${esc(p.when)}${now.has(p) ? '<em>Now</em>' : ''}</h2><ul>${p.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>`).join('')
     : '<p class="empty">Prep tips appear here with each week’s plan.</p>';
   render(`<section class="page"><h1 class="title">Prep</h1><p class="lede">Batch cooking and reuse for ${esc(w.label)}</p>
     <div class="preps">${body}</div></section>`, { tab: 'prep', title: 'Prep', weekId: w.id });
