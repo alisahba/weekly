@@ -1,6 +1,25 @@
 {
  "weeks": [
   {
+   "id": "2026-10-26",
+   "label": "26 October – 1 November",
+   "start": "2026-10-26",
+   "dinners": [
+    "Mediterranean cod, butter beans, cherry tomatoes & spinach",
+    "Thai red prawn curry with green beans & basmati",
+    "Harissa chicken, crispy aubergine & quinoa with lemon yoghurt",
+    "Smoky beef & black bean chilli with rice",
+    "Feta & chickpea shakshuka"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF"
+   ]
+  },
+  {
    "id": "2026-10-18",
    "label": "19–25 October",
    "dinners": [

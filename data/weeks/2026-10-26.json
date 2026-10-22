@@ -1,0 +1,1010 @@
+{
+  "id": "2026-10-26",
+  "label": "26 October – 1 November",
+  "start": "2026-10-26",
+  "format": "5+1",
+  "notes": [
+    "Cook in number order: fish and prawns first while they're freshest.",
+    "Breakfast is the same every day, about 10 minutes.",
+    "Menu approved by you on Thursday with the toggles. Souvlaki swapped for shakshuka.",
+    "Nutrition is estimated per serving from ingredient weights."
+  ],
+  "breakfast": {
+    "title": "Spinach, feta & tomato scramble on GF seeded toast, with kiwi",
+    "time": "10 min",
+    "method": "Pan",
+    "kcal": "≈350 kcal",
+    "protein": "≈20g",
+    "fibre": "≈7g",
+    "colour": "#FF5A1F",
+    "ink": "#000000",
+    "cuisine": "Breakfast",
+    "ingredients": [
+      {
+        "qty": "4",
+        "item": "eggs"
+      },
+      {
+        "qty": "2 slices",
+        "item": "Tesco Free From seeded bread (certified GF)"
+      },
+      {
+        "qty": "80g",
+        "item": "baby spinach"
+      },
+      {
+        "qty": "80g (≈8)",
+        "item": "cherry tomatoes, halved"
+      },
+      {
+        "qty": "30g",
+        "item": "feta, crumbled"
+      },
+      {
+        "qty": "1 tsp",
+        "item": "olive oil"
+      },
+      {
+        "qty": "2",
+        "item": "kiwis"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "salt"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toast 2 slices of GF bread. From frozen it needs 2 toaster cycles.",
+        "uses": [
+          "2 slices GF bread"
+        ]
+      },
+      {
+        "text": "Heat 1 tsp oil in a non-stick pan on medium for 1 min. Add the halved tomatoes for 2 min, then the spinach for 1 min, until wilted.",
+        "uses": [
+          "1 tsp olive oil",
+          "80g cherry tomatoes",
+          "80g spinach"
+        ]
+      },
+      {
+        "text": "Beat 4 eggs with ⅛ tsp salt and ⅛ tsp pepper. Turn the heat to low, pour in and stir slowly for 2–3 min, until just set but still glossy. Take it off the heat; it keeps cooking.",
+        "uses": [
+          "4 eggs",
+          "⅛ tsp salt",
+          "⅛ tsp black pepper"
+        ]
+      },
+      {
+        "text": "Pile onto the toast, crumble over 15g feta each, and have a kiwi on the side (halve it and scoop with a spoon).",
+        "uses": [
+          "30g feta",
+          "2 kiwis"
+        ]
+      }
+    ],
+    "tip": "Feta is salty, so the eggs only get ⅛ tsp for both of you. Freeze half the loaf on Sunday so it stays fresh all week."
+  },
+  "dinners": [
+    {
+      "night": 1,
+      "colour": "#2B50FF",
+      "ink": "#FFFFFF",
+      "title": "Mediterranean cod, butter beans, cherry tomatoes & spinach",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "25 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈425 kcal",
+      "protein": "≈38g",
+      "fibre": "≈9g",
+      "ingredients": [
+        {
+          "qty": "2 (280g pack)",
+          "item": "boneless cod fillets"
+        },
+        {
+          "qty": "400g tin (≈235g drained)",
+          "item": "butter beans, drained and rinsed"
+        },
+        {
+          "qty": "150g",
+          "item": "cherry tomatoes, halved"
+        },
+        {
+          "qty": "100g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "60g",
+          "item": "quinoa, dry"
+        },
+        {
+          "qty": "150ml",
+          "item": "water, for the quinoa"
+        },
+        {
+          "qty": "60ml",
+          "item": "water, for the beans"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, thinly sliced"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (zest + 15ml juice)"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil (1 tsp cod, 2 tsp pan)"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "salt (⅛ quinoa, ⅛ cod, ¼ beans)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Quinoa: rinse 60g quinoa in a sieve for 30 sec. Put it in a small pan with 150ml water and ⅛ tsp salt. Bring to the boil, then lid on, lowest heat, 12 min. Off the heat, keep the lid on for 5 min, then fluff with a fork.",
+          "uses": [
+            "60g quinoa",
+            "150ml water",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Cod: pat the fillets dry with kitchen roll. Rub with 1 tsp oil, ½ tsp smoked paprika, the zest of ½ lemon, ⅛ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "2 cod fillets",
+            "1 tsp olive oil",
+            "½ tsp smoked paprika",
+            "zest of ½ lemon",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: cod at 200°C for 8–10 min (8 for thin fillets). Done when the thickest part is opaque all the way through and flakes with a fork.",
+          "uses": [
+            "the cod"
+          ]
+        },
+        {
+          "text": "Meanwhile, beans: heat 2 tsp oil in a frying pan on medium for 1 min. Add the sliced garlic and ⅛ tsp chilli flakes and cook for 1 min, until the garlic is just pale gold. Don't let it brown, it turns bitter.",
+          "uses": [
+            "2 tsp olive oil",
+            "2 garlic cloves",
+            "⅛ tsp chilli flakes"
+          ]
+        },
+        {
+          "text": "Add the halved tomatoes and cook for 3 min, until they start to burst. Add the drained beans, 60ml water, ¼ tsp salt and ⅛ tsp pepper. Simmer for 3 min.",
+          "uses": [
+            "150g cherry tomatoes",
+            "235g butter beans",
+            "60ml water",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Stir in the spinach a handful at a time, 1–2 min, until just wilted. Off the heat, stir in 15ml lemon juice and most of the parsley (keep 2 tsp to finish).",
+          "uses": [
+            "100g spinach",
+            "15ml lemon juice",
+            "8g parsley"
+          ]
+        },
+        {
+          "text": "Taste the beans. If flat, add ⅛ tsp salt and 1 tsp lemon juice. Too sharp? Stir in 1 tsp olive oil.",
+          "uses": []
+        },
+        {
+          "text": "Serve: quinoa, then the beans, with the cod on top and the last of the parsley.",
+          "uses": [
+            "2g parsley"
+          ]
+        }
+      ],
+      "tip": "Butter beans in water are unsalted, so they need the ¼ tsp. The cod only gets ⅛ tsp: it's delicate and the beans carry the seasoning."
+    },
+    {
+      "night": 2,
+      "colour": "#FF3D7F",
+      "ink": "#000000",
+      "title": "Thai red prawn curry with green beans & basmati",
+      "cuisine": "Easy Asian",
+      "airFryer": false,
+      "time": "25 min",
+      "method": "Pan",
+      "kcal": "≈530 kcal",
+      "protein": "≈31g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "330g (2 × 165g)",
+          "item": "raw king prawns"
+        },
+        {
+          "qty": "400ml tin",
+          "item": "light coconut milk"
+        },
+        {
+          "qty": "35g (≈2 heaped tbsp)",
+          "item": "Thai red curry paste (Blue Dragon pot)"
+        },
+        {
+          "qty": "200g",
+          "item": "fine beans, trimmed, 3cm lengths"
+        },
+        {
+          "qty": "1",
+          "item": "pepper, 1cm strips (from the fridge)"
+        },
+        {
+          "qty": "100g",
+          "item": "Tilda basmati, dry"
+        },
+        {
+          "qty": "175ml",
+          "item": "water, for the rice"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "fish sauce (check GF)"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "honey"
+        },
+        {
+          "qty": "1",
+          "item": "lime (½ juiced, ½ in wedges)"
+        },
+        {
+          "qty": "10g",
+          "item": "coriander, chopped"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "salt (rice only)"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rice: rinse 100g rice in a sieve under the cold tap for 30 sec. Put it in a pan with 175ml water and ¼ tsp salt. Bring to the boil, then lid on, lowest heat, 10 min. Off the heat, lid on, 5 min. Don't lift the lid.",
+          "uses": [
+            "100g basmati",
+            "175ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Prep: trim the beans and cut them into 3cm lengths. Slice the pepper into 1cm strips. Pat the prawns dry with kitchen roll.",
+          "uses": [
+            "200g fine beans",
+            "1 pepper",
+            "330g prawns"
+          ]
+        },
+        {
+          "text": "Heat 1 tsp oil in a wok or large pan on medium for 1 min. Add 35g curry paste and fry for 1 min, stirring, until it smells fragrant.",
+          "uses": [
+            "1 tsp olive oil",
+            "35g red curry paste"
+          ]
+        },
+        {
+          "text": "Shake the coconut tin, then pour it all in with 1 tsp fish sauce and ½ tsp honey. Bring to a gentle bubble.",
+          "uses": [
+            "400ml light coconut milk",
+            "1 tsp fish sauce",
+            "½ tsp honey"
+          ]
+        },
+        {
+          "text": "Add the beans and pepper. Simmer for 4 min, until the beans are just tender but still bright green.",
+          "uses": [
+            "the beans",
+            "the pepper"
+          ]
+        },
+        {
+          "text": "Add the prawns and simmer gently for 3–4 min, until pink all through and curled into a C. Don't boil hard or they toughen.",
+          "uses": [
+            "the prawns"
+          ]
+        },
+        {
+          "text": "Off the heat, stir in 15ml lime juice (½ lime) and most of the coriander.",
+          "uses": [
+            "15ml lime juice",
+            "8g coriander"
+          ]
+        },
+        {
+          "text": "Taste: the paste and fish sauce season the curry, so it gets no salt of its own. If flat, add ½ tsp fish sauce. Too hot? Add 1 tsp lime juice and ½ tsp honey. Serve over the rice with lime wedges and the last coriander.",
+          "uses": [
+            "½ lime",
+            "2g coriander"
+          ]
+        }
+      ],
+      "tip": "Curry paste strength varies: 35g is medium-hot. Fridge the rest of the pot (covered) and use it within 5 days, or freeze it."
+    },
+    {
+      "night": 3,
+      "colour": "#00A86B",
+      "ink": "#000000",
+      "title": "Harissa chicken, crispy aubergine & quinoa with lemon yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer",
+      "kcal": "≈525 kcal",
+      "protein": "≈39g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (half the pack)"
+        },
+        {
+          "qty": "2 tbsp (30g)",
+          "item": "harissa paste (check GF)"
+        },
+        {
+          "qty": "1 (≈300g)",
+          "item": "aubergine, 2cm cubes"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, in 8 wedges (from the fridge)"
+        },
+        {
+          "qty": "80g",
+          "item": "quinoa, dry"
+        },
+        {
+          "qty": "200ml",
+          "item": "water, for the quinoa"
+        },
+        {
+          "qty": "100g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "½ clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (≈20ml juice)"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil (1 tsp chicken, 2 tsp veg)"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "⅞ tsp",
+          "item": "salt (¼ quinoa, ¼ chicken, ¼ veg, ⅛ yoghurt)"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Chicken: mix 2 tbsp harissa, 1 tsp oil, 1 tsp lemon juice, ¼ tsp salt and ⅛ tsp pepper in a bowl. Add the thighs whole and turn to coat. (Even better marinated overnight in the fridge.)",
+          "uses": [
+            "300g chicken thighs",
+            "2 tbsp harissa",
+            "1 tsp olive oil",
+            "1 tsp lemon juice",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Quinoa: rinse 80g quinoa for 30 sec. Put it in a small pan with 200ml water and ¼ tsp salt. Bring to the boil, then lid on, lowest heat, 12 min. Off the heat, lid on, 5 min, then fluff.",
+          "uses": [
+            "80g quinoa",
+            "200ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Veg: toss the aubergine cubes and onion wedges with 2 tsp oil, ½ tsp cumin and ¼ tsp salt.",
+          "uses": [
+            "1 aubergine",
+            "1 red onion",
+            "2 tsp olive oil",
+            "½ tsp cumin",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: veg at 200°C for 10 min, shaking at 5 min. Then lay the chicken flat on top and cook 14 min more, turning the chicken at 7 min. Done at 75°C in the thickest part, or when the juices run clear. The aubergine should be soft inside and browned at the edges.",
+          "uses": [
+            "the veg",
+            "the chicken"
+          ]
+        },
+        {
+          "text": "Lemon yoghurt: stir 100g yoghurt with the grated ½ garlic clove, 1 tsp lemon juice and ⅛ tsp salt.",
+          "uses": [
+            "100g Greek yoghurt",
+            "½ garlic clove",
+            "1 tsp lemon juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Toss the quinoa with 2 tsp lemon juice and most of the parsley.",
+          "uses": [
+            "2 tsp lemon juice",
+            "8g parsley"
+          ]
+        },
+        {
+          "text": "Rest the chicken on a board for 2 min, then slice it 1cm thick.",
+          "uses": []
+        },
+        {
+          "text": "Taste a piece of aubergine. If flat, add ⅛ tsp salt over the veg. Too spicy? More yoghurt. Serve: quinoa, veg, chicken, a big spoon of yoghurt and the last of the parsley.",
+          "uses": [
+            "2g parsley"
+          ]
+        }
+      ],
+      "tip": "Harissa brings some salt, so the chicken only gets ¼ tsp. The quinoa and aubergine need their own."
+    },
+    {
+      "night": 4,
+      "colour": "#FFB000",
+      "ink": "#000000",
+      "title": "Smoky beef & black bean chilli with rice",
+      "cuisine": "Mexican",
+      "airFryer": false,
+      "time": "35 min",
+      "method": "Pan",
+      "kcal": "≈560 kcal",
+      "protein": "≈42g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "300g (2 × 150g freezer bags)",
+          "item": "lean beef mince 5%, defrosted in the fridge"
+        },
+        {
+          "qty": "½ tin (≈120g)",
+          "item": "black beans (from the freezer), defrosted"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes (cupboard)"
+        },
+        {
+          "qty": "1 tbsp (15g)",
+          "item": "tomato paste (cupboard)"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 5mm dice (from the fridge)"
+        },
+        {
+          "qty": "1",
+          "item": "pepper, 1cm dice (from the fridge)"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "100ml",
+          "item": "water, for the chilli"
+        },
+        {
+          "qty": "100g",
+          "item": "Tilda basmati, dry"
+        },
+        {
+          "qty": "175ml",
+          "item": "water, for the rice"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "10g",
+          "item": "coriander, chopped"
+        },
+        {
+          "qty": "1",
+          "item": "lime, in wedges"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ rice, ½ chilli)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rice: rinse 100g rice for 30 sec. Pan with 175ml water and ¼ tsp salt. Bring to the boil, then lid on, lowest heat, 10 min. Off the heat, lid on, 5 min.",
+          "uses": [
+            "100g basmati",
+            "175ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Heat 1 tsp oil in a large frying pan on high for 1 min. Add the mince and break it up with a spoon. Cook 5 min, stirring, until browned with no pink left.",
+          "uses": [
+            "300g beef mince",
+            "1 tsp olive oil"
+          ]
+        },
+        {
+          "text": "Turn to medium. Add 1 tsp oil, the onion and the pepper. Cook 4 min, stirring now and then, until the onion is soft and see-through.",
+          "uses": [
+            "1 tsp olive oil",
+            "1 red onion",
+            "1 pepper"
+          ]
+        },
+        {
+          "text": "Stir in the garlic, 1 tsp cumin, 1 tsp smoked paprika, ½ tsp oregano, ¼ tsp chilli flakes and 1 tbsp tomato paste. Cook 1 min, stirring so it doesn't catch.",
+          "uses": [
+            "2 garlic cloves",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "½ tsp oregano",
+            "¼ tsp chilli flakes",
+            "1 tbsp tomato paste"
+          ]
+        },
+        {
+          "text": "Add the tomatoes, black beans, 100ml water, ½ tsp salt and ¼ tsp pepper. Simmer with the lid half on for 15 min, stirring every 5 min. It's ready when it's thick and a spoon dragged through leaves a trail. If it gets dry, add 50ml water.",
+          "uses": [
+            "400g chopped tomatoes",
+            "120g black beans",
+            "100ml water",
+            "½ tsp salt",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Taste: if flat, add ⅛ tsp salt and a squeeze of lime. If it's too sharp, stir in ½ tsp honey.",
+          "uses": []
+        },
+        {
+          "text": "Serve: rice, chilli, 30g yoghurt each, the coriander and lime wedges.",
+          "uses": [
+            "60g Greek yoghurt",
+            "10g coriander",
+            "1 lime"
+          ]
+        }
+      ],
+      "tip": "Tinned tomatoes need the ½ tsp salt: there's no salty sauce in this one. The day before, move the mince and beans from the freezer to the fridge."
+    },
+    {
+      "night": 5,
+      "colour": "#7A3CFF",
+      "ink": "#FFFFFF",
+      "title": "Feta & chickpea shakshuka",
+      "cuisine": "Middle Eastern",
+      "airFryer": false,
+      "time": "30 min",
+      "method": "Pan with a lid",
+      "kcal": "≈555 kcal",
+      "protein": "≈33g",
+      "fibre": "≈10g",
+      "ingredients": [
+        {
+          "qty": "6",
+          "item": "eggs"
+        },
+        {
+          "qty": "400g tin (≈240g drained)",
+          "item": "chickpeas, drained and rinsed"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes (cupboard)"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 5mm slices (from the fridge)"
+        },
+        {
+          "qty": "1",
+          "item": "pepper, 1cm strips (from the fridge)"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "100ml",
+          "item": "water"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil"
+        },
+        {
+          "qty": "50g",
+          "item": "feta, crumbled"
+        },
+        {
+          "qty": "10g",
+          "item": "coriander and/or parsley, chopped (what's left)"
+        },
+        {
+          "qty": "⅜ tsp",
+          "item": "salt (¼ sauce, ⅛ eggs)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat 1 tbsp oil in a 26–28cm frying pan (one with a lid) on medium for 1 min. Add the onion and pepper and cook for 6 min, stirring now and then, until soft.",
+          "uses": [
+            "1 tbsp olive oil",
+            "1 red onion",
+            "1 pepper"
+          ]
+        },
+        {
+          "text": "Stir in the garlic, 1 tsp cumin, 1 tsp smoked paprika and ¼ tsp chilli flakes. Cook 1 min.",
+          "uses": [
+            "2 garlic cloves",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "¼ tsp chilli flakes"
+          ]
+        },
+        {
+          "text": "Add the tomatoes, chickpeas, 100ml water, ¼ tsp salt and ⅛ tsp pepper. Simmer for 10 min, stirring now and then, until thick enough that a spoon leaves a trail.",
+          "uses": [
+            "400g chopped tomatoes",
+            "240g chickpeas",
+            "100ml water",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Taste the sauce now, before the eggs go in: if flat, add ⅛ tsp salt; if too sharp, ½ tsp honey. The feta will add salt at the end, so keep it a little under-seasoned.",
+          "uses": []
+        },
+        {
+          "text": "Make 6 wells with a spoon and crack an egg into each. Sprinkle ⅛ tsp salt and ⅛ tsp pepper over the eggs. Lid on, low–medium, 6–8 min, until the whites are set and the yolks still wobble.",
+          "uses": [
+            "6 eggs",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Off the heat, scatter over the feta and herbs. Serve 3 eggs each, straight from the pan.",
+          "uses": [
+            "50g feta",
+            "10g herbs"
+          ]
+        }
+      ],
+      "tip": "Check the eggs at 6 min: whites should be opaque, not clear. For firmer yolks, give it 2 more min."
+    }
+  ],
+  "prep": [
+    {
+      "when": "Sunday, when the shop arrives",
+      "tips": [
+        "Chicken: put 300g in the fridge for 3. Freeze the other 300g, labelled, for a future week.",
+        "Freeze half the GF loaf. Toast it from frozen.",
+        "Wrap the coriander and parsley in damp kitchen roll in a box. They're used in 1–5."
+      ]
+    },
+    {
+      "when": "With 1",
+      "with": 1,
+      "tips": [
+        "Optional: cook the quinoa for 3 at the same time. 140g quinoa, 350ml water, ⅜ tsp salt, same method. Fridge 3's share within 1 hour and reheat it until piping hot."
+      ]
+    },
+    {
+      "when": "With 2",
+      "with": 2,
+      "tips": [
+        "Optional: cook 4's rice too. 200g rice, 350ml water, ½ tsp salt. Fridge half within 1 hour; reheat once only, until piping hot."
+      ]
+    },
+    {
+      "when": "The day before 3",
+      "before": 3,
+      "tips": [
+        "Optional: marinate the chicken in the harissa mix overnight for more flavour."
+      ]
+    },
+    {
+      "when": "The day before 4",
+      "before": 4,
+      "tips": [
+        "Move 2 × 150g bags of mince and the ½ tin of black beans from the freezer to the fridge."
+      ]
+    },
+    {
+      "when": "Reuse and waste",
+      "tips": [
+        "Curry paste: about 15g left. Fridge it covered for up to 5 days, or freeze.",
+        "Harissa: about 60g left in the jar, fridge. Good stirred into yoghurt as a dip.",
+        "Limes: 1 in 2, 1 in 4, 3 spare for drinks. Lemons: ½ in 1, ½ in 3, 2 spare.",
+        "Red onions, peppers and garlic come from what you already have: 3 onions, 3 peppers, about 7 cloves this week.",
+        "Yoghurt: 160g used, the rest is for dips or with the pears."
+      ]
+    }
+  ],
+  "shopping": {
+    "total": "£75.28",
+    "items": 40,
+    "skipped": [
+      "red onions, peppers and garlic (you still have them)"
+    ],
+    "groups": {
+      "Proteins": [
+        {
+          "name": "Tesco 2 Boneless Cod Fillets",
+          "qty": "280g"
+        },
+        {
+          "name": "Tesco Raw King Prawns",
+          "qty": "2 × 165g"
+        },
+        {
+          "name": "Tesco British Chicken Thigh Fillets",
+          "qty": "600g",
+          "note": "300g this week, 300g to freeze"
+        },
+        {
+          "name": "Tesco Large Free Range Eggs",
+          "qty": "12"
+        },
+        {
+          "name": "Tesco Mixed Sized Free Range Eggs",
+          "qty": "15"
+        },
+        {
+          "name": "Lean beef mince 5%",
+          "qty": "300g",
+          "note": "from your freezer"
+        }
+      ],
+      "Vegetables & herbs": [
+        {
+          "name": "Tesco Fine Beans",
+          "qty": "200g"
+        },
+        {
+          "name": "Aubergine",
+          "qty": "1"
+        },
+        {
+          "name": "Tesco Baby Spinach",
+          "qty": "2 × 250g"
+        },
+        {
+          "name": "Tesco Cherry Tomatoes",
+          "qty": "2 × 300g"
+        },
+        {
+          "name": "Limes",
+          "qty": "5 pack"
+        },
+        {
+          "name": "Lemons",
+          "qty": "4 pack"
+        },
+        {
+          "name": "Coriander",
+          "qty": "30g"
+        },
+        {
+          "name": "Flat leaf parsley",
+          "qty": "30g"
+        },
+        {
+          "name": "Red onions, peppers, garlic",
+          "qty": "3 / 3 / ≈7 cloves",
+          "note": "from your fridge"
+        }
+      ],
+      "Rice & noodles": [
+        {
+          "name": "Tesco Free From Sliced Seeded Bread",
+          "qty": "550g",
+          "gf": true
+        },
+        {
+          "name": "Tilda basmati",
+          "qty": "200g",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "Quinoa",
+          "qty": "140g",
+          "note": "from your cupboard"
+        }
+      ],
+      "Pantry & sauces": [
+        {
+          "name": "Blue Dragon Thai Red Curry Paste Pot",
+          "qty": "50g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Tesco Light Coconut Milk",
+          "qty": "400ml"
+        },
+        {
+          "name": "Tesco Harissa Paste",
+          "qty": "90g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Tesco Butter Beans in Water",
+          "qty": "400g"
+        },
+        {
+          "name": "Tesco Chickpeas in Water",
+          "qty": "400g"
+        },
+        {
+          "name": "Chopped tomatoes",
+          "qty": "2 tins",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "Black beans",
+          "qty": "½ tin",
+          "note": "from your freezer"
+        },
+        {
+          "name": "Fish sauce, tomato paste, honey, spices, olive oil, salt",
+          "qty": "",
+          "note": "from your cupboard"
+        }
+      ],
+      "Dairy or alternatives": [
+        {
+          "name": "Tesco 0% Fat Greek Style Yogurt",
+          "qty": "500g"
+        },
+        {
+          "name": "Tranos Greek Feta",
+          "qty": "200g"
+        },
+        {
+          "name": "Tesco Unsweetened Almond Drink",
+          "qty": "1L"
+        }
+      ],
+      "Snacks & desserts": [
+        {
+          "name": "Tesco Salt & Vinegar Rice Cakes",
+          "qty": "2 × 130g"
+        },
+        {
+          "name": "Mini Babybel Light",
+          "qty": "10"
+        },
+        {
+          "name": "Tesco Cashew Nuts",
+          "qty": "200g"
+        },
+        {
+          "name": "Tesco Finest Peru Dark Chocolate 85%",
+          "qty": "100g"
+        },
+        {
+          "name": "Kiwis",
+          "qty": "2 × 6 pack",
+          "note": "10 for breakfast"
+        },
+        {
+          "name": "Conference pears",
+          "qty": "610g"
+        },
+        {
+          "name": "Arla Protein Chocolate Pudding",
+          "qty": "5 × 200g",
+          "note": "Any 5 for £5"
+        },
+        {
+          "name": "Dash Lime Sparkling Water",
+          "qty": "4 × 330ml"
+        },
+        {
+          "name": "Remedy Kombucha Ginger Lemon",
+          "qty": "4 × 330ml"
+        }
+      ]
+    }
+  }
+}
