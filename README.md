@@ -12,7 +12,7 @@ Every Thursday at 8pm a scheduled Claude task plans the week, fills the Tesco ba
 ## Week file schema
 ```json
 {
-  "id": "2026-10-17", "label": "17–23 October", "start": "2026-10-17",
+  "id": "2026-10-17", "label": "19–25 October", "start": "2026-10-19",
   "notes": ["…"],
   "dinners": [{
     "night": 1, "title": "…", "time": "25 min", "protein": "≈30g", "method": "Air fryer",
@@ -26,6 +26,8 @@ Every Thursday at 8pm a scheduled Claude task plans the week, fills the Tesco ba
 Night colours, in order (colour / ink): #2B50FF/#FFFFFF, #FF3D7F/#000000, #00A86B/#000000, #FFB000/#000000, #7A3CFF/#FFFFFF, #00B3C7/#000000, #FF5A1F/#000000.
 
 Order the nights by freshness: fish and prawns first, then mince, then other meat, with eggs and veg last.
+
+The site shows each week as Monday–Sunday, worked out from `start` (e.g. "19–25 October", "26 October – 1 November"); write `label` the same way.
 
 `index.json`: `{"weeks": [{"id", "label", "start": "YYYY-MM-DD" (the Monday), "dinners": [titles], "colours": [hex per dinner]}]}`, newest first. `start` is REQUIRED: a week only becomes "This week" on the Sunday before its Monday. Until then it shows as "Next week", so the Thursday run doesn't replace the week being cooked.
 

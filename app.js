@@ -27,6 +27,13 @@ const getWeek = id => getJSON(`data/weeks/${id}.json`);
 
 /* ---------- dates ---------- */
 const ymd = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+/* Week title: Monday to Sunday, from the week's "start" (falls back to the stored label) */
+const wkLabel = w => {
+  if (!w?.start) return w?.label || '';
+  const a = new Date(w.start + 'T12:00:00'), b = new Date(a); b.setDate(a.getDate() + 6);
+  const m = d => d.toLocaleDateString('en-GB', { month: 'long' });
+  return m(a) === m(b) ? `${a.getDate()}–${b.getDate()} ${m(b)}` : `${a.getDate()} ${m(a)} – ${b.getDate()} ${m(b)}`;
+};
 const prettyDate = s => new Date(s + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short' });
 
 /* Which week is "this week": a week takes over on the Sunday before its Monday start,
@@ -216,9 +223,9 @@ async function viewWeek(id) {
   }).join('');
 
   const when = isCurrent ? `${done} of ${w.dinners.length} cooked${w.shopping?.total ? `, ${w.shopping.total} shop` : ''}` : (ws.isUpcoming(wid) ? `Next week, starts ${prettyDate(w.start)}` : 'Past week');
-  const nextCard = isCurrent && ws.upcoming ? `<a class="nextwk" href="#/w/${ws.upcoming.id}"><span class="chips">${ws.upcoming.colours.map(c => `<i style="--c:${c};background:var(--cc)"></i>`).join('')}</span><span><span class="d">Next week is planned</span><span class="t">${esc(ws.upcoming.label)}</span><span class="m">Basket ready, delivery on Sunday</span></span><span class="go">${icon.next}</span></a>` : '';
+  const nextCard = isCurrent && ws.upcoming ? `<a class="nextwk" href="#/w/${ws.upcoming.id}"><span class="chips">${ws.upcoming.colours.map(c => `<i style="--c:${c};background:var(--cc)"></i>`).join('')}</span><span><span class="d">Next week is planned</span><span class="t">${esc(wkLabel(ws.upcoming))}</span><span class="m">Basket ready, delivery on Sunday</span></span><span class="go">${icon.next}</span></a>` : '';
   render(`<section class="page">
-    <div class="week-head"><h1 class="title">${esc(w.label)}</h1><p class="when">${esc(when)}</p></div>
+    <div class="week-head"><h1 class="title">${esc(wkLabel(w))}</h1><p class="when">${esc(when)}</p></div>
     ${progress}
     ${prepCard}
     <div class="week-grid">
@@ -232,7 +239,7 @@ async function viewWeek(id) {
         ${syncLine()}
       </div>
     </div>
-  </section>`, { tab: 'week', title: w.label, weekId: w.id });
+  </section>`, { tab: 'week', title: wkLabel(w), weekId: w.id });
   wireRates();
 }
 
@@ -260,7 +267,7 @@ async function viewRecipe(wid, night) {
 
   render(`<article>
     <header class="r-hero" style="${style(d)};${vt(n)}">
-      <a class="back" href="${base}/">${icon.back}${esc(w.label)}</a>
+      <a class="back" href="${base}/">${icon.back}${esc(wkLabel(w))}</a>
       <div class="num" aria-hidden="true">${label(d)}</div>
       ${isB || d.cuisine || d.airFryer ? `<div class="kicker">${isB ? 'Breakfast, every day' : ''}${d.cuisine ? `<span>${esc(d.cuisine)}</span>` : ''}${afBadge(d)}</div>` : ''}
       <h1>${esc(d.title)}</h1>
@@ -459,7 +466,7 @@ async function viewShop() {
   const skip = s.skipped?.length ? `<p class="skipped">Skipped this week: ${s.skipped.map(esc).join(', ')}</p>` : '';
   const check = groups ? `<div class="unpack"><b>${got} of ${total} unpacked${missing ? `, ${missing} missing` : ''}</b><span>Tap once when it arrives, twice if it’s missing.</span></div>` : '';
   render(`<section class="page">
-    <h1 class="title">Shopping</h1><p class="lede">${nextOne ? 'Next week’s basket' : 'In the Tesco basket'} for ${esc(w.label)}</p>
+    <h1 class="title">Shopping</h1><p class="lede">${nextOne ? 'Next week’s basket' : 'In the Tesco basket'} for ${esc(wkLabel(w))}</p>
     ${s.total ? `<div class="shop-stats"><div><b>${esc(s.total)}</b><span>guide price</span></div><div><b>${esc(s.items)}</b><span>items</span></div></div>` : ''}
     ${check}
     ${groups ? `<div class="groups">${groups}</div>${skip}` : '<p class="empty">The basket list appears here after Thursday’s shop.</p>'}
@@ -480,7 +487,7 @@ async function viewPrep() {
   const now = new Set(prepNow(w, pickTonight(w)));
   const body = prep.length ? prep.map(p => `<section class="prep${now.has(p) ? ' now' : ''}"><h2>${esc(p.when)}${now.has(p) ? '<em>Now</em>' : ''}</h2><ul>${p.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>`).join('')
     : '<p class="empty">Prep tips appear here with each week’s plan.</p>';
-  render(`<section class="page"><h1 class="title">Prep</h1><p class="lede">Batch cooking and reuse for ${esc(w.label)}</p>
+  render(`<section class="page"><h1 class="title">Prep</h1><p class="lede">Batch cooking and reuse for ${esc(wkLabel(w))}</p>
     <div class="preps">${body}</div></section>`, { tab: 'prep', title: 'Prep', weekId: w.id });
 }
 
@@ -490,7 +497,7 @@ async function viewArchive() {
   const ws = weekState(idx);
   const items = idx.weeks.map(w => `<li><a class="wk" href="${w.id === ws.current.id ? '#/' : `#/w/${w.id}`}">
     <div class="chips">${w.colours.map(c => `<i style="--c:${c};background:var(--cc)"></i>`).join('')}</div>
-    <h2>${esc(w.label)}${w.id === ws.current.id ? '<em>This week</em>' : (ws.isUpcoming(w.id) ? '<em>Next week</em>' : '')}</h2><p>${w.dinners.map(esc).join(', ')}</p></a></li>`).join('');
+    <h2>${esc(wkLabel(w))}${w.id === ws.current.id ? '<em>This week</em>' : (ws.isUpcoming(w.id) ? '<em>Next week</em>' : '')}</h2><p>${w.dinners.map(esc).join(', ')}</p></a></li>`).join('');
   render(`<section class="page"><h1 class="title">Past weeks</h1><p class="lede">${idx.weeks.length} week${idx.weeks.length === 1 ? '' : 's'} of dinners so far</p>
     <ul class="weeks">${items}</ul>${syncLine()}</section>`, { tab: 'archive', title: 'Past weeks' });
 }
