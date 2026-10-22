@@ -6,7 +6,7 @@
   "notes": [
     "Cook in this order: fish and prawns first while they're freshest.",
     "Breakfast is the same every day. Prep the jars the night before.",
-    "4, 5 and breakfast show the exact amounts for each step in cook mode.",
+    "All 5 dinners and breakfast show the exact amounts for each step in cook mode.",
     "Nutrition is estimated per serving from ingredient weights."
   ],
   "breakfast": {
@@ -79,12 +79,16 @@
       "fibre": "≈5g",
       "ingredients": [
         {
-          "qty": "2",
-          "item": "salmon fillets (260g pack)"
+          "qty": "2 (260g pack)",
+          "item": "salmon fillets"
         },
         {
           "qty": "200g",
           "item": "Tilda basmati, dry. Half is for 2"
+        },
+        {
+          "qty": "350ml",
+          "item": "water, for the rice"
         },
         {
           "qty": "200g",
@@ -95,7 +99,11 @@
           "item": "frozen edamame (soya beans)"
         },
         {
-          "qty": "2 tbsp",
+          "qty": "1 litre",
+          "item": "water, for the greens"
+        },
+        {
+          "qty": "2 tbsp (30ml)",
           "item": "tamari (certified GF)"
         },
         {
@@ -108,21 +116,76 @@
         },
         {
           "qty": "2",
-          "item": "spring onions, sliced"
+          "item": "spring onions, 5mm slices"
         },
         {
           "qty": "½",
-          "item": "lime"
+          "item": "lime, in 2 wedges"
+        },
+        {
+          "qty": "1⅝ tsp",
+          "item": "salt (½ rice, 1 greens water, ⅛ salmon)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
         }
       ],
       "steps": [
-        "Rinse 200g rice and simmer in plenty of water for 11 min, then drain. Keep half for tonight. Spread the other half on a plate to cool, then refrigerate within 1 hour for 2.",
-        "Mix the tamari, honey and garlic.",
-        "Air Fryer: salmon skin-side down at 200°C for 9–10 min. Brush with half the glaze at 5 min.",
-        "Boil the tenderstem for 4 min, adding the edamame for the last 2 min. Drain.",
-        "Serve the salmon on the rice with the greens. Spoon over the rest of the glaze and finish with spring onion and a squeeze of lime."
+        {
+          "text": "Rice: rinse 200g rice in a sieve under the cold tap for 30 sec. Put it in a pan with 350ml water and ½ tsp salt. Bring to the boil, then lid on, lowest heat, 10 min. Take off the heat and leave covered for 5 min. Don't lift the lid.",
+          "uses": [
+            "200g basmati",
+            "350ml water",
+            "½ tsp salt"
+          ]
+        },
+        {
+          "text": "Glaze: mix the tamari, honey and grated garlic in a small bowl.",
+          "uses": [
+            "2 tbsp tamari",
+            "2 tsp honey",
+            "1 garlic clove"
+          ]
+        },
+        {
+          "text": "Air Fryer: pat the salmon dry with kitchen roll. Season the flesh with ⅛ tsp salt and ¼ tsp pepper. Cook skin-side down at 200°C for 9–10 min. At 5 min, brush with half the glaze. It's done when the thickest part flakes with a fork and is opaque in the middle.",
+          "uses": [
+            "2 salmon fillets",
+            "⅛ tsp salt",
+            "¼ tsp black pepper",
+            "half the glaze"
+          ]
+        },
+        {
+          "text": "Greens: boil 1 litre water with 1 tsp salt. Add the tenderstem for 4 min, adding the edamame for the last 2 min. Drain. Stalks should be just tender to a knife.",
+          "uses": [
+            "1 litre water",
+            "1 tsp salt",
+            "200g tenderstem",
+            "80g edamame"
+          ]
+        },
+        {
+          "text": "Fluff the rice with a fork. Spread half on a plate to cool and fridge it within 1 hour for 2.",
+          "uses": [
+            "half the rice"
+          ]
+        },
+        {
+          "text": "Serve: rice, greens, then the salmon. Spoon over the rest of the glaze, scatter the spring onions and add a lime wedge each.",
+          "uses": [
+            "2 spring onions",
+            "½ lime",
+            "rest of the glaze"
+          ]
+        },
+        {
+          "text": "Taste: the glaze seasons the salmon, not the sides. If the rice or greens taste flat, add ¼ tsp tamari to each bowl. If it's too salty, squeeze over more lime.",
+          "uses": []
+        }
       ],
-      "tip": "Weigh the rice dry. 50g dry per person is what keeps this under 600 kcal."
+      "tip": "Weigh the rice dry: 50g per person is what keeps this under 600 kcal. Tamari is salty (1 tbsp ≈ ⅓ tsp salt), so the salmon only gets ⅛ tsp of its own."
     },
     {
       "night": 2,
@@ -147,7 +210,7 @@
         },
         {
           "qty": "½ tin (120g)",
-          "item": "black beans, drained"
+          "item": "black beans, drained and rinsed"
         },
         {
           "qty": "1",
@@ -159,11 +222,11 @@
         },
         {
           "qty": "½",
-          "item": "red onion"
+          "item": "red onion, 3mm dice"
         },
         {
           "qty": "1",
-          "item": "little gem lettuce"
+          "item": "little gem lettuce, 1cm shreds"
         },
         {
           "qty": "2",
@@ -171,15 +234,15 @@
         },
         {
           "qty": "15g",
-          "item": "coriander"
+          "item": "coriander (10g salsa, 5g to finish)"
         },
         {
           "qty": "1 tsp",
           "item": "smoked paprika"
         },
         {
-          "qty": "½ tsp",
-          "item": "ground cumin"
+          "qty": "¾ tsp",
+          "item": "ground cumin (½ prawns, ¼ beans)"
         },
         {
           "qty": "¼ tsp",
@@ -192,16 +255,94 @@
         {
           "qty": "60g",
           "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "45ml",
+          "item": "water (30 rice, 15 beans)"
+        },
+        {
+          "qty": "⅝ tsp",
+          "item": "salt (¼ prawns, ⅛ salsa, ⅛ beans, ⅛ yoghurt)"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "black pepper"
         }
       ],
       "steps": [
-        "Toss the prawns with the oil, paprika, cumin, chilli, the zest of 1 lime and a pinch of salt.",
-        "Air Fryer: 200°C for 6–7 min, shaking halfway, until pink all through.",
-        "Salsa: chop the tomatoes, onion and half the coriander. Mix with the juice of ½ lime and a pinch of salt.",
-        "Reheat the rice with a splash of water for 2 min, until piping hot. Warm the beans with a pinch of cumin.",
-        "Build the bowls: rice, beans, shredded lettuce, prawns, salsa, sliced avocado, a spoon of yoghurt and lime wedges."
+        {
+          "text": "Pat the prawns dry with kitchen roll. In a bowl, toss them with 2 tsp oil, 1 tsp paprika, ½ tsp cumin, ¼ tsp chilli flakes, the zest of 1 lime, ¼ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "330g prawns",
+            "2 tsp olive oil",
+            "1 tsp smoked paprika",
+            "½ tsp cumin",
+            "¼ tsp chilli flakes",
+            "zest of 1 lime",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Salsa: quarter the tomatoes. Dice the onion to 3mm and chop 10g coriander. Mix with the juice of ½ the zested lime (≈15ml) and ⅛ tsp salt. Leave it to sit while you cook.",
+          "uses": [
+            "150g cherry tomatoes",
+            "½ red onion",
+            "10g coriander",
+            "≈15ml lime juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Yoghurt: stir 60g yoghurt with the juice of the other ½ zested lime (≈15ml) and ⅛ tsp salt.",
+          "uses": [
+            "60g Greek yoghurt",
+            "≈15ml lime juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: prawns in one layer at 200°C for 6–7 min, shaking at 3 min. Done when they're pink all through and curled into a C (an O means overcooked).",
+          "uses": [
+            "the prawns"
+          ]
+        },
+        {
+          "text": "Meanwhile, rice: put 250g cooked rice in a bowl with 30ml water, cover, and microwave on full for 2 min, stirring at 1 min. It must be steaming hot all through.",
+          "uses": [
+            "250g cooked rice",
+            "30ml water"
+          ]
+        },
+        {
+          "text": "Beans: put 120g beans in a small bowl with 15ml water, ¼ tsp cumin and ⅛ tsp salt. Cover and microwave for 1 min until hot.",
+          "uses": [
+            "120g black beans",
+            "15ml water",
+            "¼ tsp cumin",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Halve and stone the avocado, then slice it. Cut the second lime into 4 wedges.",
+          "uses": [
+            "1 avocado",
+            "1 lime"
+          ]
+        },
+        {
+          "text": "Build 2 bowls: rice, beans, lettuce, prawns, salsa, avocado, 2 tbsp yoghurt each, 5g coriander and the lime wedges.",
+          "uses": [
+            "1 little gem",
+            "5g coriander"
+          ]
+        },
+        {
+          "text": "Taste a prawn with some rice. If flat, add a pinch (⅛ tsp) of salt per bowl or squeeze a lime wedge over. Too hot? More yoghurt.",
+          "uses": []
+        }
       ],
-      "tip": "Freeze the other half tin of beans in a small box, ready for another bowl."
+      "tip": "Freeze the other half tin of beans in a small box, ready for another bowl. The rice was salted when it was cooked, so it doesn't need more."
     },
     {
       "night": 3,
@@ -225,20 +366,24 @@
           "item": "quinoa, dry"
         },
         {
+          "qty": "200ml",
+          "item": "water, for the quinoa"
+        },
+        {
           "qty": "2",
-          "item": "peppers, in strips"
+          "item": "peppers, 1.5cm strips"
         },
         {
           "qty": "1",
-          "item": "red onion, in wedges"
+          "item": "red onion, in 8 wedges"
         },
         {
           "qty": "½",
-          "item": "cucumber"
+          "item": "cucumber, 1cm dice"
         },
         {
           "qty": "150g",
-          "item": "cherry tomatoes"
+          "item": "cherry tomatoes, halved"
         },
         {
           "qty": "60g",
@@ -246,14 +391,14 @@
         },
         {
           "qty": "1 clove",
-          "item": "garlic"
+          "item": "garlic, grated"
         },
         {
-          "qty": "small handful",
-          "item": "mint"
+          "qty": "5g (≈10 leaves)",
+          "item": "mint, finely chopped"
         },
         {
-          "qty": "½",
+          "qty": "½ (≈20ml juice)",
           "item": "lemon"
         },
         {
@@ -269,16 +414,87 @@
           "item": "dried oregano"
         },
         {
-          "qty": "1 tbsp",
-          "item": "olive oil"
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil (½ chicken, ½ veg)"
+        },
+        {
+          "qty": "1⅛ tsp",
+          "item": "salt (¼ quinoa, ½ chicken, ⅛ veg, ⅛ sauce, ⅛ salad)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
         }
       ],
       "steps": [
-        "Rinse the quinoa and simmer it in 200ml water, covered, for 12–15 min. Rest it off the heat.",
-        "Toss the chicken with half the oil, the spices, a squeeze of lemon and salt. Toss the peppers and onion with the rest of the oil.",
-        "Air Fryer: veg at 200°C for 8 min, then add the chicken and cook for 14–16 min more, turning halfway, until cooked through.",
-        "Sauce: yoghurt, grated garlic, chopped mint and a pinch of salt. Salad: dice the cucumber and tomatoes and dress with lemon and salt.",
-        "Slice the chicken and build the bowls: quinoa, veg, chicken, salad and a spoon of sauce."
+        {
+          "text": "Quinoa: rinse 80g quinoa in a sieve for 30 sec. Put it in a small pan with 200ml water and ¼ tsp salt. Bring to the boil, then lid on, lowest heat, 12 min, until the water is gone. Take off the heat, keep the lid on for 5 min, then fluff with a fork.",
+          "uses": [
+            "80g quinoa",
+            "200ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Chicken: in a bowl, mix 1½ tsp oil, 1 tsp cumin, 1 tsp paprika, ½ tsp oregano, 2 tsp lemon juice, ½ tsp salt and ¼ tsp pepper. Add the chicken thighs whole and turn to coat.",
+          "uses": [
+            "300g chicken thighs",
+            "1½ tsp olive oil",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "½ tsp oregano",
+            "2 tsp lemon juice",
+            "½ tsp salt",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Veg: toss the pepper strips and onion wedges with 1½ tsp oil and ⅛ tsp salt.",
+          "uses": [
+            "2 peppers",
+            "1 red onion",
+            "1½ tsp olive oil",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: veg at 200°C for 8 min. Then lay the chicken flat on top and cook 14 min more, turning the chicken at 7 min. Done at 75°C in the thickest part, or when the juices run clear. The veg should be charred at the edges.",
+          "uses": [
+            "the veg",
+            "the chicken"
+          ]
+        },
+        {
+          "text": "While it cooks, sauce: stir 60g yoghurt with the grated garlic, the chopped mint, 1 tsp lemon juice and ⅛ tsp salt.",
+          "uses": [
+            "60g Greek yoghurt",
+            "1 garlic clove",
+            "5g mint",
+            "1 tsp lemon juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Salad: mix the cucumber and tomatoes with 1 tsp lemon juice and ⅛ tsp salt.",
+          "uses": [
+            "½ cucumber",
+            "150g cherry tomatoes",
+            "1 tsp lemon juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Rest the chicken on a board for 2 min, then slice it 1cm thick.",
+          "uses": []
+        },
+        {
+          "text": "Build 2 bowls: quinoa, veg, chicken, salad and 2 tbsp sauce each.",
+          "uses": []
+        },
+        {
+          "text": "Taste: if the quinoa is flat, add a pinch (⅛ tsp) of salt and a squeeze of lemon. If the sauce is too thick, stir in 1 tbsp water.",
+          "uses": []
+        }
       ],
       "tip": "Keep the rest of the mint wrapped in damp kitchen roll for 5."
     },
