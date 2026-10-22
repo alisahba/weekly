@@ -236,6 +236,57 @@ body.cooking .tabbar, body.cooking .topbar { display: none; }
 .nextwk .go { color: var(--faint); }
 .nextwk .go svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; }
 
+
+/* ---------- QoL: today's prep, step amounts, ratings, delivery check-off, sync ---------- */
+.todo { margin: 0 0 16px; padding: 14px 16px; border-radius: 20px; background: color-mix(in srgb, #FFB000 18%, var(--bg)); }
+.todo h2 { display: flex; align-items: center; gap: 8px; margin: 0 0 6px; font-size: 15px; font-weight: 800; }
+.todo h2 svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.todo ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: 15px; line-height: 1.4; }
+.steps .uses { display: block; margin-top: 4px; font-size: 14px; line-height: 1.4; color: var(--muted); }
+.need { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.need li { padding: 6px 12px; border-radius: 99px; background: color-mix(in srgb, var(--cc) 16%, var(--bg)); font-size: 15px; font-weight: 600; }
+.rate { display: inline-flex; gap: 6px; }
+.rate button { width: 40px; height: 40px; border-radius: 99px; display: grid; place-items: center; background: var(--soft); color: var(--muted); }
+.rate button svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.rate button[aria-pressed="true"][data-r="up"] { background: #00A86B; color: #fff; }
+.rate button[aria-pressed="true"][data-r="down"] { background: var(--fg); color: var(--bg); }
+.night .rate { align-self: center; }
+.rate-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 24px 0 0; padding: 14px 16px; border-radius: 20px; background: var(--soft); font-weight: 700; }
+.rate.big { margin-top: 20px; gap: 12px; }
+.cook-nav.solo { grid-template-columns: 1fr; }
+.rate.big button { width: 72px; height: 72px; }
+.rate.big button svg { width: 32px; height: 32px; }
+.unpack { display: grid; gap: 2px; margin: 18px 0 0; padding: 12px 16px; border-radius: 18px; background: var(--soft); }
+.unpack b { font-size: 16px; }
+.unpack span { font-size: 13px; color: var(--muted); }
+.si { display: grid !important; grid-template-columns: 30px 1fr auto; align-items: baseline; }
+.si .tick { width: 22px; height: 22px; border-radius: 7px; box-shadow: inset 0 0 0 1.5px var(--faint); position: relative; top: 4px; }
+.si.pantry .tick { box-shadow: none; }
+.si.got .tick { background: var(--fg); box-shadow: none; }
+.si.got .tick::after { content: ""; position: absolute; left: 7px; top: 3px; width: 6px; height: 11px; border: solid var(--bg); border-width: 0 2.4px 2.4px 0; transform: rotate(45deg); }
+.si.got .nm, .si.got b { color: var(--faint); text-decoration: line-through; }
+.si.missing .tick { background: #E5484D; box-shadow: none; }
+.si.missing .tick::after { content: "×"; position: absolute; inset: 0; display: grid; place-items: center; color: #fff; font-weight: 800; font-size: 16px; line-height: 1; }
+.miss { font-style: normal; margin-left: 8px; padding: 1px 7px; border-radius: 99px; font-size: 11px; font-weight: 700; background: #E5484D; color: #fff; }
+.prep.now { box-shadow: inset 0 0 0 2px var(--fg); }
+.prep h2 em { font-style: normal; margin-left: 8px; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: var(--fg); color: var(--bg); vertical-align: 3px; }
+.syncline { display: inline-flex; align-items: center; gap: 8px; margin-top: 28px; font-size: 13px; color: var(--muted); }
+.syncline i { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); }
+.syncline.on i { background: #00A86B; }
+.syncline.err i { background: #E5484D; }
+.narrow { max-width: 640px; }
+.set-card { margin-top: 20px; padding: 18px; border-radius: 22px; background: var(--soft); display: grid; gap: 10px; }
+.set-card .state { margin: 0; font-weight: 700; }
+.set-card .state.on { color: #00A86B; }
+.set-card label { font-size: 14px; font-weight: 700; color: var(--muted); }
+.set-card input { height: 48px; padding: 0 14px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg); color: var(--fg); font: inherit; font-size: 16px; }
+.set-card .msg { margin: 0; min-height: 1.2em; font-size: 14px; color: var(--muted); }
+.pill.dark { background: var(--fg); color: var(--bg); justify-self: start; border: 0; }
+.how { margin-top: 18px; font-size: 15px; line-height: 1.5; }
+.how summary { cursor: pointer; font-weight: 700; }
+.how ol { padding-left: 20px; display: grid; gap: 6px; }
+.how p { color: var(--muted); font-size: 14px; }
+
 /* ---------- shopping ---------- */
 .shop-stats { display: flex; gap: 32px; margin: 20px 0 8px; }
 .shop-stats b { display: block; font-size: 34px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }

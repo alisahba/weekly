@@ -6,6 +6,7 @@
  "notes": [
   "Cook in this order: fish and prawns first while they're freshest.",
   "Breakfast is the same every day. Prep the jars the night before.",
+  "Thursday, Friday and breakfast now show the exact amounts for each step in cook mode.",
   "Nutrition is estimated per serving from ingredient weights."
  ],
  "breakfast": {
@@ -41,9 +42,25 @@
    }
   ],
   "steps": [
-   "Night before (best): split the yoghurt between 2 jars or bowls, stir 30g oats and 10g chia into each, top with 80g frozen berries each and refrigerate. The berries thaw into a sauce overnight.",
-   "Same-morning option: microwave the berries for 60–90 sec, then stir the oats and chia into the yoghurt.",
-   "Top each bowl with 10g chopped almonds and eat."
+   {
+    "text": "Night before (best): put 170g yoghurt in each of 2 jars or bowls. Stir 30g oats and 10g chia into each, then top each with 80g frozen berries. Lid on and into the fridge: the berries thaw into a sauce overnight.",
+    "uses": [
+     "340g yoghurt",
+     "60g oats",
+     "20g chia",
+     "160g berries"
+    ]
+   },
+   {
+    "text": "Same-morning option: microwave the 160g berries in a bowl for 60–90 sec until thawed. Stir the oats and chia into the yoghurt and leave for 3 min to soften, then top with the berries.",
+    "uses": []
+   },
+   {
+    "text": "Top each bowl with 10g chopped almonds. No salt or sugar needed.",
+    "uses": [
+     "20g almonds"
+    ]
+   }
   ],
   "tip": "Make 3 jars on Sunday night (Mon–Wed) and 2 on Wednesday night (Thu–Fri). The oats soften and the chia thickens it, so it's grab-and-go."
  },
@@ -284,31 +301,31 @@
    "ingredients": [
     {
      "qty": "300g",
-     "item": "lean beef mince 5% (from the freezer, defrosted)"
+     "item": "lean beef mince 5% (defrosted overnight in the fridge)"
     },
     {
-     "qty": "1",
-     "item": "large aubergine"
+     "qty": "1 large (≈350g)",
+     "item": "aubergine"
     },
     {
      "qty": "30g",
-     "item": "small brown lentils, dry"
+     "item": "small brown lentils, rinsed"
     },
     {
-     "qty": "1 tin",
+     "qty": "400g tin",
      "item": "chopped tomatoes"
     },
     {
-     "qty": "1 tbsp",
+     "qty": "1 tbsp (15g)",
      "item": "tomato paste"
     },
     {
-     "qty": "1",
-     "item": "red onion, diced"
+     "qty": "1 (≈150g)",
+     "item": "red onion, 5mm dice"
     },
     {
      "qty": "1",
-     "item": "pepper, diced"
+     "item": "pepper, 1cm dice"
     },
     {
      "qty": "2 cloves",
@@ -319,22 +336,82 @@
      "item": "dried oregano"
     },
     {
-     "qty": "pinch",
+     "qty": "¼ tsp",
      "item": "chilli flakes"
     },
     {
      "qty": "2 tsp",
      "item": "olive oil"
+    },
+    {
+     "qty": "200ml",
+     "item": "water"
+    },
+    {
+     "qty": "¾ tsp",
+     "item": "salt (¼ aubergine, ½ ragù)"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "black pepper"
     }
    ],
    "steps": [
-    "Halve the aubergine lengthways, score the flesh, brush with 1 tsp oil and salt. Air Fryer: cut-side up at 190°C for 15 min, until soft.",
-    "Meanwhile, brown the mince in the rest of the oil for 5 min. Add the onion and pepper and cook for 4 min.",
-    "Stir in the garlic, oregano, chilli and tomato paste for 1 min. Add the tomatoes, rinsed lentils and 200ml water. Simmer, covered, for 20 min, until the lentils are tender.",
-    "Scoop out some aubergine flesh, chop it and stir it into the ragù. Pile the ragù into the aubergine halves.",
-    "Air Fryer: 190°C for 5 min. Serve with any extra ragù on the side."
+    {
+     "text": "Air Fryer: halve the aubergine lengthways and score the flesh in a 2cm criss-cross, 1cm deep. Brush the cut sides with 1 tsp oil and sprinkle with ¼ tsp salt. Air fry cut-side up at 190°C for 15 min, until the flesh is soft when poked.",
+     "uses": [
+      "1 aubergine",
+      "1 tsp olive oil",
+      "¼ tsp salt"
+     ]
+    },
+    {
+     "text": "Meanwhile, heat 1 tsp oil in a large frying pan on high for 1 min. Add the mince and break it up with a spoon. Cook for 5 min, stirring, until browned with no pink left.",
+     "uses": [
+      "300g beef mince",
+      "1 tsp olive oil"
+     ]
+    },
+    {
+     "text": "Turn to medium. Add the onion and pepper and cook for 4 min, stirring now and then, until the onion turns soft and see-through.",
+     "uses": [
+      "1 red onion",
+      "1 pepper"
+     ]
+    },
+    {
+     "text": "Stir in the garlic, oregano, chilli flakes and tomato paste. Cook for 1 min, stirring so the paste doesn't catch.",
+     "uses": [
+      "2 garlic cloves",
+      "1 tsp oregano",
+      "¼ tsp chilli flakes",
+      "1 tbsp tomato paste"
+     ]
+    },
+    {
+     "text": "Add the tomatoes, lentils, 200ml water, ½ tsp salt and ¼ tsp pepper. Bring to a bubble, put a lid on and simmer on low for 20 min, stirring every 5 min. It's ready when the lentils are soft and a spoon dragged through the sauce leaves a trail. If it gets dry, add 50ml water.",
+     "uses": [
+      "400g chopped tomatoes",
+      "30g lentils",
+      "200ml water",
+      "½ tsp salt",
+      "¼ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Scoop the flesh out of the aubergine halves, leaving a 1cm wall. Chop the flesh and stir it into the ragù for 1 min.",
+     "uses": []
+    },
+    {
+     "text": "Taste the ragù. If it tastes flat, add ¼ tsp salt. If it's too sharp, stir in ½ tsp honey.",
+     "uses": []
+    },
+    {
+     "text": "Air Fryer: fill the aubergine halves with the ragù and cook at 190°C for 5 min, until the top sizzles. Serve any extra ragù on the side.",
+     "uses": []
+    }
    ],
-   "tip": "Take the mince out of the freezer on Wednesday night and defrost it in the fridge."
+   "tip": "The tomatoes and paste need the salt here. Unlike the Asian dishes there's no tamari or fish sauce to season it."
   },
   {
    "night": 5,
@@ -352,11 +429,7 @@
    "ingredients": [
     {
      "qty": "300g",
-     "item": "chicken thigh fillets (frozen half, defrosted)"
-    },
-    {
-     "qty": "100g",
-     "item": "rice vermicelli, dry"
+     "item": "chicken thigh fillets (defrosted overnight), 3cm pieces"
     },
     {
      "qty": "1 tbsp",
@@ -368,7 +441,23 @@
     },
     {
      "qty": "2 tsp",
-     "item": "honey"
+     "item": "honey (1 marinade, 1 sauce)"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "olive oil"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "black pepper"
+    },
+    {
+     "qty": "100g",
+     "item": "rice vermicelli"
+    },
+    {
+     "qty": "1.5 litres",
+     "item": "boiling water, for the noodles"
     },
     {
      "qty": "1",
@@ -399,28 +488,75 @@
      "item": "fish sauce (check label is GF)"
     },
     {
-     "qty": "1½",
-     "item": "limes"
+     "qty": "45ml (≈1½ limes)",
+     "item": "lime juice"
     },
     {
      "qty": "1 clove",
-     "item": "garlic"
+     "item": "garlic, grated"
     },
     {
-     "qty": "pinch",
+     "qty": "¼ tsp",
      "item": "chilli flakes"
     },
     {
-     "qty": "1 tsp",
-     "item": "olive oil"
+     "qty": "45ml (3 tbsp)",
+     "item": "cold water, for the sauce"
     }
    ],
    "steps": [
-    "Mix the chicken with the lemongrass paste, tamari, 1 tsp honey and the oil. Leave for 10 min.",
-    "Air Fryer: 200°C for 14–16 min, turning halfway, until charred and cooked through.",
-    "Cover the vermicelli with boiling water for 5 min, then drain and rinse under cold water.",
-    "Nuoc cham: mix the fish sauce, lime juice, 1 tsp honey, grated garlic, chilli and 3 tbsp water.",
-    "Cut the carrot and cucumber into thin sticks, shred the lettuce and pick the herbs. Build the bowls: noodles, veg, herbs, sliced chicken and almonds, then spoon over the nuoc cham."
+    {
+     "text": "Mix the chicken with the lemongrass paste, tamari, 1 tsp honey, 1 tsp oil and ¼ tsp black pepper. Don't add salt: the tamari and lemongrass paste season it. Leave for 10 min.",
+     "uses": [
+      "300g chicken",
+      "1 tbsp lemongrass paste",
+      "1 tbsp tamari",
+      "1 tsp honey",
+      "1 tsp olive oil",
+      "¼ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Air Fryer: spread the chicken out in one layer and cook at 200°C for 14–16 min, shaking halfway. It's done when the edges are charred and the inside reaches 75°C, or the juices run clear.",
+     "uses": []
+    },
+    {
+     "text": "Boil 1.5 litres water. Take it off the heat, add the vermicelli and soak for 5 min (or as the pack says). Drain, rinse under cold water for 30 sec and shake dry. No salt needed: the dressing seasons the noodles.",
+     "uses": [
+      "100g rice vermicelli",
+      "1.5 litres water"
+     ]
+    },
+    {
+     "text": "Nuoc cham: in a jar, stir the fish sauce, lime juice, 1 tsp honey, garlic, chilli flakes and 45ml cold water until the honey dissolves.",
+     "uses": [
+      "1½ tbsp fish sauce",
+      "45ml lime juice",
+      "1 tsp honey",
+      "1 garlic clove",
+      "¼ tsp chilli flakes",
+      "45ml water"
+     ]
+    },
+    {
+     "text": "Cut the carrot and cucumber into 5cm matchsticks. Slice the lettuce into 1cm ribbons, pick the herb leaves and chop the almonds.",
+     "uses": [
+      "1 carrot",
+      "½ cucumber",
+      "1 little gem",
+      "15g coriander",
+      "15g mint",
+      "20g almonds"
+     ]
+    },
+    {
+     "text": "Taste the nuoc cham. It should be salty, sour and slightly sweet. If too salty, add 1 tbsp water. If flat, add ½ tsp fish sauce. If too sharp, add ½ tsp honey.",
+     "uses": []
+    },
+    {
+     "text": "Build each bowl: noodles, veg, herbs, chicken and almonds. Spoon 2 tbsp nuoc cham over each and serve the rest on the side.",
+     "uses": []
+    }
    ],
    "tip": "Take the chicken out of the freezer on Thursday night and defrost it in the fridge."
   }

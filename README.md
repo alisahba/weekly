@@ -4,9 +4,9 @@ Our weekly dinner menu: 7 gluten-free dinners for two, 30 minutes or less, at le
 Published with GitHub Pages and installable on iPhone (Share → Add to Home Screen).
 
 ## How it's updated
-Every Sunday at 2pm a scheduled Claude task plans the week, fills the Tesco basket and pushes a new week here:
+Every Thursday at 8pm a scheduled Claude task plans the week, fills the Tesco basket and pushes a new week here:
 
-1. Add `data/weeks/YYYY-MM-DD.json` (the Saturday's date).
+1. Add `data/weeks/YYYY-MM-DD.json` (the Sunday before the Monday).
 2. Put the new week at the top of `data/index.json`.
 
 ## Week file schema
@@ -38,3 +38,12 @@ Week files can also have:
 - `prep`: `[{ "when": "Sunday", "tips": ["…"] }]`, shown on the Prep tab.
 - `shopping.groups` items can be objects: `{ "name", "qty", "gf": true | "Check GF", "note" }`. `shopping.skipped` is a list of strings.
 Colours for 5 dinners: #2B50FF/#FFFFFF, #FF3D7F/#000000, #00A86B/#000000, #FFB000/#000000, #7A3CFF/#FFFFFF. Breakfast: #FF5A1F/#000000.
+
+## Precise steps (from 22 Oct 2026)
+A step can be a string or `{ "text": "…", "uses": ["15ml olive oil", "½ tsp salt"] }`. Use the object form for every new recipe: `uses` lists the exact amounts that step needs and shows as chips in cook mode. Never write "a splash", "enough" or "to taste" without a number; salt and pepper are explicit; end with a taste-and-adjust step.
+
+## Shared state (both phones)
+Ticks, "cooked", delivery check-off and 👍/👎 ratings live on the `state` branch, one file per week: `state/<weekId>.json` = `{ "<key>": { "v": value, "t": epochMs } }`, merged newest-`t`-wins.
+Keys: `c:<n>` cooked (true), `u:<n>:<i>` ingredient ticked, `s:<group>:<i>` "got" | "missing", `r:<n>` "up" | "down" (`n` is the night number or `b` for breakfast).
+Each phone needs a fine-grained GitHub token (Only select repositories → alisahba/weekly, Contents: Read and write), pasted on the Sync page. It is kept only in that phone's storage, never in the repo. Without a token the app works per phone.
+The Thursday planning run reads last week's state file: 👍/👎 feed the likes/dislikes, "missing" items feed the pantry log.
