@@ -1,0 +1,1043 @@
+{
+ "id": "2026-11-02",
+ "label": "2–8 November",
+ "start": "2026-11-02",
+ "format": "5+1",
+ "notes": [
+  "Cook in number order: salmon and prawns first while they're freshest.",
+  "Breakfast is overnight oats: make the jars on Sunday, 10 minutes.",
+  "Menu approved by you on Thursday (kept all 5). 4 of the 5 dinners use the Air Fryer.",
+  "Nutrition is estimated per serving from ingredient weights."
+ ],
+ "breakfast": {
+  "title": "Berry, chia & almond overnight oats",
+  "time": "10 min (the night before)",
+  "method": "No cook, jars",
+  "kcal": "≈330 kcal",
+  "protein": "≈23g",
+  "fibre": "≈8g",
+  "colour": "#FF5A1F",
+  "ink": "#000000",
+  "cuisine": "Breakfast",
+  "ingredients": [
+   {
+    "qty": "60g",
+    "item": "Tesco Free From Pure Oats (certified GF)"
+   },
+   {
+    "qty": "300g",
+    "item": "0% Greek style yoghurt"
+   },
+   {
+    "qty": "120ml",
+    "item": "unsweetened almond drink"
+   },
+   {
+    "qty": "10g (1 tbsp)",
+    "item": "chia seeds"
+   },
+   {
+    "qty": "160g",
+    "item": "frozen mixed berries"
+   },
+   {
+    "qty": "20g",
+    "item": "almonds, roughly chopped"
+   },
+   {
+    "qty": "⅛ tsp",
+    "item": "salt"
+   }
+  ],
+  "steps": [
+   {
+    "text": "Per 2 jars (one day for both of you): in a bowl, stir 60g oats, 10g chia and ⅛ tsp salt.",
+    "uses": [
+     "60g GF oats",
+     "10g chia seeds",
+     "⅛ tsp salt"
+    ]
+   },
+   {
+    "text": "Stir in 300g yoghurt and 120ml almond drink until no dry oats are left. It looks loose; the oats and chia thicken it overnight.",
+    "uses": [
+     "300g Greek yoghurt",
+     "120ml almond drink"
+    ]
+   },
+   {
+    "text": "Split between 2 jars or boxes. Top each with 80g frozen berries straight from the freezer (they thaw overnight and bleed into the oats). Lid on, fridge for at least 6 hours, up to 3 days.",
+    "uses": [
+     "160g frozen berries"
+    ]
+   },
+   {
+    "text": "In the morning, stir, then scatter 10g chopped almonds on each. Eat cold.",
+    "uses": [
+     "20g almonds"
+    ]
+   },
+   {
+    "text": "Taste: if it's too sharp, stir in 1 tsp honey (+20 kcal). Too thick? Stir in 1 tbsp (15ml) almond drink.",
+    "uses": []
+   }
+  ],
+  "tip": "Make 3 days' worth (6 jars) on Sunday and 2 days' worth (4 jars) when they run out. Add the almonds in the morning so they stay crunchy."
+ },
+ "dinners": [
+  {
+   "night": 1,
+   "colour": "#2B50FF",
+   "ink": "#FFFFFF",
+   "title": "Air Fryer salmon, crispy potatoes & green beans with lemon-dill yoghurt",
+   "cuisine": "European",
+   "airFryer": true,
+   "time": "35 min",
+   "method": "Air fryer + pan",
+   "kcal": "≈565 kcal",
+   "protein": "≈39g",
+   "fibre": "≈6g",
+   "ingredients": [
+    {
+     "qty": "2 (260g pack)",
+     "item": "boneless salmon fillets"
+    },
+    {
+     "qty": "400g",
+     "item": "baby potatoes, halved (quartered if big)"
+    },
+    {
+     "qty": "200g",
+     "item": "fine beans, trimmed"
+    },
+    {
+     "qty": "150g",
+     "item": "0% Greek style yoghurt"
+    },
+    {
+     "qty": "20g",
+     "item": "fresh dill"
+    },
+    {
+     "qty": "1",
+     "item": "lemon (zest + 2 tbsp juice + wedges)"
+    },
+    {
+     "qty": "½ clove",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "1 tbsp (15ml)",
+     "item": "olive oil (2 tsp potatoes, 1 tsp salmon)"
+    },
+    {
+     "qty": "1 litre",
+     "item": "water, for the beans"
+    },
+    {
+     "qty": "1⅜ tsp",
+     "item": "salt (½ potatoes, ½ bean water, ⅛ salmon, ⅛ yoghurt, ⅛ finish)"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "black pepper"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Potatoes: toss the halved potatoes with 2 tsp oil, ½ tsp salt and ⅛ tsp pepper.",
+     "uses": [
+      "400g baby potatoes",
+      "2 tsp olive oil",
+      "½ tsp salt",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Air Fryer: potatoes at 200°C for 20 min, shaking at 10 min. Done when golden and a knife slides in easily. Tip them into a bowl and cover with a plate.",
+     "uses": [
+      "the potatoes"
+     ]
+    },
+    {
+     "text": "Salmon: pat the fillets dry with kitchen roll. Rub with 1 tsp oil, the zest of ½ lemon, ⅛ tsp salt and ⅛ tsp pepper.",
+     "uses": [
+      "2 salmon fillets",
+      "1 tsp olive oil",
+      "zest of ½ lemon",
+      "⅛ tsp salt",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Air Fryer: salmon at 200°C for 8–10 min. Done when it flakes easily and is opaque in the middle (60°C). For the last 2 min, put the potatoes back in around it to re-crisp.",
+     "uses": [
+      "the salmon",
+      "the potatoes"
+     ]
+    },
+    {
+     "text": "Meanwhile, beans: boil 1 litre water with ½ tsp salt. Add the beans for 3–4 min, until tender but still bright green. Drain.",
+     "uses": [
+      "1 litre water",
+      "½ tsp salt",
+      "200g fine beans"
+     ]
+    },
+    {
+     "text": "Dill yoghurt: chop 15g dill. Stir it into 150g yoghurt with the grated ½ garlic clove, the rest of the lemon zest, 2 tbsp lemon juice and ⅛ tsp salt.",
+     "uses": [
+      "150g Greek yoghurt",
+      "15g dill",
+      "½ garlic clove",
+      "2 tbsp lemon juice",
+      "⅛ tsp salt"
+     ]
+    },
+    {
+     "text": "Taste the yoghurt: if flat, add ⅛ tsp salt; too sharp, 1 tbsp more yoghurt. Serve the salmon on the potatoes and beans with a big spoon of the sauce, the last 5g dill chopped over and lemon wedges.",
+     "uses": [
+      "5g dill",
+      "lemon wedges"
+     ]
+    }
+   ],
+   "tip": "The potatoes need their own ½ tsp salt: the sauce only seasons what it touches. Keep the other 600g of potatoes for the weekend."
+  },
+  {
+   "night": 2,
+   "colour": "#FF3D7F",
+   "ink": "#000000",
+   "title": "Prawn pad Thai with rice noodles, egg & beansprouts",
+   "cuisine": "Easy Asian",
+   "airFryer": false,
+   "time": "25 min",
+   "method": "Wok or large pan",
+   "kcal": "≈580 kcal",
+   "protein": "≈41g",
+   "fibre": "≈5g",
+   "ingredients": [
+    {
+     "qty": "330g (2 × 165g)",
+     "item": "raw king prawns"
+    },
+    {
+     "qty": "100g",
+     "item": "rice vermicelli, dry (cupboard)"
+    },
+    {
+     "qty": "2",
+     "item": "eggs"
+    },
+    {
+     "qty": "200g",
+     "item": "beansprouts"
+    },
+    {
+     "qty": "1",
+     "item": "pepper, thin strips"
+    },
+    {
+     "qty": "4",
+     "item": "spring onions (whites and greens sliced separately)"
+    },
+    {
+     "qty": "2 cloves",
+     "item": "garlic, thinly sliced"
+    },
+    {
+     "qty": "20g",
+     "item": "almonds, chopped (from the 200g bag)"
+    },
+    {
+     "qty": "30ml (2 tbsp)",
+     "item": "tamari (GF soy)"
+    },
+    {
+     "qty": "2 tsp",
+     "item": "fish sauce (check GF)"
+    },
+    {
+     "qty": "2 tsp",
+     "item": "honey"
+    },
+    {
+     "qty": "1½",
+     "item": "limes (2 tbsp juice + wedges)"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "chilli flakes"
+    },
+    {
+     "qty": "30ml",
+     "item": "water, for the sauce"
+    },
+    {
+     "qty": "1 litre",
+     "item": "boiling water, for the noodles"
+    },
+    {
+     "qty": "1 tbsp (15ml)",
+     "item": "olive oil"
+    },
+    {
+     "qty": "10g",
+     "item": "coriander, chopped"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "salt (noodle water only)"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Noodles: put 100g vermicelli in a bowl with ½ tsp salt and pour over 1 litre boiling water. Soak 4 min (check the pack), then drain, rinse under the cold tap and shake dry.",
+     "uses": [
+      "100g rice vermicelli",
+      "1 litre boiling water",
+      "½ tsp salt"
+     ]
+    },
+    {
+     "text": "Sauce: mix 2 tbsp tamari, 2 tsp fish sauce, 2 tsp honey, 2 tbsp lime juice, ¼ tsp chilli flakes and 30ml water.",
+     "uses": [
+      "30ml tamari",
+      "2 tsp fish sauce",
+      "2 tsp honey",
+      "2 tbsp lime juice",
+      "¼ tsp chilli flakes",
+      "30ml water"
+     ]
+    },
+    {
+     "text": "Heat 1 tsp oil in a wok on high. Beat the 2 eggs, pour in and scramble for 1 min until just set. Tip onto a plate. (No salt: the sauce seasons them.)",
+     "uses": [
+      "1 tsp olive oil",
+      "2 eggs"
+     ]
+    },
+    {
+     "text": "Add 2 tsp oil, the pepper strips, the spring onion whites and the garlic. Stir-fry 2 min.",
+     "uses": [
+      "2 tsp olive oil",
+      "1 pepper",
+      "4 spring onion whites",
+      "2 garlic cloves"
+     ]
+    },
+    {
+     "text": "Add the prawns (patted dry) and stir-fry 2–3 min, until pink all through and curled into a C.",
+     "uses": [
+      "330g prawns"
+     ]
+    },
+    {
+     "text": "Add the noodles and the sauce. Toss with tongs for 1–2 min, until the sauce is absorbed. Add the beansprouts and egg and toss 1 min more; the sprouts should stay crunchy.",
+     "uses": [
+      "the noodles",
+      "the sauce",
+      "200g beansprouts",
+      "the egg"
+     ]
+    },
+    {
+     "text": "Taste: tamari and fish sauce season it, so no salt. If flat, add 1 tsp tamari; too salty, a squeeze of lime. Serve with the almonds, spring onion greens, coriander and lime wedges.",
+     "uses": [
+      "20g almonds",
+      "spring onion greens",
+      "10g coriander",
+      "½ lime, in wedges"
+     ]
+    }
+   ],
+   "tip": "Have everything chopped before the wok goes on: it cooks in under 8 minutes. Real pad Thai uses tamarind; lime does the same job here."
+  },
+  {
+   "night": 3,
+   "colour": "#00A86B",
+   "ink": "#000000",
+   "title": "Beef kofta with herby quinoa, cucumber-tomato salad & garlic yoghurt",
+   "cuisine": "Middle Eastern",
+   "airFryer": true,
+   "time": "30 min",
+   "method": "Air fryer + pan",
+   "kcal": "≈440 kcal",
+   "protein": "≈39g",
+   "fibre": "≈5g",
+   "ingredients": [
+    {
+     "qty": "260g (150g freezer bag + 110g fresh)",
+     "item": "lean beef steak mince 5%"
+    },
+    {
+     "qty": "¾",
+     "item": "red onion (½ grated for the kofta, ¼ thinly sliced)"
+    },
+    {
+     "qty": "1½ cloves",
+     "item": "garlic (1 kofta, ½ yoghurt), grated"
+    },
+    {
+     "qty": "15g",
+     "item": "flat leaf parsley, chopped (10g kofta, 5g quinoa)"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "ground cumin"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "smoked paprika"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "dried oregano"
+    },
+    {
+     "qty": "80g",
+     "item": "quinoa, dry (cupboard)"
+    },
+    {
+     "qty": "200ml",
+     "item": "water, for the quinoa"
+    },
+    {
+     "qty": "½ (≈150g)",
+     "item": "cucumber, 1cm dice"
+    },
+    {
+     "qty": "150g",
+     "item": "cherry tomatoes, quartered"
+    },
+    {
+     "qty": "80g",
+     "item": "0% Greek style yoghurt"
+    },
+    {
+     "qty": "1",
+     "item": "lemon (1 tbsp + 1 tsp juice)"
+    },
+    {
+     "qty": "1 tbsp (15ml)",
+     "item": "olive oil (1 tsp kofta, 2 tsp salad)"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "salt (½ kofta, ¼ quinoa, ⅛ salad, ⅛ yoghurt)"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "black pepper"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Quinoa: rinse 80g quinoa in a sieve for 30 sec. Pan with 200ml water and ¼ tsp salt. Boil, then lid on, lowest heat, 12 min. Off the heat, lid on, 5 min, then fluff and stir in 5g parsley.",
+     "uses": [
+      "80g quinoa",
+      "200ml water",
+      "¼ tsp salt",
+      "5g parsley"
+     ]
+    },
+    {
+     "text": "Kofta: in a bowl, mix the mince with the grated ½ onion, 1 grated garlic clove, 10g parsley, 1 tsp cumin, ½ tsp smoked paprika, ½ tsp oregano, ½ tsp salt and ¼ tsp pepper. Squeeze it together with your hand for 1 min so it holds.",
+     "uses": [
+      "260g beef mince",
+      "½ red onion, grated",
+      "1 garlic clove",
+      "10g parsley",
+      "1 tsp cumin",
+      "½ tsp smoked paprika",
+      "½ tsp oregano",
+      "½ tsp salt",
+      "¼ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Shape into 6 sausages about 10cm long. Brush with 1 tsp oil.",
+     "uses": [
+      "1 tsp olive oil"
+     ]
+    },
+    {
+     "text": "Air Fryer: kofta at 200°C for 10–12 min, turning at 6 min. Done when browned and 71°C in the middle, with no pink.",
+     "uses": [
+      "the kofta"
+     ]
+    },
+    {
+     "text": "Salad: toss the cucumber, tomatoes and the sliced ¼ onion with 1 tbsp lemon juice, 2 tsp oil and ⅛ tsp salt.",
+     "uses": [
+      "150g cucumber",
+      "150g cherry tomatoes",
+      "¼ red onion, sliced",
+      "1 tbsp lemon juice",
+      "2 tsp olive oil",
+      "⅛ tsp salt"
+     ]
+    },
+    {
+     "text": "Garlic yoghurt: stir 80g yoghurt with ½ grated garlic clove, 1 tsp lemon juice and ⅛ tsp salt.",
+     "uses": [
+      "80g Greek yoghurt",
+      "½ garlic clove",
+      "1 tsp lemon juice",
+      "⅛ tsp salt"
+     ]
+    },
+    {
+     "text": "Taste the kofta: if flat, a pinch more salt goes on the salad (⅛ tsp); if rich, more lemon. Serve quinoa, salad, 3 kofta each and the yoghurt.",
+     "uses": []
+    }
+   ],
+   "tip": "Take the 150g freezer bag out the day before. The rest of the fresh pack (390g) gets frozen on Sunday in 2 bags."
+  },
+  {
+   "night": 4,
+   "colour": "#FFB000",
+   "ink": "#000000",
+   "title": "Chicken fajita rice bowls with black beans, peppers & lime",
+   "cuisine": "Mexican",
+   "airFryer": true,
+   "time": "30 min",
+   "method": "Air fryer + pan",
+   "kcal": "≈520 kcal",
+   "protein": "≈40g",
+   "fibre": "≈8g",
+   "ingredients": [
+    {
+     "qty": "300g (half the 600g pack)",
+     "item": "chicken thigh fillets, 2cm strips"
+    },
+    {
+     "qty": "2",
+     "item": "peppers, 1cm strips"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, 8 wedges"
+    },
+    {
+     "qty": "1 clove",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "smoked paprika"
+    },
+    {
+     "qty": "1¼ tsp",
+     "item": "ground cumin (1 chicken, ¼ beans)"
+    },
+    {
+     "qty": "½ tsp",
+     "item": "dried oregano"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "chilli flakes"
+    },
+    {
+     "qty": "1 tbsp (15ml)",
+     "item": "olive oil"
+    },
+    {
+     "qty": "80g",
+     "item": "Tilda basmati, dry"
+    },
+    {
+     "qty": "140ml",
+     "item": "water, for the rice"
+    },
+    {
+     "qty": "100g (≈½ tin, drained)",
+     "item": "black beans"
+    },
+    {
+     "qty": "1½",
+     "item": "limes (1 tbsp + 1 tbsp juice, wedges)"
+    },
+    {
+     "qty": "60g",
+     "item": "0% Greek style yoghurt"
+    },
+    {
+     "qty": "10g",
+     "item": "coriander, chopped"
+    },
+    {
+     "qty": "2",
+     "item": "spring onions, sliced"
+    },
+    {
+     "qty": "⅞ tsp",
+     "item": "salt (½ chicken & veg, ¼ rice, ⅛ beans)"
+    },
+    {
+     "qty": "⅛ tsp",
+     "item": "black pepper"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rice: rinse 80g rice for 30 sec. Pan with 140ml water and ¼ tsp salt. Boil, then lid on, lowest heat, 10 min. Off the heat, lid on, 5 min.",
+     "uses": [
+      "80g basmati",
+      "140ml water",
+      "¼ tsp salt"
+     ]
+    },
+    {
+     "text": "Chicken: in a bowl mix 1 tbsp oil, the garlic, 1 tsp smoked paprika, 1 tsp cumin, ½ tsp oregano, ¼ tsp chilli flakes, ½ tsp salt and ⅛ tsp pepper. Add the chicken, peppers and onion and toss to coat.",
+     "uses": [
+      "300g chicken thighs",
+      "2 peppers",
+      "1 red onion",
+      "1 tbsp olive oil",
+      "1 garlic clove",
+      "1 tsp smoked paprika",
+      "1 tsp cumin",
+      "½ tsp oregano",
+      "¼ tsp chilli flakes",
+      "½ tsp salt",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Air Fryer: 200°C for 14–16 min, shaking at 5 and 10 min. Chicken done at 75°C or when the juices run clear; the peppers should be charred at the edges.",
+     "uses": [
+      "the chicken and veg"
+     ]
+    },
+    {
+     "text": "Beans: drain and rinse the tin. Warm 100g in a small pan with ¼ tsp cumin, ⅛ tsp salt and 1 tbsp water for 3 min. Off the heat, add 1 tbsp lime juice. Freeze the rest of the beans.",
+     "uses": [
+      "100g black beans",
+      "¼ tsp cumin",
+      "⅛ tsp salt",
+      "1 tbsp water",
+      "1 tbsp lime juice"
+     ]
+    },
+    {
+     "text": "Squeeze 1 tbsp lime juice over the chicken and veg.",
+     "uses": [
+      "1 tbsp lime juice"
+     ]
+    },
+    {
+     "text": "Taste a piece of chicken: if flat, ⅛ tsp salt over the pan; too hot, more yoghurt. Serve: rice, beans, chicken and peppers, 30g yoghurt each, coriander, spring onions and lime wedges.",
+     "uses": [
+      "60g Greek yoghurt",
+      "10g coriander",
+      "2 spring onions",
+      "½ lime, in wedges"
+     ]
+    }
+   ],
+   "tip": "The spice rub is all-homemade, so it's gluten-free with no label to check. Freeze the other 300g of chicken on Sunday."
+  },
+  {
+   "night": 5,
+   "colour": "#7A3CFF",
+   "ink": "#FFFFFF",
+   "title": "Halloumi, roast aubergine & lentil salad with lemon-oregano dressing",
+   "cuisine": "European",
+   "airFryer": true,
+   "time": "35 min",
+   "method": "Air fryer + pan",
+   "kcal": "≈575 kcal",
+   "protein": "≈34g",
+   "fibre": "≈11g",
+   "ingredients": [
+    {
+     "qty": "200g",
+     "item": "halloumi, 1cm slices"
+    },
+    {
+     "qty": "70g",
+     "item": "small brown lentils, dry (cupboard)"
+    },
+    {
+     "qty": "750ml",
+     "item": "water, for the lentils"
+    },
+    {
+     "qty": "1 (≈300g)",
+     "item": "aubergine, 2cm cubes"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, 8 wedges"
+    },
+    {
+     "qty": "120g",
+     "item": "baby spinach"
+    },
+    {
+     "qty": "150g",
+     "item": "cherry tomatoes, halved"
+    },
+    {
+     "qty": "10g",
+     "item": "flat leaf parsley, chopped"
+    },
+    {
+     "qty": "1",
+     "item": "lemon (2 tbsp juice)"
+    },
+    {
+     "qty": "½ clove",
+     "item": "garlic, grated"
+    },
+    {
+     "qty": "1 tsp",
+     "item": "dried oregano (½ veg, ½ dressing)"
+    },
+    {
+     "qty": "4 tsp (20ml)",
+     "item": "olive oil (2 veg, 2 dressing)"
+    },
+    {
+     "qty": "¾ tsp",
+     "item": "salt (¼ veg, ⅜ lentils, ⅛ dressing)"
+    },
+    {
+     "qty": "¼ tsp",
+     "item": "black pepper"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Lentils: rinse 70g lentils. Simmer in 750ml water for 20–25 min, until tender but holding their shape. Add ⅜ tsp salt for the last 5 min. Drain well.",
+     "uses": [
+      "70g brown lentils",
+      "750ml water",
+      "⅜ tsp salt"
+     ]
+    },
+    {
+     "text": "Veg: toss the aubergine and onion with 2 tsp oil, ½ tsp oregano, ¼ tsp salt and ⅛ tsp pepper.",
+     "uses": [
+      "1 aubergine",
+      "1 red onion",
+      "2 tsp olive oil",
+      "½ tsp oregano",
+      "¼ tsp salt",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Air Fryer: veg at 200°C for 12 min, shaking at 6 min. Then lay the halloumi slices on top and cook 6–8 min more, until golden at the edges. (No salt on the halloumi: it's salty already.)",
+     "uses": [
+      "the veg",
+      "200g halloumi"
+     ]
+    },
+    {
+     "text": "Dressing: whisk 2 tbsp lemon juice, 2 tsp oil, the grated ½ garlic clove, ½ tsp oregano, ⅛ tsp salt and ⅛ tsp pepper.",
+     "uses": [
+      "2 tbsp lemon juice",
+      "2 tsp olive oil",
+      "½ garlic clove",
+      "½ tsp oregano",
+      "⅛ tsp salt",
+      "⅛ tsp black pepper"
+     ]
+    },
+    {
+     "text": "Toss the warm lentils with the spinach (it wilts a little), tomatoes, parsley and most of the dressing.",
+     "uses": [
+      "the lentils",
+      "120g spinach",
+      "150g cherry tomatoes",
+      "10g parsley"
+     ]
+    },
+    {
+     "text": "Taste the lentils: if flat, ⅛ tsp salt or 1 tsp lemon; the halloumi will add salt, so keep them a touch under. Top with the veg and halloumi and spoon over the last of the dressing.",
+     "uses": []
+    }
+   ],
+   "tip": "Tesco had no light halloumi, so this uses regular: the portion is 100g each to stay under 600 kcal."
+  }
+ ],
+ "prep": [
+  {
+   "when": "Sunday, when the shop arrives",
+   "tips": [
+    "Chicken: put 300g in the fridge for 4. Freeze the other 300g flat in a labelled bag.",
+    "Mince: weigh out 110g for 3 into a box in the fridge. Freeze the other 390g in 2 labelled bags of 195g.",
+    "Make 6 breakfast jars (3 days' worth). See the breakfast recipe.",
+    "Wrap the dill, coriander and parsley in damp kitchen roll in a box."
+   ]
+  },
+  {
+   "when": "With 1",
+   "with": 1,
+   "tips": [
+    "Cook the extra 600g potatoes too if you want them for the weekend: same Air Fryer time, fridge within 1 hour."
+   ]
+  },
+  {
+   "when": "The day before 3",
+   "before": 3,
+   "tips": [
+    "Move the 150g bag of mince from the freezer to the fridge."
+   ]
+  },
+  {
+   "when": "With 3",
+   "with": 3,
+   "tips": [
+    "Optional: cook 4's rice too (80g rice, 140ml water, ¼ tsp salt). Fridge it within 1 hour; reheat once only, until piping hot."
+   ]
+  },
+  {
+   "when": "When the breakfast jars run out",
+   "tips": [
+    "Make 4 more jars (2 days' worth): 120g oats, 20g chia, ¼ tsp salt, 600g yoghurt, 240ml almond drink, 320g berries."
+   ]
+  },
+  {
+   "when": "Reuse and waste",
+   "tips": [
+    "Black beans: about 140g left from 4. Freeze them for a future chilli.",
+    "Spinach: about 130g left after 5. Wilt it into weekend eggs.",
+    "Cucumber: half is left after 3, and 100g beansprouts after 2: snacks with the sugarsnaps.",
+    "Limes: 1½ in 2, 1½ in 4, 2 spare. Lemons: 1 each in 1, 3 and 5, 1 spare.",
+    "Yoghurt: 2kg bought. Breakfasts use 1.5kg; 1, 3 and 4 use 290g.",
+    "Almonds: 100g for breakfasts, 20g in 2, the rest (plus last week's 80g) are snacks."
+   ]
+  }
+ ],
+ "shopping": {
+  "total": "£83.39",
+  "items": 46,
+  "skipped": [
+   "Salt & vinegar rice cakes (you said no rice crackers this week)",
+   "Chicken from the freezer (you'd finished it), so fresh thighs instead"
+  ],
+  "groups": {
+   "Proteins": [
+    {
+     "name": "Tesco 2 Boneless Salmon Fillets",
+     "qty": "260g"
+    },
+    {
+     "name": "Tesco Raw King Prawns",
+     "qty": "2 × 165g"
+    },
+    {
+     "name": "Tesco British Chicken Thigh Fillets",
+     "qty": "600g",
+     "note": "300g for 4, 300g to freeze"
+    },
+    {
+     "name": "Tesco Lean Beef Steak Mince 5% Fat",
+     "qty": "500g",
+     "note": "110g for 3, 390g to freeze"
+    },
+    {
+     "name": "Tesco Free Range Eggs Medium",
+     "qty": "6"
+    },
+    {
+     "name": "Lean beef mince 5%",
+     "qty": "150g",
+     "note": "from your freezer"
+    }
+   ],
+   "Vegetables & herbs": [
+    {
+     "name": "Tesco Baby Potatoes",
+     "qty": "1kg"
+    },
+    {
+     "name": "Tesco Fine Beans",
+     "qty": "200g"
+    },
+    {
+     "name": "Tesco Fresh Cut Dill",
+     "qty": "20g"
+    },
+    {
+     "name": "Tesco Beansprouts",
+     "qty": "300g"
+    },
+    {
+     "name": "Tesco Bunched Spring Onions",
+     "qty": "100g"
+    },
+    {
+     "name": "Tesco Whole Cucumber",
+     "qty": "1"
+    },
+    {
+     "name": "Tesco Cherry Tomatoes",
+     "qty": "300g"
+    },
+    {
+     "name": "Tesco Red Onions",
+     "qty": "3 pack"
+    },
+    {
+     "name": "Nightingale Farms Peppers",
+     "qty": "375g (3)"
+    },
+    {
+     "name": "Tesco Large Garlic",
+     "qty": "1 bulb"
+    },
+    {
+     "name": "Tesco Aubergine",
+     "qty": "1"
+    },
+    {
+     "name": "Tesco Baby Spinach",
+     "qty": "250g"
+    },
+    {
+     "name": "Tesco Limes",
+     "qty": "5 pack"
+    },
+    {
+     "name": "Tesco Lemons",
+     "qty": "4 pack"
+    },
+    {
+     "name": "Tesco Fresh Cut Coriander",
+     "qty": "30g"
+    },
+    {
+     "name": "Tesco Fresh Cut Flat Leaf Parsley",
+     "qty": "30g"
+    }
+   ],
+   "Rice & noodles": [
+    {
+     "name": "Tesco Free From Pure Oats",
+     "qty": "450g",
+     "gf": true
+    },
+    {
+     "name": "Tilda basmati",
+     "qty": "80g",
+     "note": "from your cupboard"
+    },
+    {
+     "name": "Quinoa",
+     "qty": "80g",
+     "note": "from your cupboard"
+    },
+    {
+     "name": "Rice vermicelli",
+     "qty": "100g",
+     "note": "from your cupboard"
+    },
+    {
+     "name": "Small brown lentils",
+     "qty": "70g",
+     "note": "from your cupboard"
+    }
+   ],
+   "Pantry & sauces": [
+    {
+     "name": "Tesco Black Beans",
+     "qty": "400g"
+    },
+    {
+     "name": "Tesco Chia Seeds",
+     "qty": "150g"
+    },
+    {
+     "name": "Tamari, fish sauce, honey, spices, olive oil, salt",
+     "qty": "",
+     "note": "from your cupboard",
+     "gf": "Check GF"
+    },
+    {
+     "name": "Frozen mixed berries",
+     "qty": "200g",
+     "note": "from your freezer, plus the new bag"
+    }
+   ],
+   "Dairy or alternatives": [
+    {
+     "name": "Tesco 0% Fat Greek Style Yogurt",
+     "qty": "4 × 500g"
+    },
+    {
+     "name": "Cypressa Halloumi",
+     "qty": "200g"
+    },
+    {
+     "name": "Tesco Unsweetened Almond Drink",
+     "qty": "1L"
+    }
+   ],
+   "Snacks & desserts": [
+    {
+     "name": "Mini Babybel Light",
+     "qty": "10"
+    },
+    {
+     "name": "Tesco Almonds",
+     "qty": "200g",
+     "note": "breakfasts + snack"
+    },
+    {
+     "name": "Nakd Cocoa Orange Fruit & Nut Bars",
+     "qty": "4 × 35g",
+     "note": "healthy snack, GF"
+    },
+    {
+     "name": "Tesco Sugarsnap Peas",
+     "qty": "180g",
+     "note": "healthy snack"
+    },
+    {
+     "name": "Tesco Gala Apples",
+     "qty": "pack"
+    },
+    {
+     "name": "Tesco Red Seedless Grapes",
+     "qty": "500g"
+    },
+    {
+     "name": "Tesco Perfectly Imperfect Frozen Mixed Berries",
+     "qty": "1kg",
+     "note": "breakfast"
+    },
+    {
+     "name": "Müller x MyProtein Chocolate Mousse",
+     "qty": "5 × 200g",
+     "note": "Any 5 for £5",
+     "gf": "Check GF"
+    },
+    {
+     "name": "Dash Raspberry Sparkling Water",
+     "qty": "4 × 330ml"
+    },
+    {
+     "name": "Remedy Kombucha Wild Berry",
+     "qty": "4 × 330ml"
+    },
+    {
+     "name": "Frozen edamame",
+     "qty": "",
+     "note": "from your freezer"
+    }
+   ],
+   "Household": [
+    {
+     "name": "Tesco Sponge Cloths",
+     "qty": "4 pack",
+     "note": "for the kitchen counter"
+    }
+   ]
+  }
+ }
+}
