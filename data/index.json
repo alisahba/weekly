@@ -1,6 +1,25 @@
 {
  "weeks": [
   {
+   "id": "2026-11-02",
+   "label": "2–8 November",
+   "start": "2026-11-02",
+   "dinners": [
+    "Air Fryer salmon, crispy potatoes & green beans with lemon-dill yoghurt",
+    "Prawn pad Thai with rice noodles, egg & beansprouts",
+    "Beef kofta with herby quinoa, cucumber-tomato salad & garlic yoghurt",
+    "Chicken fajita rice bowls with black beans, peppers & lime",
+    "Halloumi, roast aubergine & lentil salad with lemon-oregano dressing"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF"
+   ]
+  },
+  {
    "id": "2026-10-26",
    "label": "26 October – 1 November",
    "start": "2026-10-26",
