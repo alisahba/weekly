@@ -288,7 +288,7 @@ async function viewRecipe(wid, night) {
       <button class="mark${isDone ? ' is-done' : ''}" id="mark">${isDone ? 'Cooked ✓' : 'Mark as cooked'}</button>
       <a class="sq" href="${base}/n/${n + 1}" aria-label="Next night" aria-disabled="${!next}">${icon.next}</a>
     </div>`}
-  </article>`, { tab: 'week', title: d.title, colour: d.colour, weekId: id });
+  </article>`, { tab: 'week', title: d.title, colour: d.colour, weekId: id, awake: true });
 
   app.querySelectorAll('.ing button').forEach(b => b.onclick = () => {
     const k = b.dataset.k, v = !Sync.get(id, `u:${n}:${k}`);
@@ -306,7 +306,7 @@ async function viewRecipe(wid, night) {
   onSwipe(prev && `${base}/n/${n - 1}`, next && `${base}/n/${n + 1}`);
 }
 
-/* ---------- cook mode: one step per screen, screen kept awake ---------- */
+/* ---------- cook mode: one step per screen. Screen kept awake here and on recipe pages ---------- */
 let wakeLock = null;
 async function keepAwake(on) {
   try {
@@ -564,7 +564,7 @@ function paintBar() {
 dark.addEventListener('change', paintBar);
 
 let keyHandler = null, currentWeekId = null;
-function render(html, { tab, title, colour, cooking, weekId } = {}) {
+function render(html, { tab, title, colour, cooking, weekId, awake } = {}) {
   app.innerHTML = html;
   currentWeekId = weekId || null;
   document.title = title ? `${title} – Dinners` : 'Dinners';
@@ -575,7 +575,10 @@ function render(html, { tab, title, colour, cooking, weekId } = {}) {
   });
   barColour = colour && !cooking ? colour : null;
   paintBar();
-  if (!cooking) keepAwake(false);
+  /* recipe pages and cook mode keep the screen on */
+  const stay = !!(cooking || awake);
+  document.body.dataset.awake = stay ? '1' : '';
+  keepAwake(stay);
   window.scrollTo(0, 0);
 }
 
@@ -636,7 +639,7 @@ async function refresh() {
 window.addEventListener('hashchange', navigate);
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') {
-    if (document.body.classList.contains('cooking')) keepAwake(true);
+    if (document.body.dataset.awake === '1') keepAwake(true);
     refresh();
   }
 });
