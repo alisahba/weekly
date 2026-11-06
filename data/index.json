@@ -1,6 +1,25 @@
 {
  "weeks": [
   {
+   "id": "2026-11-09",
+   "label": "9–15 November",
+   "start": "2026-11-09",
+   "dinners": [
+    "Lemon-garlic sea bass with herby lentils, roast tomatoes & spinach",
+    "Greek garlic prawns with tomato & feta (saganaki), rice",
+    "Tamari-honey glazed chicken & aubergine with rice and garlicky green beans",
+    "Spiced beef stuffed peppers with rice & garlic yoghurt",
+    "Potato, spinach & feta frittata with tomato & red onion salad"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF"
+   ]
+  },
+  {
    "id": "2026-11-02",
    "label": "2–8 November",
    "start": "2026-11-02",

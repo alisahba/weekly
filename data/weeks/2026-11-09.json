@@ -1,0 +1,978 @@
+{
+  "id": "2026-11-09",
+  "label": "9–15 November",
+  "start": "2026-11-09",
+  "format": "5+1",
+  "notes": [
+    "Cook in number order: sea bass and prawns first while they're freshest.",
+    "Breakfast is for one this week: the same pancakes every morning, about 12 minutes.",
+    "This week uses up the chicken and mince in the freezer. From now on, proteins are bought only for that week.",
+    "Menu approved by you on Friday with the toggles. 3 swapped to the glazed chicken & aubergine.",
+    "Nutrition is estimated per serving from ingredient weights."
+  ],
+  "breakfast": {
+    "title": "GF oat protein pancakes with berries & chia (for 1)",
+    "time": "12 min",
+    "method": "Pan",
+    "kcal": "≈330 kcal",
+    "protein": "≈22g",
+    "fibre": "≈7g",
+    "colour": "#FF5A1F",
+    "ink": "#000000",
+    "cuisine": "Breakfast",
+    "ingredients": [
+      {
+        "qty": "1",
+        "item": "large egg"
+      },
+      {
+        "qty": "30g",
+        "item": "GF oats (cupboard)"
+      },
+      {
+        "qty": "100g",
+        "item": "0% Greek yoghurt (60g batter, 40g on top)"
+      },
+      {
+        "qty": "80g",
+        "item": "frozen mixed berries (freezer)"
+      },
+      {
+        "qty": "1 tsp (5g)",
+        "item": "chia seeds"
+      },
+      {
+        "qty": "½ tsp",
+        "item": "olive oil"
+      },
+      {
+        "qty": "⅛ tsp",
+        "item": "salt"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix 30g oats, 1 egg, 60g yoghurt and ⅛ tsp salt in a bowl. Leave 5 min so the oats soften.",
+        "uses": [
+          "30g GF oats",
+          "1 egg",
+          "60g Greek yoghurt",
+          "⅛ tsp salt"
+        ]
+      },
+      {
+        "text": "Microwave the berries in a mug for 1 min until warm and juicy.",
+        "uses": [
+          "80g frozen berries"
+        ]
+      },
+      {
+        "text": "Heat ½ tsp oil in a non-stick pan on medium. Spoon in 3 small pancakes and cook 2 min per side, until golden and set in the middle.",
+        "uses": [
+          "½ tsp olive oil",
+          "the batter"
+        ]
+      },
+      {
+        "text": "Top with 40g yoghurt, the berries and 1 tsp chia.",
+        "uses": [
+          "40g Greek yoghurt",
+          "the berries",
+          "1 tsp chia seeds"
+        ]
+      }
+    ],
+    "tip": "Breakfast is for one: 5 mornings use 5 eggs, 150g oats, 500g yoghurt and 400g berries."
+  },
+  "dinners": [
+    {
+      "night": 1,
+      "colour": "#2B50FF",
+      "ink": "#FFFFFF",
+      "title": "Lemon-garlic sea bass with herby lentils, roast tomatoes & spinach",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈475 kcal",
+      "protein": "≈44g",
+      "fibre": "≈6g",
+      "ingredients": [
+        {
+          "qty": "4 fillets (360g)",
+          "item": "sea bass, boneless"
+        },
+        {
+          "qty": "60g",
+          "item": "small brown lentils, dry (cupboard)"
+        },
+        {
+          "qty": "400ml",
+          "item": "water, for the lentils"
+        },
+        {
+          "qty": "250g",
+          "item": "baby plum tomatoes, halved"
+        },
+        {
+          "qty": "80g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "3 cloves",
+          "item": "garlic (2 grated, 1 thinly sliced)"
+        },
+        {
+          "qty": "1",
+          "item": "lemon (zest + 30ml juice)"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "5 tsp (25ml)",
+          "item": "olive oil (1 tsp tomatoes, 1 tsp fish, 1 tbsp lentils)"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ lentils, ⅛ tomatoes, ¼ fish, ⅛ dressing)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Lentils: rinse 60g lentils. Put them in a pan with 400ml water and ¼ tsp salt. Bring to the boil, then simmer uncovered for 20–25 min, until soft but still holding their shape. Drain.",
+          "uses": [
+            "60g lentils",
+            "400ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: toss the halved tomatoes with 1 tsp oil and ⅛ tsp salt. Cook at 200°C for 10 min, until soft and blistered. Tip them into a bowl.",
+          "uses": [
+            "250g plum tomatoes",
+            "1 tsp olive oil",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Fish: pat the fillets dry. Rub the flesh side with 1 tsp oil, the zest of the lemon, 1 grated garlic clove, ¼ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "4 sea bass fillets",
+            "1 tsp olive oil",
+            "zest of 1 lemon",
+            "1 garlic clove",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: fish skin-side down at 200°C for 6–7 min. Done when the flesh is opaque all through and flakes with a fork.",
+          "uses": [
+            "the fish"
+          ]
+        },
+        {
+          "text": "Meanwhile, heat 1 tbsp oil in the lentil pan on medium. Add the sliced garlic for 1 min until pale gold, then the drained lentils, the spinach and the other grated garlic clove. Stir 2 min until the spinach wilts.",
+          "uses": [
+            "1 tbsp olive oil",
+            "1 sliced garlic clove",
+            "the lentils",
+            "80g spinach",
+            "1 grated garlic clove"
+          ]
+        },
+        {
+          "text": "Off the heat, stir in 30ml lemon juice, most of the parsley, ⅛ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "30ml lemon juice",
+            "8g parsley",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Taste the lentils: if flat, add ⅛ tsp salt and 1 tsp lemon juice. Serve: lentils, tomatoes, 2 fillets each, last of the parsley.",
+          "uses": [
+            "2g parsley"
+          ]
+        }
+      ],
+      "tip": "Sea bass fillets are thin: check at 6 min. Lentils soak up salt and lemon, so taste them after dressing."
+    },
+    {
+      "night": 2,
+      "colour": "#FF3D7F",
+      "ink": "#000000",
+      "title": "Greek garlic prawns with tomato & feta (saganaki), rice",
+      "cuisine": "European",
+      "airFryer": false,
+      "time": "30 min",
+      "method": "Pan",
+      "kcal": "≈510 kcal",
+      "protein": "≈35g",
+      "fibre": "≈3g",
+      "ingredients": [
+        {
+          "qty": "330g (2 × 165g)",
+          "item": "raw king prawns"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 5mm dice"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil"
+        },
+        {
+          "qty": "60g",
+          "item": "feta, crumbled"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (15ml juice)"
+        },
+        {
+          "qty": "100g",
+          "item": "Tilda basmati, dry"
+        },
+        {
+          "qty": "175ml",
+          "item": "water, for the rice"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "salt (¼ rice, ¼ sauce)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rice: rinse 100g rice for 30 sec. Pan with 175ml water and ¼ tsp salt. Bring to the boil, lid on, lowest heat 10 min, then off the heat with the lid on for 5 min.",
+          "uses": [
+            "100g basmati",
+            "175ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Heat 1 tbsp oil in a frying pan on medium for 1 min. Add the onion and cook 5 min until soft. Add the garlic, 1 tsp oregano and ¼ tsp chilli flakes for 1 min.",
+          "uses": [
+            "1 tbsp olive oil",
+            "1 red onion",
+            "2 garlic cloves",
+            "1 tsp oregano",
+            "¼ tsp chilli flakes"
+          ]
+        },
+        {
+          "text": "Add the tomatoes, ¼ tsp salt and ¼ tsp pepper. Simmer 10 min, stirring now and then, until thick enough that a spoon leaves a trail.",
+          "uses": [
+            "400g chopped tomatoes",
+            "¼ tsp salt",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Pat the prawns dry and stir them in. Simmer 3–4 min, until pink all through and curled into a C.",
+          "uses": [
+            "330g prawns"
+          ]
+        },
+        {
+          "text": "Off the heat: scatter over the feta and most of the parsley, and squeeze over 15ml lemon juice.",
+          "uses": [
+            "60g feta",
+            "8g parsley",
+            "15ml lemon juice"
+          ]
+        },
+        {
+          "text": "Taste the sauce: feta adds salt, so only add ⅛ tsp more if it's flat. Too sharp? ½ tsp honey. Serve over the rice with the last parsley.",
+          "uses": [
+            "2g parsley"
+          ]
+        }
+      ],
+      "tip": "Keep the sauce at a gentle bubble once the prawns are in: hard boiling makes them rubbery."
+    },
+    {
+      "night": 3,
+      "colour": "#00A86B",
+      "ink": "#000000",
+      "title": "Tamari-honey glazed chicken & aubergine with rice and garlicky green beans",
+      "cuisine": "Easy Asian",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈565 kcal",
+      "protein": "≈36g",
+      "fibre": "≈7g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (from the freezer, defrosted in the fridge)"
+        },
+        {
+          "qty": "1 (≈300g)",
+          "item": "aubergine, 2cm cubes"
+        },
+        {
+          "qty": "200g",
+          "item": "fine beans, trimmed"
+        },
+        {
+          "qty": "100g",
+          "item": "Tilda basmati, dry"
+        },
+        {
+          "qty": "175ml",
+          "item": "water, for the rice"
+        },
+        {
+          "qty": "3 tbsp (45ml)",
+          "item": "tamari (certified GF)"
+        },
+        {
+          "qty": "1 tbsp (21g)",
+          "item": "honey"
+        },
+        {
+          "qty": "30ml",
+          "item": "water, for the glaze"
+        },
+        {
+          "qty": "10g (thumb-size)",
+          "item": "fresh ginger, grated"
+        },
+        {
+          "qty": "3 cloves",
+          "item": "garlic (2 for the glaze, 1 for the beans)"
+        },
+        {
+          "qty": "2",
+          "item": "spring onions, thinly sliced"
+        },
+        {
+          "qty": "4 tsp (20ml)",
+          "item": "olive oil (2 tsp aubergine, 1 tsp chicken, 1 tsp beans)"
+        },
+        {
+          "qty": "⅜ tsp",
+          "item": "salt (¼ rice, ⅛ beans): the tamari seasons the chicken and aubergine"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rice: rinse 100g rice. Pan with 175ml water and ¼ tsp salt, boil, lid on, lowest heat 10 min, then 5 min off the heat.",
+          "uses": [
+            "100g basmati",
+            "175ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: toss the aubergine cubes with 2 tsp oil. Cook at 200°C for 12 min, shaking at 6, until soft and browned. Tip into a bowl.",
+          "uses": [
+            "1 aubergine",
+            "2 tsp olive oil"
+          ]
+        },
+        {
+          "text": "Rub the chicken with 1 tsp oil and air fry at 200°C for 14 min, turning at 7 min.",
+          "uses": [
+            "300g chicken thighs",
+            "1 tsp olive oil"
+          ]
+        },
+        {
+          "text": "Glaze: in a small pan, simmer 45ml tamari, 1 tbsp honey, 30ml water, the ginger and 2 grated garlic cloves for 2–3 min, until syrupy and coating a spoon.",
+          "uses": [
+            "45ml tamari",
+            "1 tbsp honey",
+            "30ml water",
+            "10g ginger",
+            "2 garlic cloves"
+          ]
+        },
+        {
+          "text": "Brush half the glaze over the chicken, add the aubergine back next to it and air fry 2 min more. Chicken is done at 75°C in the thickest part, or when the juices run clear. Toss the aubergine in the rest of the glaze.",
+          "uses": [
+            "the glaze"
+          ]
+        },
+        {
+          "text": "Beans: heat 1 tsp oil in a frying pan on high. Add the beans with 2 tbsp water and ⅛ tsp salt and cook 4 min, until bright green and just tender. Add the last grated garlic clove for the final 30 sec.",
+          "uses": [
+            "200g fine beans",
+            "1 tsp olive oil",
+            "2 tbsp water",
+            "⅛ tsp salt",
+            "1 garlic clove"
+          ]
+        },
+        {
+          "text": "Slice the chicken 1cm thick. Serve: rice, aubergine, chicken, beans, spring onions on top.",
+          "uses": [
+            "2 spring onions"
+          ]
+        },
+        {
+          "text": "Taste: if flat, add 1 tsp tamari over the rice. Too salty? A squeeze of lemon.",
+          "uses": []
+        }
+      ],
+      "tip": "The day before, move the chicken from the freezer to the fridge. No salt on the chicken or aubergine: 3 tbsp tamari carries about 1 tsp salt."
+    },
+    {
+      "night": 4,
+      "colour": "#FFB000",
+      "ink": "#000000",
+      "title": "Spiced beef stuffed peppers with rice & garlic yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "40 min",
+      "method": "Pan + air fryer",
+      "kcal": "≈510 kcal",
+      "protein": "≈49g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "390g (2 × 195g freezer bags)",
+          "item": "lean beef mince 5%, defrosted in the fridge"
+        },
+        {
+          "qty": "3 (375g pack)",
+          "item": "peppers, halved lengthways, seeds out"
+        },
+        {
+          "qty": "60g",
+          "item": "Tilda basmati, dry"
+        },
+        {
+          "qty": "120ml",
+          "item": "water, for the rice"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 5mm dice"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "½ tin (200g)",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "1 tbsp (15g)",
+          "item": "tomato paste (cupboard)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "2 tsp (10ml)",
+          "item": "olive oil (1 tsp mince, 1 tsp peppers)"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "½ clove",
+          "item": "garlic, grated (for the yoghurt)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "5g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "⅞ tsp",
+          "item": "salt (¼ rice, ½ filling, ⅛ yoghurt)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rice: rinse 60g rice. Pan with 120ml water and ¼ tsp salt, boil, lid on, lowest heat 10 min, then 5 min off the heat.",
+          "uses": [
+            "60g basmati",
+            "120ml water",
+            "¼ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: rub the pepper halves with 1 tsp oil and cook cut-side down at 190°C for 8 min, to soften.",
+          "uses": [
+            "3 peppers",
+            "1 tsp olive oil"
+          ]
+        },
+        {
+          "text": "Heat 1 tsp oil in a frying pan on high. Brown the mince for 5 min, breaking it up, until no pink is left. Turn to medium, add the onion for 4 min.",
+          "uses": [
+            "390g beef mince",
+            "1 tsp olive oil",
+            "1 red onion"
+          ]
+        },
+        {
+          "text": "Add the garlic, 1 tsp cumin, 1 tsp paprika, ½ tsp oregano, ¼ tsp chilli flakes and 1 tbsp tomato paste for 1 min. Add ½ tin tomatoes, ½ tsp salt and ¼ tsp pepper and simmer 5 min until thick. Stir in the rice.",
+          "uses": [
+            "2 garlic cloves",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "½ tsp oregano",
+            "¼ tsp chilli flakes",
+            "1 tbsp tomato paste",
+            "200g chopped tomatoes",
+            "½ tsp salt",
+            "¼ tsp black pepper",
+            "the rice"
+          ]
+        },
+        {
+          "text": "Taste the filling now: if flat, ⅛ tsp salt; if sharp, ½ tsp honey.",
+          "uses": []
+        },
+        {
+          "text": "Turn the peppers cut-side up, pack in the filling and air fry at 190°C for 8 min, until the tops are browned and the peppers are soft at the edges.",
+          "uses": [
+            "the filling"
+          ]
+        },
+        {
+          "text": "Yoghurt: stir 60g yoghurt with ½ grated garlic clove, 1 tsp lemon juice and ⅛ tsp salt. Serve 3 halves each with a spoon of yoghurt and the parsley.",
+          "uses": [
+            "60g Greek yoghurt",
+            "½ garlic clove",
+            "1 tsp lemon juice",
+            "⅛ tsp salt",
+            "5g parsley"
+          ]
+        }
+      ],
+      "tip": "This uses all the mince in the freezer, so protein comes in above the usual 30–40g. The day before, move both bags to the fridge. Freeze the other ½ tin of tomatoes in a box, or use it within 3 days."
+    },
+    {
+      "night": 5,
+      "colour": "#7A3CFF",
+      "ink": "#FFFFFF",
+      "title": "Potato, spinach & feta frittata with tomato & red onion salad",
+      "cuisine": "European",
+      "airFryer": false,
+      "time": "35 min",
+      "method": "Pan with a lid",
+      "kcal": "≈570 kcal",
+      "protein": "≈35g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "7",
+          "item": "large eggs"
+        },
+        {
+          "qty": "250g",
+          "item": "baby potatoes, 1cm slices"
+        },
+        {
+          "qty": "1 litre",
+          "item": "water, for the potatoes"
+        },
+        {
+          "qty": "100g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "1",
+          "item": "red onion (½ sliced for the frittata, ½ very thin for the salad)"
+        },
+        {
+          "qty": "60g",
+          "item": "feta, crumbled"
+        },
+        {
+          "qty": "250g",
+          "item": "baby plum tomatoes, halved"
+        },
+        {
+          "qty": "2 tsp (10ml)",
+          "item": "olive oil (frittata)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "olive oil (salad)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "5g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "1⅜ tsp",
+          "item": "salt (1 tsp potato water, ¼ eggs, ⅛ salad)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil 1 litre water with 1 tsp salt. Add the potato slices and boil 8 min, until a knife slides in. Drain.",
+          "uses": [
+            "1 litre water",
+            "1 tsp salt",
+            "250g baby potatoes"
+          ]
+        },
+        {
+          "text": "Heat 2 tsp oil in a 24cm non-stick frying pan (with a lid) on medium. Cook the sliced ½ onion 4 min, add the potatoes for 3 min, then the spinach for 1 min until wilted. Spread everything out evenly.",
+          "uses": [
+            "2 tsp olive oil",
+            "½ red onion",
+            "the potatoes",
+            "100g spinach"
+          ]
+        },
+        {
+          "text": "Beat the 7 eggs with ¼ tsp salt and ⅛ tsp pepper. Pour over, scatter the feta on top. Lid on, low heat, 10–12 min, until the edges are set and the middle only just wobbles.",
+          "uses": [
+            "7 eggs",
+            "¼ tsp salt",
+            "⅛ tsp black pepper",
+            "60g feta"
+          ]
+        },
+        {
+          "text": "Salad: mix the tomatoes with the thin ½ onion, 1 tsp oil, 1 tsp lemon juice, ⅛ tsp salt, ⅛ tsp pepper and the parsley.",
+          "uses": [
+            "250g plum tomatoes",
+            "½ red onion",
+            "1 tsp olive oil",
+            "1 tsp lemon juice",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper",
+            "5g parsley"
+          ]
+        },
+        {
+          "text": "Rest the frittata 2 min, slide it out and cut in half. Taste a bite: if flat, a little more salad dressing; feta adds salt, so no more on the eggs.",
+          "uses": []
+        }
+      ],
+      "tip": "Low heat and a lid cook the top without flipping. If the middle is still runny after 12 min, give it 2 more."
+    }
+  ],
+  "prep": [
+    {
+      "when": "Sunday, when the shop arrives",
+      "tips": [
+        "Sea bass and prawns go in the coldest part of the fridge: they're 1 and 2.",
+        "Wrap the parsley in damp kitchen roll in a box.",
+        "The emergency cupboard extras (tins, frozen spinach, hash browns) are stock, not part of this week's recipes. Put them at the back."
+      ]
+    },
+    {
+      "when": "With 2",
+      "with": 2,
+      "tips": [
+        "Optional: cook 3's rice at the same time. 200g rice, 350ml water, ½ tsp salt. Fridge 3's half within 1 hour; reheat once only, until piping hot."
+      ]
+    },
+    {
+      "when": "The day before 3",
+      "before": 3,
+      "tips": [
+        "Move the 300g chicken thighs from the freezer to the fridge."
+      ]
+    },
+    {
+      "when": "The day before 4",
+      "before": 4,
+      "tips": [
+        "Move both bags of beef mince (390g) from the freezer to the fridge. This clears the freezer of meat."
+      ]
+    },
+    {
+      "when": "Reuse and waste",
+      "tips": [
+        "Baby potatoes: 250g used in 5, about 750g left for the weekend (or roast with the hash browns).",
+        "Feta: 120g used, 80g left: crumble over breakfast or salads.",
+        "Yoghurt: 560g used (breakfast + 4), about 440g left.",
+        "Chopped tomatoes: 1½ tins used from the 6; 4 are the emergency stock. Freeze the spare ½ tin from 4.",
+        "Lemons: 1 in 1, ½ in 2, a little in 4 and 5: about 1½ left."
+      ]
+    }
+  ],
+  "shopping": {
+    "total": "£82.69",
+    "items": 54,
+    "skipped": [],
+    "groups": {
+      "Proteins": [
+        {
+          "name": "Tesco 4 Boneless Sea Bass Fillets",
+          "qty": "360g"
+        },
+        {
+          "name": "Tesco Raw King Prawns",
+          "qty": "2 × 165g"
+        },
+        {
+          "name": "Tesco Large Free Range Eggs",
+          "qty": "12",
+          "note": "7 for 5, 5 for breakfast"
+        },
+        {
+          "name": "Chicken thigh fillets",
+          "qty": "300g",
+          "note": "from your freezer"
+        },
+        {
+          "name": "Lean beef mince 5%",
+          "qty": "390g",
+          "note": "from your freezer"
+        }
+      ],
+      "Vegetables & herbs": [
+        {
+          "name": "Nightingale Farms Peppers",
+          "qty": "375g (3)"
+        },
+        {
+          "name": "Aubergine",
+          "qty": "1"
+        },
+        {
+          "name": "Tesco Fine Beans",
+          "qty": "200g"
+        },
+        {
+          "name": "Tesco Baby Plum Tomatoes",
+          "qty": "2 × 300g",
+          "note": "cherry tomatoes were out of stock"
+        },
+        {
+          "name": "Tesco Baby Spinach",
+          "qty": "250g"
+        },
+        {
+          "name": "Red onions",
+          "qty": "3 pack"
+        },
+        {
+          "name": "Large garlic",
+          "qty": "1"
+        },
+        {
+          "name": "Root ginger",
+          "qty": "1 piece"
+        },
+        {
+          "name": "Spring onions",
+          "qty": "100g"
+        },
+        {
+          "name": "Flat leaf parsley",
+          "qty": "30g"
+        },
+        {
+          "name": "Lemons",
+          "qty": "4 pack"
+        },
+        {
+          "name": "Baby potatoes",
+          "qty": "1kg",
+          "note": "250g for 5"
+        }
+      ],
+      "Rice & noodles": [
+        {
+          "name": "Tilda basmati",
+          "qty": "260g",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "GF oats",
+          "qty": "150g",
+          "note": "from your cupboard",
+          "gf": true
+        },
+        {
+          "name": "Small brown lentils",
+          "qty": "60g",
+          "note": "from your cupboard"
+        }
+      ],
+      "Pantry & sauces": [
+        {
+          "name": "Tesco Italian Chopped Tomatoes",
+          "qty": "2 × 400g",
+          "note": "for 2 and 4"
+        },
+        {
+          "name": "Tamari",
+          "qty": "45ml",
+          "note": "from your cupboard",
+          "gf": true
+        },
+        {
+          "name": "Honey, tomato paste, spices, olive oil, salt",
+          "qty": "",
+          "note": "from your cupboard"
+        },
+        {
+          "name": "Frozen berries, chia",
+          "qty": "400g / 25g",
+          "note": "from your freezer/cupboard"
+        }
+      ],
+      "Dairy or alternatives": [
+        {
+          "name": "Tesco 0% Fat Greek Style Yogurt",
+          "qty": "1kg"
+        },
+        {
+          "name": "Tranos Greek Feta",
+          "qty": "200g"
+        },
+        {
+          "name": "Alpro Coconut No Sugar Drink",
+          "qty": "1L",
+          "note": "replaces almond drink from this week"
+        }
+      ],
+      "Snacks & desserts": [
+        {
+          "name": "Tesco Salt & Vinegar Rice Cakes",
+          "qty": "2 × 130g"
+        },
+        {
+          "name": "Mini Babybel Light",
+          "qty": "10"
+        },
+        {
+          "name": "Tesco Unsalted Mixed Nuts",
+          "qty": "200g"
+        },
+        {
+          "name": "Ripe bananas",
+          "qty": "5 pack"
+        },
+        {
+          "name": "Sweet easy peelers",
+          "qty": "600g"
+        },
+        {
+          "name": "Edamame",
+          "qty": "",
+          "note": "from your freezer"
+        },
+        {
+          "name": "Arla Protein Chocolate Pudding",
+          "qty": "5 × 200g",
+          "note": "Any 5 for £5"
+        },
+        {
+          "name": "Dash Peach Sparkling Water",
+          "qty": "4 × 330ml"
+        },
+        {
+          "name": "Remedy Kombucha Ginger Lemon",
+          "qty": "4 × 330ml"
+        }
+      ],
+      "Emergency cupboard (extras)": [
+        {
+          "name": "Glenryck Sardines in Tomato Sauce",
+          "qty": "3 × 120g"
+        },
+        {
+          "name": "Tesco Chickpeas in Water",
+          "qty": "3 × 400g"
+        },
+        {
+          "name": "Tesco Naturally Sweet Sweetcorn",
+          "qty": "2 × 200g"
+        },
+        {
+          "name": "Princes Tuna Chunks in Spring Water",
+          "qty": "3 × 145g",
+          "note": "Tesco's own was out of stock"
+        },
+        {
+          "name": "Tesco Italian Chopped Tomatoes",
+          "qty": "4 × 400g"
+        },
+        {
+          "name": "Heinz No Added Sugar Beanz",
+          "qty": "4 × 415g",
+          "note": "closest to 'Light'; Any 2 for £2"
+        },
+        {
+          "name": "Tesco Leaf Spinach (frozen)",
+          "qty": "900g"
+        },
+        {
+          "name": "Strong Roots Sweet Potato Hash Brown",
+          "qty": "350g"
+        }
+      ]
+    }
+  }
+}
