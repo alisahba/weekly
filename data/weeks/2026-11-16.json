@@ -1,0 +1,940 @@
+{
+  "id": "2026-11-16",
+  "label": "16–22 November",
+  "start": "2026-11-16",
+  "format": "5+1",
+  "notes": [
+    "Cook in number order: salmon and prawns first while they're freshest.",
+    "Breakfast is for one: a 3-minute yoghurt bowl. Toast the oats once on Sunday.",
+    "One 600g chicken pack covers 3 and 4, so nothing goes in the freezer.",
+    "Menu approved by you with the toggles: 5 swapped to the halloumi bake, breakfast to the yoghurt bowl.",
+    "Nutrition is estimated per serving from ingredient weights."
+  ],
+  "breakfast": {
+    "title": "Yoghurt crunch bowl with summer fruits, chia, toasted GF oats & almonds (for 1)",
+    "time": "3 min",
+    "method": "Bowl",
+    "kcal": "≈330 kcal",
+    "protein": "≈27g",
+    "fibre": "≈8g",
+    "colour": "#FF5A1F",
+    "ink": "#000000",
+    "cuisine": "Breakfast",
+    "ingredients": [
+      {
+        "qty": "200g",
+        "item": "0% Greek yoghurt"
+      },
+      {
+        "qty": "80g",
+        "item": "frozen summer fruits"
+      },
+      {
+        "qty": "10g (2 tsp)",
+        "item": "chia seeds"
+      },
+      {
+        "qty": "20g",
+        "item": "GF oats, toasted on Sunday (see Prep)"
+      },
+      {
+        "qty": "10g",
+        "item": "almonds, roughly chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Microwave the frozen fruit in a bowl for 1 min until just thawed and juicy (or thaw it in the fridge overnight).",
+        "uses": [
+          "80g frozen summer fruits"
+        ]
+      },
+      {
+        "text": "Spoon 200g yoghurt into a bowl, add the fruit and its juice.",
+        "uses": [
+          "200g Greek yoghurt"
+        ]
+      },
+      {
+        "text": "Top with 20g toasted oats, 10g chopped almonds and 2 tsp chia.",
+        "uses": [
+          "20g toasted GF oats",
+          "10g almonds",
+          "2 tsp chia seeds"
+        ]
+      }
+    ],
+    "tip": "For one person: 5 mornings use 1kg yoghurt, 400g fruit, 100g oats, 50g almonds and 50g chia."
+  },
+  "dinners": [
+    {
+      "night": 1,
+      "colour": "#2B50FF",
+      "ink": "#FFFFFF",
+      "title": "Za'atar salmon, crispy potatoes & roast aubergine with lemon-garlic yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer",
+      "kcal": "≈525 kcal",
+      "protein": "≈34g",
+      "fibre": "≈6g",
+      "ingredients": [
+        {
+          "qty": "2 fillets (260g)",
+          "item": "boneless salmon"
+        },
+        {
+          "qty": "300g",
+          "item": "baby potatoes, halved (the leftovers; or 300g sweet potato, 2cm cubes)"
+        },
+        {
+          "qty": "1 (≈300g)",
+          "item": "aubergine, 2cm cubes"
+        },
+        {
+          "qty": "3 tsp",
+          "item": "za'atar (2 salmon, 1 aubergine)"
+        },
+        {
+          "qty": "4 tsp (20ml)",
+          "item": "olive oil (1 potatoes, 2 aubergine, 1 salmon)"
+        },
+        {
+          "qty": "80g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "½ clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (1 tsp juice for the yoghurt, rest in wedges)"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "⅝ tsp",
+          "item": "salt (¼ potatoes, ⅛ aubergine, ⅛ salmon, ⅛ yoghurt)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Air Fryer: toss the potatoes with 1 tsp oil, ¼ tsp salt and ⅛ tsp pepper. Cook at 200°C for 10 min.",
+          "uses": [
+            "300g baby potatoes",
+            "1 tsp olive oil",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Toss the aubergine with 2 tsp oil, 1 tsp za'atar and ⅛ tsp salt. Add it to the potatoes, shake, and cook 10 min more at 200°C, until the potatoes are crisp and the aubergine soft and browned. Tip into a dish and keep warm.",
+          "uses": [
+            "1 aubergine",
+            "2 tsp olive oil",
+            "1 tsp za'atar",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Pat the salmon dry. Rub with 1 tsp oil, 2 tsp za'atar, ⅛ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "2 salmon fillets",
+            "1 tsp olive oil",
+            "2 tsp za'atar",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: salmon skin-side down at 200°C for 9–10 min. Done when the thickest part flakes and is just opaque in the middle.",
+          "uses": [
+            "the salmon"
+          ]
+        },
+        {
+          "text": "Meanwhile, stir 80g yoghurt with the grated garlic, 1 tsp lemon juice and ⅛ tsp salt.",
+          "uses": [
+            "80g Greek yoghurt",
+            "½ garlic clove",
+            "1 tsp lemon juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Serve: potatoes and aubergine, salmon on top, a spoon of yoghurt, parsley and a lemon wedge each.",
+          "uses": [
+            "10g parsley",
+            "lemon wedges"
+          ]
+        },
+        {
+          "text": "Taste a potato: if flat, ⅛ tsp salt over the tray. Za'atar contains some salt, so go easy on the salmon.",
+          "uses": []
+        }
+      ],
+      "tip": "If the leftover baby potatoes are gone, use 300g of this week's sweet potatoes (2cm cubes) the same way."
+    },
+    {
+      "night": 2,
+      "colour": "#FF3D7F",
+      "ink": "#000000",
+      "title": "Smoky garlic prawns with paprika chickpeas, peppers & spinach",
+      "cuisine": "European",
+      "airFryer": false,
+      "time": "25 min",
+      "method": "Pan",
+      "kcal": "≈485 kcal",
+      "protein": "≈40g",
+      "fibre": "≈12g",
+      "ingredients": [
+        {
+          "qty": "330g (2 × 165g)",
+          "item": "raw king prawns"
+        },
+        {
+          "qty": "1½ tins (≈360g drained)",
+          "item": "chickpeas, drained and rinsed"
+        },
+        {
+          "qty": "2",
+          "item": "peppers, 1cm strips"
+        },
+        {
+          "qty": "100g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "4 cloves",
+          "item": "garlic, thinly sliced"
+        },
+        {
+          "qty": "1½ tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "1½ tbsp (22ml)",
+          "item": "olive oil"
+        },
+        {
+          "qty": "60ml",
+          "item": "water"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (15ml juice)"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "salt (¼ chickpeas, ⅛ prawns, ⅛ to finish)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat 1 tbsp oil in a large frying pan on medium. Add the peppers and cook 5 min until soft at the edges.",
+          "uses": [
+            "1 tbsp olive oil",
+            "2 peppers"
+          ]
+        },
+        {
+          "text": "Add the garlic, 1½ tsp smoked paprika and ¼ tsp chilli flakes for 1 min, stirring so the garlic only turns pale gold.",
+          "uses": [
+            "4 garlic cloves",
+            "1½ tsp smoked paprika",
+            "¼ tsp chilli flakes"
+          ]
+        },
+        {
+          "text": "Add the chickpeas, 60ml water, ¼ tsp salt and ⅛ tsp pepper. Simmer 4 min, crushing a few chickpeas with the spoon so the sauce thickens.",
+          "uses": [
+            "360g chickpeas",
+            "60ml water",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Pat the prawns dry, toss with ½ tbsp oil, ⅛ tsp salt and ⅛ tsp pepper, and push them into the pan. Cook 3–4 min, turning once, until pink all through and curled into a C.",
+          "uses": [
+            "330g prawns",
+            "½ tbsp olive oil",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Stir in the spinach for 1 min until wilted. Off the heat, squeeze over 15ml lemon juice and scatter the parsley.",
+          "uses": [
+            "100g spinach",
+            "15ml lemon juice",
+            "10g parsley"
+          ]
+        },
+        {
+          "text": "Taste: if flat, ⅛ tsp salt and a little more lemon. Serve straight from the pan.",
+          "uses": [
+            "⅛ tsp salt"
+          ]
+        }
+      ],
+      "tip": "Keep the other ½ tin of chickpeas in a covered box in the fridge for 5."
+    },
+    {
+      "night": 3,
+      "colour": "#00A86B",
+      "ink": "#000000",
+      "title": "Tikka chicken thighs with spiced lentil & tomato dal and spinach",
+      "cuisine": "Easy Asian",
+      "airFryer": true,
+      "time": "40 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈485 kcal",
+      "protein": "≈42g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (half the 600g pack)"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt (marinade)"
+        },
+        {
+          "qty": "2 tsp",
+          "item": "garam masala (1 chicken, 1 dal)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika (chicken)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin (½ chicken, ½ dal)"
+        },
+        {
+          "qty": "3 cloves",
+          "item": "garlic, grated (1 chicken, 2 dal)"
+        },
+        {
+          "qty": "15g",
+          "item": "fresh ginger, grated (5g chicken, 10g dal)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "60g",
+          "item": "small brown lentils, dry (cupboard)"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 5mm dice"
+        },
+        {
+          "qty": "400ml",
+          "item": "water, for the dal"
+        },
+        {
+          "qty": "100g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "3 tsp (15ml)",
+          "item": "olive oil (1 chicken, 2 dal)"
+        },
+        {
+          "qty": "10g",
+          "item": "coriander, chopped"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ chicken, ½ dal)"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinade: mix 60g yoghurt, 1 tsp garam masala, 1 tsp paprika, ½ tsp cumin, 1 grated garlic clove, 5g ginger, 1 tsp lemon juice, 1 tsp oil, ¼ tsp salt and ⅛ tsp pepper. Coat the chicken and leave 15 min (or overnight in the fridge).",
+          "uses": [
+            "300g chicken thighs",
+            "60g Greek yoghurt",
+            "1 tsp garam masala",
+            "1 tsp smoked paprika",
+            "½ tsp cumin",
+            "1 garlic clove",
+            "5g ginger",
+            "1 tsp lemon juice",
+            "1 tsp olive oil",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Dal: heat 2 tsp oil in a pan on medium. Cook the onion 5 min until soft, then add 2 garlic cloves, 10g ginger, 1 tsp garam masala and ½ tsp cumin for 1 min.",
+          "uses": [
+            "2 tsp olive oil",
+            "1 red onion",
+            "2 garlic cloves",
+            "10g ginger",
+            "1 tsp garam masala",
+            "½ tsp cumin"
+          ]
+        },
+        {
+          "text": "Add the rinsed lentils, the tomatoes, 400ml water and ½ tsp salt. Simmer with the lid half on for 25 min, stirring now and then, until the lentils are soft and the dal is thick. Add 50ml water if it gets dry.",
+          "uses": [
+            "60g lentils",
+            "400g chopped tomatoes",
+            "400ml water",
+            "½ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: after the dal has had 10 min, lay the chicken flat in the basket and cook at 200°C for 14 min, turning at 7, until charred at the edges and 75°C inside (juices clear).",
+          "uses": [
+            "the chicken"
+          ]
+        },
+        {
+          "text": "Stir the spinach into the dal for 1 min until wilted.",
+          "uses": [
+            "100g spinach"
+          ]
+        },
+        {
+          "text": "Rest the chicken 2 min, slice it, and serve on the dal with the coriander.",
+          "uses": [
+            "10g coriander"
+          ]
+        },
+        {
+          "text": "Taste the dal: if flat, add ⅛ tsp salt and a squeeze of lemon.",
+          "uses": []
+        }
+      ],
+      "tip": "Brown lentils hold their shape; for a creamier dal, mash a few against the side of the pan at the end."
+    },
+    {
+      "night": 4,
+      "colour": "#FFB000",
+      "ink": "#000000",
+      "title": "Peri-peri chicken, sweet potato wedges & charred corn salsa with lime yoghurt",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "40 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈535 kcal",
+      "protein": "≈37g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets (the other half of the pack)"
+        },
+        {
+          "qty": "400g",
+          "item": "sweet potato, wedges 2cm thick"
+        },
+        {
+          "qty": "200g tin (≈140g drained)",
+          "item": "sweetcorn"
+        },
+        {
+          "qty": "½",
+          "item": "red onion, fine dice"
+        },
+        {
+          "qty": "1",
+          "item": "lime (1 tbsp juice for the salsa, zest + 1 tsp for the yoghurt)"
+        },
+        {
+          "qty": "10g",
+          "item": "coriander, chopped"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "1½ tsp",
+          "item": "smoked paprika (1 chicken, ½ wedges)"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "1 clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "3 tsp (15ml)",
+          "item": "olive oil (1 chicken, 2 wedges)"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ chicken, ¼ wedges, ⅛ salsa, ⅛ yoghurt)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peri-peri rub: mix 1 tsp paprika, ½ tsp chilli flakes, ½ tsp oregano, the garlic, 1 tbsp lemon juice, 1 tsp oil, ¼ tsp salt and ⅛ tsp pepper. Coat the chicken.",
+          "uses": [
+            "300g chicken thighs",
+            "1 tsp smoked paprika",
+            "½ tsp chilli flakes",
+            "½ tsp oregano",
+            "1 garlic clove",
+            "1 tbsp lemon juice",
+            "1 tsp olive oil",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: toss the wedges with 2 tsp oil, ½ tsp paprika, ¼ tsp salt and ⅛ tsp pepper. Cook at 200°C for 20 min, shaking at 10, until soft inside and browned. Tip into a dish.",
+          "uses": [
+            "400g sweet potato",
+            "2 tsp olive oil",
+            "½ tsp smoked paprika",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: chicken flat at 200°C for 14 min, turning at 7. Done at 75°C or when the juices run clear. Put the wedges back in for the last 2 min to reheat.",
+          "uses": [
+            "the chicken"
+          ]
+        },
+        {
+          "text": "Meanwhile, salsa: heat a dry frying pan on high and char the drained corn for 4 min, stirring, until some kernels blacken. Off the heat, mix with the onion, coriander, 1 tbsp lime juice and ⅛ tsp salt.",
+          "uses": [
+            "140g sweetcorn",
+            "½ red onion",
+            "10g coriander",
+            "1 tbsp lime juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Lime yoghurt: stir 60g yoghurt with the lime zest, 1 tsp lime juice and ⅛ tsp salt.",
+          "uses": [
+            "60g Greek yoghurt",
+            "lime zest",
+            "1 tsp lime juice",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Taste the salsa: if flat, more lime. Serve: wedges, sliced chicken, salsa, yoghurt.",
+          "uses": []
+        }
+      ],
+      "tip": "Rub the chicken the night before for a deeper flavour. The rest of the sweet potatoes keep in a cool cupboard."
+    },
+    {
+      "night": 5,
+      "colour": "#7A3CFF",
+      "ink": "#FFFFFF",
+      "title": "Halloumi, aubergine & chickpea tomato bake with lemon-herb yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈560 kcal",
+      "protein": "≈34g",
+      "fibre": "≈8g",
+      "ingredients": [
+        {
+          "qty": "225g",
+          "item": "halloumi, 2cm cubes"
+        },
+        {
+          "qty": "1 (≈300g)",
+          "item": "aubergine, 2cm cubes"
+        },
+        {
+          "qty": "1",
+          "item": "pepper, 2cm pieces"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, 8 wedges"
+        },
+        {
+          "qty": "½ tin (≈120g drained)",
+          "item": "chickpeas (left from 2)"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "100ml",
+          "item": "water"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic (1 sauce, 1 yoghurt), grated"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin (½ veg, ½ sauce)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "2 tsp (10ml)",
+          "item": "olive oil (veg)"
+        },
+        {
+          "qty": "60g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "⅜ tsp",
+          "item": "salt (⅛ veg, ⅛ sauce, ⅛ yoghurt): halloumi is salty"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Air Fryer: toss the aubergine, pepper and onion with 2 tsp oil, ½ tsp cumin and ⅛ tsp salt. Cook at 200°C for 14 min, shaking at 7, until soft and browned.",
+          "uses": [
+            "1 aubergine",
+            "1 pepper",
+            "1 red onion",
+            "2 tsp olive oil",
+            "½ tsp cumin",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Sauce: in a pan, simmer the tomatoes, chickpeas, 100ml water, 1 grated garlic clove, ½ tsp cumin, ¼ tsp chilli flakes, ⅛ tsp salt and ⅛ tsp pepper for 10 min, until thick.",
+          "uses": [
+            "400g chopped tomatoes",
+            "120g chickpeas",
+            "100ml water",
+            "1 garlic clove",
+            "½ tsp cumin",
+            "¼ tsp chilli flakes",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: halloumi cubes at 200°C for 6–8 min, until golden at the edges.",
+          "uses": [
+            "225g halloumi"
+          ]
+        },
+        {
+          "text": "Stir the roast veg into the sauce, then top with the halloumi.",
+          "uses": [
+            "the veg",
+            "the halloumi"
+          ]
+        },
+        {
+          "text": "Yoghurt: stir 60g yoghurt with 1 grated garlic clove, 1 tsp lemon juice, ⅛ tsp salt and most of the parsley.",
+          "uses": [
+            "60g Greek yoghurt",
+            "1 garlic clove",
+            "1 tsp lemon juice",
+            "⅛ tsp salt",
+            "8g parsley"
+          ]
+        },
+        {
+          "text": "Taste the sauce before adding salt: halloumi seasons it. If sharp, ½ tsp honey. Serve with the yoghurt and the last parsley.",
+          "uses": [
+            "2g parsley"
+          ]
+        }
+      ],
+      "tip": "Halloumi is about 300 kcal per 100g, so this bake uses only ½ tin of chickpeas to stay under 600 kcal."
+    }
+  ],
+  "prep": [
+    {
+      "when": "Sunday, when the shop arrives",
+      "tips": [
+        "Toast 100g GF oats in a dry frying pan on medium for 4 min, stirring, until golden and nutty. Cool and keep in a jar for the breakfasts.",
+        "Salmon and prawns go in the coldest part of the fridge: they're 1 and 2.",
+        "Wrap the coriander and parsley in damp kitchen roll in a box.",
+        "Check the leftover baby potatoes for 1. If they're gone or sprouting, use 300g sweet potato instead."
+      ]
+    },
+    {
+      "when": "With 2",
+      "with": 2,
+      "tips": [
+        "Keep the ½ tin of chickpeas you don't use in a covered box in the fridge for 5."
+      ]
+    },
+    {
+      "when": "The day before 3",
+      "before": 3,
+      "tips": [
+        "Optional: marinate the chicken for 3 in the tikka yoghurt overnight, and rub the chicken for 4 with the peri-peri mix too. Both halves of the 600g pack get used this week."
+      ]
+    },
+    {
+      "when": "Reuse and waste",
+      "tips": [
+        "Chicken: 300g in 3, 300g in 4. Nothing to freeze.",
+        "Chickpeas: 1½ tins in 2, ½ tin in 5.",
+        "Sweet potatoes: 400g in 4, about 600g left (or 300g in 1 if the baby potatoes are gone).",
+        "Yoghurt: 1kg breakfasts + 260g dinners; use the leftover tub from last week first.",
+        "Summer fruits: 400g breakfasts, about 100g left.",
+        "Za'atar and garam masala jars will last for weeks."
+      ]
+    }
+  ],
+  "shopping": {
+    "total": "£77.97",
+    "items": 44,
+    "skipped": [
+      "nuts: almonds from the cupboard this week"
+    ],
+    "groups": {
+      "Proteins": [
+        {
+          "name": "Tesco 2 Boneless Salmon Fillets",
+          "qty": "260g"
+        },
+        {
+          "name": "Tesco Raw King Prawns",
+          "qty": "2 × 165g"
+        },
+        {
+          "name": "Tesco British Chicken Thigh Fillets",
+          "qty": "600g",
+          "note": "300g for 3, 300g for 4"
+        },
+        {
+          "name": "Tesco Halloumi",
+          "qty": "225g"
+        }
+      ],
+      "Vegetables & herbs": [
+        {
+          "name": "Aubergine",
+          "qty": "2"
+        },
+        {
+          "name": "Nightingale Farms Peppers",
+          "qty": "375g (3)"
+        },
+        {
+          "name": "Tesco Baby Spinach",
+          "qty": "220g",
+          "note": "250g bag was out of stock"
+        },
+        {
+          "name": "Red onions",
+          "qty": "3 pack"
+        },
+        {
+          "name": "Large garlic",
+          "qty": "1"
+        },
+        {
+          "name": "Sweet potatoes",
+          "qty": "1kg"
+        },
+        {
+          "name": "Coriander",
+          "qty": "30g"
+        },
+        {
+          "name": "Flat leaf parsley",
+          "qty": "30g"
+        },
+        {
+          "name": "Lemons",
+          "qty": "2"
+        },
+        {
+          "name": "Lime",
+          "qty": "1"
+        },
+        {
+          "name": "Baby potatoes, ginger",
+          "qty": "300g / 15g",
+          "note": "left from last week"
+        }
+      ],
+      "Rice & noodles": [
+        {
+          "name": "GF oats",
+          "qty": "100g",
+          "note": "from your cupboard",
+          "gf": true
+        },
+        {
+          "name": "Small brown lentils",
+          "qty": "60g",
+          "note": "from your cupboard"
+        }
+      ],
+      "Pantry & sauces": [
+        {
+          "name": "Tesco Chickpeas in Water",
+          "qty": "2 × 400g"
+        },
+        {
+          "name": "Tesco Italian Chopped Tomatoes",
+          "qty": "2 × 400g"
+        },
+        {
+          "name": "Tesco Naturally Sweet Sweetcorn",
+          "qty": "200g"
+        },
+        {
+          "name": "Schwartz Za'atar Seasoning",
+          "qty": "35g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Tesco Garam Masala",
+          "qty": "38g",
+          "gf": "Check GF"
+        },
+        {
+          "name": "Tesco Olive Oil",
+          "qty": "1L",
+          "note": "from running low"
+        },
+        {
+          "name": "Paprika, cumin, chilli, oregano, salt, chia, almonds",
+          "qty": "",
+          "note": "from your cupboard"
+        }
+      ],
+      "Dairy or alternatives": [
+        {
+          "name": "Tesco 0% Fat Greek Style Yogurt",
+          "qty": "1kg + 500g"
+        },
+        {
+          "name": "Alpro Coconut No Sugar Drink",
+          "qty": "1L"
+        }
+      ],
+      "Snacks & desserts": [
+        {
+          "name": "Tesco Lightly Salted Rice Cakes",
+          "qty": "2 × 130g",
+          "note": "salt & vinegar out of stock"
+        },
+        {
+          "name": "Mini Babybel Light",
+          "qty": "10"
+        },
+        {
+          "name": "Almonds",
+          "qty": "~110g",
+          "note": "from your cupboard (this week's nuts)"
+        },
+        {
+          "name": "Tesco Finest Peru Dark Chocolate 85%",
+          "qty": "100g"
+        },
+        {
+          "name": "Tesco Red Seedless Grapes",
+          "qty": "500g"
+        },
+        {
+          "name": "Gala apples",
+          "qty": "pack"
+        },
+        {
+          "name": "Conference pears",
+          "qty": "610g"
+        },
+        {
+          "name": "Tesco Summer Fruits Mix (frozen)",
+          "qty": "500g",
+          "note": "for breakfast; mixed berries 1kg out of stock"
+        },
+        {
+          "name": "Arla Protein Chocolate Pudding",
+          "qty": "5 × 200g",
+          "note": "Any 5 for £5"
+        },
+        {
+          "name": "Dash Raspberry Sparkling Water",
+          "qty": "4 × 330ml"
+        },
+        {
+          "name": "Remedy Kombucha Wild Berry",
+          "qty": "4 × 330ml"
+        }
+      ],
+      "Household": [
+        {
+          "name": "Tesco Kitchen Towel",
+          "qty": "2 rolls",
+          "note": "from running low"
+        }
+      ]
+    }
+  }
+}

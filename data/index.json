@@ -1,6 +1,25 @@
 {
  "weeks": [
   {
+   "id": "2026-11-16",
+   "label": "16–22 November",
+   "start": "2026-11-16",
+   "dinners": [
+    "Za'atar salmon, crispy potatoes & roast aubergine with lemon-garlic yoghurt",
+    "Smoky garlic prawns with paprika chickpeas, peppers & spinach",
+    "Tikka chicken thighs with spiced lentil & tomato dal and spinach",
+    "Peri-peri chicken, sweet potato wedges & charred corn salsa with lime yoghurt",
+    "Halloumi, aubergine & chickpea tomato bake with lemon-herb yoghurt"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF"
+   ]
+  },
+  {
    "id": "2026-11-09",
    "label": "9–15 November",
    "start": "2026-11-09",
