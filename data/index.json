@@ -1,6 +1,25 @@
 {
  "weeks": [
   {
+   "id": "2026-11-23",
+   "label": "23–29 November",
+   "start": "2026-11-23",
+   "dinners": [
+    "Cajun cod with sweet potato mash & charred tenderstem",
+    "Lemon, prawn & pea risotto with parmesan",
+    "Spiced chicken & aubergine one-pot rice (maqluba-style) with garlic yoghurt",
+    "Chicken cacciatore with peppers, olives & butter beans",
+    "Rump steak with chimichurri, crispy potatoes & garlicky spinach"
+   ],
+   "colours": [
+    "#2B50FF",
+    "#FF3D7F",
+    "#00A86B",
+    "#FFB000",
+    "#7A3CFF"
+   ]
+  },
+  {
    "id": "2026-11-16",
    "label": "16–22 November",
    "start": "2026-11-16",

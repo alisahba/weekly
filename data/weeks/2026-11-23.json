@@ -1,0 +1,881 @@
+{
+  "id": "2026-11-23",
+  "label": "23–29 November",
+  "start": "2026-11-23",
+  "format": "5+1",
+  "notes": [
+    "Cook in number order: cod and prawns first while they're freshest.",
+    "Breakfast is for one: overnight chia pots, 3 jars on Sunday, 2 midweek.",
+    "One 600g chicken pack covers 3 and 4; the steak is one 255g rump, sliced and shared.",
+    "Menu approved by you with the toggles: 4 is the cacciatore, 5 the steak.",
+    "The basket also holds 4 items you added yourself; they're not in this list.",
+    "Nutrition is estimated per serving from ingredient weights."
+  ],
+  "breakfast": {
+    "title": "Chia pudding pot with coconut drink, Greek yoghurt, berries & almonds (for 1)",
+    "time": "5 min the night before",
+    "method": "Jar",
+    "kcal": "≈320 kcal",
+    "protein": "≈23g",
+    "fibre": "≈11g",
+    "colour": "#FF5A1F",
+    "ink": "#000000",
+    "cuisine": "Breakfast",
+    "ingredients": [
+      {
+        "qty": "20g (4 tsp)",
+        "item": "chia seeds"
+      },
+      {
+        "qty": "100ml",
+        "item": "Alpro coconut no sugar drink"
+      },
+      {
+        "qty": "150g",
+        "item": "0% Greek yoghurt"
+      },
+      {
+        "qty": "70g",
+        "item": "frozen mixed berries"
+      },
+      {
+        "qty": "15g",
+        "item": "almonds, chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "In a jar, stir 20g chia into 100ml coconut drink and 50g of the yoghurt. Leave 2 min, stir again so it doesn't clump.",
+        "uses": [
+          "20g chia seeds",
+          "100ml coconut drink",
+          "50g Greek yoghurt"
+        ]
+      },
+      {
+        "text": "Add the frozen berries on top, lid on, fridge overnight (or at least 4 hours). The berries thaw into it.",
+        "uses": [
+          "70g frozen berries"
+        ]
+      },
+      {
+        "text": "In the morning, top with the other 100g yoghurt and 15g almonds.",
+        "uses": [
+          "100g Greek yoghurt",
+          "15g almonds"
+        ]
+      }
+    ],
+    "tip": "Make 3 jars on Sunday and 2 more when they run out. They keep 3 days in the fridge."
+  },
+  "dinners": [
+    {
+      "night": 1,
+      "colour": "#2B50FF",
+      "ink": "#FFFFFF",
+      "title": "Cajun cod with sweet potato mash & charred tenderstem",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "30 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈395 kcal",
+      "protein": "≈33g",
+      "fibre": "≈9g",
+      "ingredients": [
+        {
+          "qty": "2 fillets (280g)",
+          "item": "boneless cod"
+        },
+        {
+          "qty": "400g",
+          "item": "sweet potato, 3cm chunks (left from last week; or 400g baby potatoes)"
+        },
+        {
+          "qty": "1 litre",
+          "item": "water, for the potatoes"
+        },
+        {
+          "qty": "200g",
+          "item": "tenderstem broccoli"
+        },
+        {
+          "qty": "30g",
+          "item": "0% Greek yoghurt (mash)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "1 clove",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "3 tsp (15ml)",
+          "item": "olive oil (1 cod, 2 broccoli)"
+        },
+        {
+          "qty": "½",
+          "item": "lemon, in wedges"
+        },
+        {
+          "qty": "1⅜ tsp",
+          "item": "salt (1 potato water, ⅛ mash, ⅛ cod, ⅛ broccoli)"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mash: boil 1 litre water with 1 tsp salt. Add the sweet potato and boil 12–15 min, until a knife slides in. Drain, then mash with 30g yoghurt, ⅛ tsp salt and ⅛ tsp pepper. Keep the lid on.",
+          "uses": [
+            "1 litre water",
+            "1 tsp salt",
+            "400g sweet potato",
+            "30g Greek yoghurt",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Cajun rub: mix 1 tsp paprika, ½ tsp cumin, ½ tsp oregano, ¼ tsp chilli flakes, the garlic, 1 tsp oil, ⅛ tsp salt and ⅛ tsp pepper. Pat the cod dry and coat the top and sides.",
+          "uses": [
+            "2 cod fillets",
+            "1 tsp smoked paprika",
+            "½ tsp cumin",
+            "½ tsp oregano",
+            "¼ tsp chilli flakes",
+            "1 garlic clove",
+            "1 tsp olive oil",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Air Fryer: toss the tenderstem with 2 tsp oil and ⅛ tsp salt. Cook at 200°C for 6 min, until the tips are charred. Tip out and keep warm.",
+          "uses": [
+            "200g tenderstem",
+            "2 tsp olive oil",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Air Fryer: cod at 200°C for 8–10 min. Done when the thickest part is opaque and flakes with a fork.",
+          "uses": [
+            "the cod"
+          ]
+        },
+        {
+          "text": "Serve: mash, cod, tenderstem and a lemon wedge each. Taste the mash: if flat, ⅛ tsp salt; the rub seasons the cod.",
+          "uses": [
+            "lemon wedges"
+          ]
+        }
+      ],
+      "tip": "If last week's sweet potatoes are gone, use 400g of this week's baby potatoes, boiled and mashed the same way."
+    },
+    {
+      "night": 2,
+      "colour": "#FF3D7F",
+      "ink": "#000000",
+      "title": "Lemon, prawn & pea risotto with parmesan",
+      "cuisine": "European",
+      "airFryer": false,
+      "time": "35 min",
+      "method": "Pan",
+      "kcal": "≈560 kcal",
+      "protein": "≈39g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "330g (2 × 165g)",
+          "item": "raw king prawns"
+        },
+        {
+          "qty": "150g",
+          "item": "carnaroli risotto rice"
+        },
+        {
+          "qty": "1 cube + 800ml",
+          "item": "Kallo vegetable stock cube (GF) in 800ml boiling water"
+        },
+        {
+          "qty": "150g",
+          "item": "frozen peas"
+        },
+        {
+          "qty": "30g",
+          "item": "grated parmigiano"
+        },
+        {
+          "qty": "½",
+          "item": "red onion, very finely chopped"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic, grated"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil"
+        },
+        {
+          "qty": "½",
+          "item": "lemon (zest + 15ml juice)"
+        },
+        {
+          "qty": "5g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        },
+        {
+          "qty": "0 tsp",
+          "item": "salt: the stock and parmesan season it (taste at the end)"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dissolve the stock cube in 800ml boiling water and keep it on a low heat.",
+          "uses": [
+            "1 stock cube",
+            "800ml boiling water"
+          ]
+        },
+        {
+          "text": "Heat 1 tbsp oil in a wide pan on medium. Cook the onion 4 min until soft, then add the garlic for 30 sec.",
+          "uses": [
+            "1 tbsp olive oil",
+            "½ red onion",
+            "2 garlic cloves"
+          ]
+        },
+        {
+          "text": "Add 150g rice and stir 1 min until the edges look glassy. Add the stock a ladle (about 100ml) at a time, stirring often and waiting until each is mostly absorbed: about 18 min in total.",
+          "uses": [
+            "150g carnaroli rice",
+            "800ml stock"
+          ]
+        },
+        {
+          "text": "When the rice is just tender with a slight bite, stir in the peas and the prawns. Cook 3–4 min, until the prawns are pink all through and curled into a C. If it gets thick, add 50ml more stock: it should flow slowly off a spoon.",
+          "uses": [
+            "150g frozen peas",
+            "330g prawns",
+            "50ml stock"
+          ]
+        },
+        {
+          "text": "Off the heat: stir in the parmesan, the lemon zest, 15ml lemon juice and ¼ tsp pepper. Lid on for 1 min.",
+          "uses": [
+            "30g parmigiano",
+            "lemon zest",
+            "15ml lemon juice",
+            "¼ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Taste: the stock and parmesan carry the salt. If it's flat, add ⅛ tsp salt; if rich, more lemon. Serve with the parsley.",
+          "uses": [
+            "5g parsley"
+          ]
+        }
+      ],
+      "tip": "Keep stirring: that's what makes it creamy without butter. Any stock left over can go in 3."
+    },
+    {
+      "night": 3,
+      "colour": "#00A86B",
+      "ink": "#000000",
+      "title": "Spiced chicken & aubergine one-pot rice (maqluba-style) with garlic yoghurt",
+      "cuisine": "Middle Eastern",
+      "airFryer": true,
+      "time": "40 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈575 kcal",
+      "protein": "≈37g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets, 3cm pieces (half the pack)"
+        },
+        {
+          "qty": "1 (≈300g)",
+          "item": "aubergine, 2cm cubes"
+        },
+        {
+          "qty": "100g",
+          "item": "Tilda basmati, dry (cupboard)"
+        },
+        {
+          "qty": "½ cube + 200ml",
+          "item": "Kallo vegetable stock (GF) in 200ml boiling water"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, thinly sliced"
+        },
+        {
+          "qty": "2½ cloves",
+          "item": "garlic (2 grated for the rice, ½ for the yoghurt)"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "ground cumin"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "smoked paprika"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "garam masala"
+        },
+        {
+          "qty": "3 tsp (15ml)",
+          "item": "olive oil (2 aubergine, 1 pan)"
+        },
+        {
+          "qty": "10g",
+          "item": "almonds, chopped and toasted"
+        },
+        {
+          "qty": "10g",
+          "item": "flat leaf parsley, chopped"
+        },
+        {
+          "qty": "80g",
+          "item": "0% Greek yoghurt"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "salt (⅛ aubergine, ¼ chicken, ⅛ yoghurt): the stock seasons the rice"
+        },
+        {
+          "qty": "⅛ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Air Fryer: toss the aubergine with 2 tsp oil and ⅛ tsp salt. Cook at 200°C for 12 min, shaking at 6, until soft and browned.",
+          "uses": [
+            "1 aubergine",
+            "2 tsp olive oil",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Meanwhile, toss the chicken with 1 tsp cumin, 1 tsp paprika, ½ tsp garam masala, ¼ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "300g chicken thighs",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "½ tsp garam masala",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Heat 1 tsp oil in a pan with a lid on medium-high. Brown the chicken 4 min, then add the onion for 3 min and 2 grated garlic cloves for 30 sec.",
+          "uses": [
+            "1 tsp olive oil",
+            "the chicken",
+            "1 red onion",
+            "2 garlic cloves"
+          ]
+        },
+        {
+          "text": "Rinse 100g rice and stir it in with 200ml hot stock. Bring to the boil, lid on, lowest heat 12 min. Then lay the aubergine on top, lid back on, off the heat for 5 min. Chicken is done at 75°C.",
+          "uses": [
+            "100g basmati",
+            "200ml stock",
+            "the aubergine"
+          ]
+        },
+        {
+          "text": "Yoghurt: stir 80g yoghurt with ½ grated garlic clove and ⅛ tsp salt. Toast the almonds in a dry pan for 2 min.",
+          "uses": [
+            "80g Greek yoghurt",
+            "½ garlic clove",
+            "⅛ tsp salt",
+            "10g almonds"
+          ]
+        },
+        {
+          "text": "Fluff the rice, scatter the almonds and parsley. Taste: if flat, ⅛ tsp salt. Serve with the yoghurt.",
+          "uses": [
+            "10g parsley"
+          ]
+        }
+      ],
+      "tip": "Traditionally the pot is flipped onto a plate; spooning it out works just as well."
+    },
+    {
+      "night": 4,
+      "colour": "#FFB000",
+      "ink": "#000000",
+      "title": "Chicken cacciatore with peppers, olives & butter beans",
+      "cuisine": "European",
+      "airFryer": false,
+      "time": "40 min",
+      "method": "Pan",
+      "kcal": "≈515 kcal",
+      "protein": "≈39g",
+      "fibre": "≈11g",
+      "ingredients": [
+        {
+          "qty": "300g",
+          "item": "chicken thigh fillets, whole (the other half of the pack)"
+        },
+        {
+          "qty": "400g tin",
+          "item": "chopped tomatoes"
+        },
+        {
+          "qty": "2",
+          "item": "peppers, 1cm strips"
+        },
+        {
+          "qty": "1",
+          "item": "red onion, sliced"
+        },
+        {
+          "qty": "3 cloves",
+          "item": "garlic, sliced"
+        },
+        {
+          "qty": "40g",
+          "item": "pitted black olives, halved"
+        },
+        {
+          "qty": "400g tin (≈235g drained)",
+          "item": "butter beans, drained"
+        },
+        {
+          "qty": "1 tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "100ml",
+          "item": "water"
+        },
+        {
+          "qty": "15g",
+          "item": "basil, torn"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "olive oil"
+        },
+        {
+          "qty": "⅜ tsp",
+          "item": "salt (¼ chicken, ⅛ sauce): olives are salty"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Season the chicken with ¼ tsp salt and ⅛ tsp pepper. Heat 1 tbsp oil in a deep pan with a lid on medium-high and brown the thighs 3 min per side. Lift onto a plate.",
+          "uses": [
+            "300g chicken thighs",
+            "¼ tsp salt",
+            "⅛ tsp black pepper",
+            "1 tbsp olive oil"
+          ]
+        },
+        {
+          "text": "Turn to medium. Cook the onion and peppers 6 min until soft, then add the garlic and 1 tsp oregano for 1 min.",
+          "uses": [
+            "1 red onion",
+            "2 peppers",
+            "3 garlic cloves",
+            "1 tsp oregano"
+          ]
+        },
+        {
+          "text": "Add the tomatoes, 100ml water, olives, ⅛ tsp salt and ⅛ tsp pepper. Put the chicken back in, lid half on, and simmer 15 min.",
+          "uses": [
+            "400g chopped tomatoes",
+            "100ml water",
+            "40g olives",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Stir in the butter beans and simmer 5 min more, until the sauce is thick and the chicken is 75°C (juices clear).",
+          "uses": [
+            "235g butter beans"
+          ]
+        },
+        {
+          "text": "Taste: if sharp, ½ tsp honey; if flat, ⅛ tsp salt. Tear over the basil and serve.",
+          "uses": [
+            "15g basil"
+          ]
+        }
+      ],
+      "tip": "Even better made the night before and reheated until piping hot."
+    },
+    {
+      "night": 5,
+      "colour": "#7A3CFF",
+      "ink": "#FFFFFF",
+      "title": "Rump steak with chimichurri, crispy potatoes & garlicky spinach",
+      "cuisine": "European",
+      "airFryer": true,
+      "time": "35 min",
+      "method": "Air fryer + pan",
+      "kcal": "≈550 kcal",
+      "protein": "≈35g",
+      "fibre": "≈5g",
+      "ingredients": [
+        {
+          "qty": "1 (255g)",
+          "item": "rump steak, about 2cm thick (shared, sliced)"
+        },
+        {
+          "qty": "400g",
+          "item": "baby potatoes, halved"
+        },
+        {
+          "qty": "200g",
+          "item": "baby spinach"
+        },
+        {
+          "qty": "15g",
+          "item": "flat leaf parsley, finely chopped (chimichurri)"
+        },
+        {
+          "qty": "2 cloves",
+          "item": "garlic (1 chimichurri, 1 spinach), grated"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": "¼ tsp",
+          "item": "chilli flakes"
+        },
+        {
+          "qty": "1 tbsp (15ml)",
+          "item": "lemon juice"
+        },
+        {
+          "qty": "2 tbsp (30ml)",
+          "item": "olive oil (chimichurri)"
+        },
+        {
+          "qty": "3 tsp (15ml)",
+          "item": "olive oil (1 potatoes, 1 spinach, 1 steak)"
+        },
+        {
+          "qty": "¾ tsp",
+          "item": "salt (¼ potatoes, ¼ steak, ⅛ chimichurri, ⅛ spinach)"
+        },
+        {
+          "qty": "½ tsp",
+          "item": "black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Take the steak out of the fridge 20 min before cooking. Air Fryer: toss the potatoes with 1 tsp oil, ¼ tsp salt and ⅛ tsp pepper. Cook at 200°C for 20 min, shaking at 10, until crisp.",
+          "uses": [
+            "400g baby potatoes",
+            "1 tsp olive oil",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Chimichurri: mix the parsley, 1 grated garlic clove, ½ tsp oregano, ¼ tsp chilli flakes, 1 tbsp lemon juice, 2 tbsp oil, ⅛ tsp salt and ⅛ tsp pepper.",
+          "uses": [
+            "15g parsley",
+            "1 garlic clove",
+            "½ tsp oregano",
+            "¼ tsp chilli flakes",
+            "1 tbsp lemon juice",
+            "2 tbsp olive oil",
+            "⅛ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Pat the steak dry, rub with 1 tsp oil, ¼ tsp salt and ⅛ tsp pepper. Heat a frying pan on high until smoking. Cook 2½–3 min per side for medium-rare (55°C inside) or 3½ min for medium (60°C).",
+          "uses": [
+            "255g rump steak",
+            "1 tsp olive oil",
+            "¼ tsp salt",
+            "⅛ tsp black pepper"
+          ]
+        },
+        {
+          "text": "Rest the steak on a board for 5 min. Meanwhile, in the same pan on medium, add 1 tsp oil, 1 grated garlic clove and the spinach with ⅛ tsp salt; stir 1–2 min until wilted.",
+          "uses": [
+            "1 tsp olive oil",
+            "1 garlic clove",
+            "200g spinach",
+            "⅛ tsp salt"
+          ]
+        },
+        {
+          "text": "Slice the steak thinly across the grain and share it between 2 plates with the potatoes and spinach. Spoon over the chimichurri.",
+          "uses": [
+            "the chimichurri"
+          ]
+        },
+        {
+          "text": "Taste the chimichurri before serving: if flat, a little more lemon or ⅛ tsp salt.",
+          "uses": []
+        }
+      ],
+      "tip": "One 255g rump steak, sliced and shared, keeps this within 30–40g protein and under 600 kcal."
+    }
+  ],
+  "prep": [
+    {
+      "when": "Sunday, when the shop arrives",
+      "tips": [
+        "Make 3 breakfast jars.",
+        "Cod and prawns go in the coldest part of the fridge: they're 1 and 2.",
+        "Wrap the parsley and basil in damp kitchen roll in a box.",
+        "Check last week's sweet potatoes for 1. If they're gone, use 400g of the new baby potatoes."
+      ]
+    },
+    {
+      "when": "With 2",
+      "with": 2,
+      "tips": [
+        "Keep any leftover stock in the fridge for 3 (it needs 200ml)."
+      ]
+    },
+    {
+      "when": "When the breakfast jars run out",
+      "tips": [
+        "Make 2 more jars."
+      ]
+    },
+    {
+      "when": "Reuse and waste",
+      "tips": [
+        "Chicken: 300g in 3, 300g in 4. Nothing to freeze.",
+        "Baby potatoes: 400g in 5, about 600g left (or 200g if used in 1).",
+        "Peas: 150g in 2; the rest of the bag stays frozen.",
+        "Olives: 40g in 4; the rest keep in the fridge in their brine.",
+        "Berries: 350g in breakfasts, about 650g left in the freezer.",
+        "Risotto rice: 150g of 500g used."
+      ]
+    }
+  ],
+  "shopping": {
+    "total": "£94.31 (incl. your 4 items)",
+    "items": 47,
+    "skipped": [],
+    "groups": {
+      "Proteins": [
+        {
+          "name": "Tesco 2 Boneless Cod Fillets",
+          "qty": "280g"
+        },
+        {
+          "name": "Tesco Raw King Prawns",
+          "qty": "2 × 165g"
+        },
+        {
+          "name": "Shazans Chicken Thigh Fillet",
+          "qty": "600g",
+          "note": "Tesco's own out of stock; 300g for 3, 300g for 4"
+        },
+        {
+          "name": "Tesco Beef Rump Steak",
+          "qty": "255g"
+        }
+      ],
+      "Vegetables & herbs": [
+        {
+          "name": "Tenderstem broccoli",
+          "qty": "200g"
+        },
+        {
+          "name": "Aubergine",
+          "qty": "1"
+        },
+        {
+          "name": "Nightingale Farms Peppers",
+          "qty": "375g (3)"
+        },
+        {
+          "name": "Red onions",
+          "qty": "3 pack"
+        },
+        {
+          "name": "Large garlic",
+          "qty": "1"
+        },
+        {
+          "name": "Lemons",
+          "qty": "2"
+        },
+        {
+          "name": "Flat leaf parsley",
+          "qty": "30g"
+        },
+        {
+          "name": "Basil",
+          "qty": "30g"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "220g",
+          "note": "for 5 (fine beans out of stock)"
+        },
+        {
+          "name": "Baby potatoes",
+          "qty": "1kg"
+        },
+        {
+          "name": "Grower's Harvest frozen garden peas",
+          "qty": "900g"
+        },
+        {
+          "name": "Sweet potatoes",
+          "qty": "400g",
+          "note": "left from last week"
+        }
+      ],
+      "Rice & noodles": [
+        {
+          "name": "Tesco Carnaroli Risotto Rice",
+          "qty": "500g"
+        },
+        {
+          "name": "Tilda basmati",
+          "qty": "100g",
+          "note": "from your cupboard"
+        }
+      ],
+      "Pantry & sauces": [
+        {
+          "name": "Kallo Organic Vegetable Stock Cubes",
+          "qty": "8 pack",
+          "gf": true
+        },
+        {
+          "name": "Tesco Italian Chopped Tomatoes",
+          "qty": "400g"
+        },
+        {
+          "name": "Tesco Butter Beans in Water",
+          "qty": "400g"
+        },
+        {
+          "name": "Tesco Pitted Black Olives",
+          "qty": "330g"
+        },
+        {
+          "name": "Tesco Smoked Paprika",
+          "qty": "48g",
+          "note": "yours had run out"
+        },
+        {
+          "name": "Tesco Chia Seeds",
+          "qty": "150g"
+        },
+        {
+          "name": "Cumin, oregano, chilli, garam masala, olive oil, salt",
+          "qty": "",
+          "note": "from your cupboard"
+        }
+      ],
+      "Dairy or alternatives": [
+        {
+          "name": "Tesco Grated Parmigiano Reggiano",
+          "qty": "100g"
+        },
+        {
+          "name": "Tesco 0% Fat Greek Style Yogurt",
+          "qty": "2 × 500g",
+          "note": "1kg tub out of stock"
+        },
+        {
+          "name": "Alpro Coconut No Sugar Drink",
+          "qty": "1L"
+        }
+      ],
+      "Snacks & desserts": [
+        {
+          "name": "Snack a Jacks Jumbo Salt & Vinegar Rice Cakes",
+          "qty": "2 × 117g",
+          "note": "Tesco rice cakes out of stock"
+        },
+        {
+          "name": "Mini Babybel Light",
+          "qty": "10"
+        },
+        {
+          "name": "Tesco Almonds",
+          "qty": "200g",
+          "note": "75g breakfasts, rest snack"
+        },
+        {
+          "name": "Edamame",
+          "qty": "",
+          "note": "from your freezer"
+        },
+        {
+          "name": "Tesco Red Seedless Grapes",
+          "qty": "500g"
+        },
+        {
+          "name": "Ripe bananas",
+          "qty": "5 pack"
+        },
+        {
+          "name": "Sweet easy peelers",
+          "qty": "600g",
+          "note": "kiwis out of stock"
+        },
+        {
+          "name": "Tesco Frozen Mixed Berries",
+          "qty": "1kg"
+        },
+        {
+          "name": "Arla Protein Chocolate Pudding",
+          "qty": "5 × 200g",
+          "note": "Any 5 for £5"
+        },
+        {
+          "name": "Dash Lime Sparkling Water",
+          "qty": "4 × 330ml"
+        },
+        {
+          "name": "Remedy Kombucha Ginger Lemon",
+          "qty": "4 × 330ml"
+        }
+      ]
+    }
+  }
+}
